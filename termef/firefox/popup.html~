@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="button.css">
+    </head>
+    <body>
+	<table>
+	    <tr><td><input id="query" type="button" value="TerMef"/></td></tr>
+	    <tr><td><textarea id="infobox" name="infobox" rows="10" cols="50"></textarea></td></tr>
+	</table>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="popup.js"></script>
+    </body>
+</html>
