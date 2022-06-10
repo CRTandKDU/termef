@@ -3,13 +3,34 @@
     <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="button.css">
+	<link rel="stylesheet" href="themes/default/style.min.css" />
+	<style>
+	 div.jstree {
+	     width: 500px;
+	     margin: auto;
+	     border: 1px solid #73AD21;
+	 }
+	 .jstree-anchor {
+	     /*enable wrapping*/
+	     white-space : normal !important;
+	     /*ensure lower nodes move down*/
+	     height : auto !important;
+	     /*offset icon width*/
+	     padding-right : 24px;
+	 }
+	 .right {
+	     float: right;
+	 }
+	</style>
     </head>
     <body>
 	<table>
-	    <tr><td><input id="query" type="button" value="TerMef"/></td></tr>
-	    <tr><td><textarea id="infobox" name="infobox" rows="10" cols="50"></textarea></td></tr>
+	    <tr><td><input type="text" id="qtext" name="qtext"><input id="query" class="right" type="button" value="TerMef"/></td></tr>
+	    <!-- <tr><td><textarea id="infobox" name="infobox" rows="10" cols="50"></textarea></td></tr> -->
+	    <tr><td><div id="jstree_demo_div" class="jstree" ></div></td></tr>
 	</table>
 	<script src="jquery-3.6.0.min.js"></script>
+	<script src="jstree.min.js"></script>
 	<script src="popup.js"></script>
     </body>
 </html>
