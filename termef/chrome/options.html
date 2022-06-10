@@ -1,14 +1,54 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="button.css">
-  </head>
-  <body>
-    <div id="buttonDiv">
-    </div>
-    <div>
-      <p>Choose a different background color!</p>
-    </div>
-  </body>
-  <script src="options.js"></script>
+<!doctype html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI Selectable - Display as grid</title>
+	<link rel="stylesheet" href="jquery-ui.min.css">
+	<link rel="stylesheet" href="jquery-ui.theme.min.css">
+	
+	<style>
+	 #feedback { font-size: 1.4em; }
+	 #selectable .ui-selecting { background: #FECA40; }
+	 #selectable .ui-selected { background: #F39814; color: white; }
+	 #selectable { list-style-type: none; margin: 0; padding: 0; width: 640px; }
+	 #selectable li { margin: 3px; padding: 1px; float: left; width: 150px; height: 80px; font-size: small; text-align: center; }
+	 #vert { width: 650px; }
+	 #vert #row1 { display: block; }
+	 #vert #done { display: block; }
+	</style>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="jquery-ui.js"></script>
+    </head>
+    <body>
+	<h4><i>Clic</i> pour sélectionner ; <i>Ctrl-Clic</i> pour retirer/ajouter à la liste des référentiels</h4> 
+	<div id="vert">
+	    <div id="row1">
+		<ol id="selectable">
+		    <li class="ui-state-default">FINANCES PUBLIQUES<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100022/F/Finances_publiques.png"></li>
+		    <li class="ui-state-default">AUTOMOBILE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/A/Automobile.png"></li>
+		    <li class="ui-state-default">CHIMIE ET MATÉRIAUX<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/C/Chimie_et_materiaux.png"></li>
+		    <li class="ui-state-default">ECONOMIE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/E/Economie.png"></li>
+		    <li class="ui-state-default">NUCLÉAIRE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/E/Energie_nucleaire.png"></li>
+		    <li class="ui-state-default">ÉNERGIES FOSSILES<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/E/Energies_fossiles.png"></li>
+		    <li class="ui-state-default">INFORMATIQUE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/I/Informatique.png"></li>
+		    <li class="ui-state-default">TÉLÉCOMMUNICATIONS<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/T/Telecommunications.png"></li>
+		    <li class="ui-state-default">AGRICULTURE ET PÊCHE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/A/Agriculture_et_peche.png"></li>
+		    <li class="ui-state-default">AMÉNAGEMENT, HABITAT ET MOBILITÉS<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/A/Amenagement_Habitat_et_Mobilite.png"></li>
+		    <li class="ui-state-default">BIOLOGIE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/B/Biologie.png"></li>
+		    <li class="ui-state-default">CULTURE ET MÉDIAS<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/C/Culture_et_medias.png"></li>
+		    <li class="ui-state-default">DÉFENSE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/D/Defense.png"></li>
+		    <li class="ui-state-default">DROIT ET JUSTICE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/D/Droit_et_justice.png"></li>
+		    <li class="ui-state-default">ÉDUCATION ET ENSEIGNEMENT SUPÉRIEUR<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/E/Education_et_enseignement_superieur.png"></li>
+		    <li class="ui-state-default">ENVIRONNEMENT ET DÉVELOPPEMENT DURABLE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/E/Environnement_et_developpement_durable.png"></li>
+		    <li class="ui-state-default">RELATIONS INTERNATIONALES<br><img width="32" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/R/Relations_internationales.png"></li>
+		    <li class="ui-state-default">SANTÉ ET AFFAIRES SOCIALES<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/S/Sante_et_affaires_sociales.png"></li>
+		    <li class="ui-state-default">SPATIOLOGIE<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/S/Spatiologie.png"></li>
+		    <li class="ui-state-default">SPORT<br><img width="32px" class="gwt-Image scalable-image GFLISXCBLJ" src="https://terminologie.finances.gouv.fr/itm/uploaded-docs/100040/S/Sport.png"></li>
+		</ol>
+	    </div>
+	    <input type="button" id="done" value="Enregistrer" />
+	</div>
+	<script src="options.js"></script>
+    </body>
 </html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI Selectable - Display as grid</title>
+	<link rel="stylesheet" href="jquery-ui.min.css">
+	<link rel="stylesheet" href="jquery-ui.theme.min.css">
+	
+	<style>
+	 #feedback { font-size: 1.4em; }
+	 #selectable .ui-selecting { background: #FECA40; }
+	 #selectable .ui-selected { background: #F39814; color: white; }
+	 #selectable { list-style-type: none; margin: 0; padding: 0; width: 640px; }
+	 #selectable li { margin: 3px; padding: 1px; float: left; width: 150px; height: 80px; font-size: small; text-align: center; }
+	 #vert { width: 650px; }
+	 #vert #row1 { display: block; }
+	 #vert #done { display: block; }
+	</style>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="jquery-ui.js"></script>
+    </head>
+    <body>
+	<h4><i>Clic</i> pour sélectionner ; <i>Ctrl-Clic</i> pour retirer/ajouter à la liste des référentiels</h4> 
+	<div id="vert">
+	    <div id="row1">
+	    <ol id="selectable">
+		<li class="ui-state-default">FINANCES PUBLIQUES</li>
+		<li class="ui-state-default">AUTOMOBILE</li>
+		<li class="ui-state-default">CHIMIE ET MATÉRIAUX</li>
+		<li class="ui-state-default">ECONOMIE</li>
+		<li class="ui-state-default">NUCLÉAIRE</li>
+		<li class="ui-state-default">ÉNERGIES FOSSILES</li>
+		<li class="ui-state-default">INFORMATIQUE</li>
+		<li class="ui-state-default">TÉLÉCOMMUNICATIONS</li>
+		<li class="ui-state-default">AGRICULTURE ET PÊCHE</li>
+		<li class="ui-state-default">AMÉNAGEMENT, HABITAT ET MOBILITÉS</li>
+		<li class="ui-state-default">BIOLOGIE</li>
+		<li class="ui-state-default">CULTURE ET MÉDIAS</li>
+		<li class="ui-state-default">DÉFENSE</li>
+		<li class="ui-state-default">DROIT ET JUSTICE</li>
+		<li class="ui-state-default">ÉDUCATION ET ENSEIGNEMENT SUPÉRIEUR</li>
+		<li class="ui-state-default">ENVIRONNEMENT ET DÉVELOPPEMENT DURABLE</li>
+		<li class="ui-state-default">RELATIONS INTERNATIONALES</li>
+		<li class="ui-state-default">SANTÉ ET AFFAIRES SOCIALES</li>
+		<li class="ui-state-default">SPATIOLOGIE</li>
+		<li class="ui-state-default">SPORT</li>
+	    </ol>
+	    </div>
+	    <input type="button" id="done" value="Enregistrer" />
+	</div>
+	<script src="options.js"></script>
+    </body>
+</html>

@@ -1,15 +1,22 @@
-// const infobox_org = ( data ) => {
-//     let node;
-//     let resp = "* " + data['available'] + " termes.\n";
-//     for( node in data['items'] ){
-// 	let v = data['items'][node]['attributes'].find( x => x['attribute'] == "groupe" );
-// 	resp += "** " + v['values'][0][0]['name'] + '\n';
-// 	v = data['items'][node]['attributes'].find( x => x['attribute'] == "d\xE9finition" );
-// 	console.log(v);
-// 	resp += "*** D\xE9finition\n" + v['values'][0] +'\n';
-//     }
-//     return resp;
-// };
+// Chrome variant
+let termefselection;
+
+// Instantiates <ul/> into a jstree and bind events
+const initfill = () => {
+    jQuery('#jstree_demo_div')
+	.jstree()
+	.bind("dblclick.jstree", function (evt) {
+	    let tree = jQuery(this).jstree();
+	    let node = tree.get_node(evt.target);
+ 	    // var nodePath = tree.get_path(node).join("/");
+	    let href = node['li_attr']['href'];
+	    console.log(href);
+	    // Do some action
+	    if( undefined != href ){
+		chrome.tabs.create({ url: href });
+	    }
+	});
+};
 
 // Build a breadcrumbs-like list of ancestors in the ontology
 const ancestors = ( arr ) => {
@@ -26,46 +33,53 @@ const infobox = ( data ) => {
     let node;
     let resp = '<ul>';
     for( node in data['items'] ){
-	let v = data['items'][node]['attributes'].find( x => x['attribute'] == "groupe" );
+	let v	= data['items'][node]['attributes'].find( x => x['attribute'] == "groupe" );
+	let url = data['items'][node]['url'];
 	if( undefined != v){
-	    // Path in ontology 
-	    resp += "<li>" + ancestors( v['values'][0] ) + '<ul>';
-	    
-	    // Subitem `Term'
-	    v = data['items'][node]['attributes'].find( x => x['attribute'] == "Nom" );
-	    if( undefined != v ){
-		resp += "<li>Terme : <b>" + v['values'][0] + "</b></li>";
-	    }
+	    // Filter with selection or don't if selection is empty or undefined
+	    if( undefined == termefselection ||
+		0 == termefselection.length  ||
+		termefselection.includes( v['values'][0][0]['name'] ) )
+	    {
+		// Path in ontology 
+		resp += "<li>" + ancestors( v['values'][0] ) + '<ul>';
+		
+		// Subitem `Term'
+		v = data['items'][node]['attributes'].find( x => x['attribute'] == "Nom" );
+		if( undefined != v ){
+		    resp += "<li href=\"" + url + "\">Terme : <b>" + v['values'][0] + "</b></li>";
+		}
 
-	    // Subitem `Definition'
-	    v = data['items'][node]['attributes'].find( x => x['attribute'] == "d\xE9finition" );
-	    if( undefined != v ){
-		resp += "<li>D\xE9finition : " + v['values'][0] +'</li>';
-	    }
-	    
-	    // Subitem `Notes', as a subtree
-	    v = data['items'][node]['attributes'].find( x => x['attribute'] == "note" );
-	    if( undefined != v ){
-		resp += "<li>Notes<ul>";
-		for( subnode in v['values'] ){
-		    resp += "<li>" + v['values'][subnode] + "</li>";
+		// Subitem `Definition'
+		v = data['items'][node]['attributes'].find( x => x['attribute'] == "d\xE9finition" );
+		if( undefined != v ){
+		    resp += "<li>D\xE9finition : " + v['values'][0] +'</li>';
+		}
+		
+		// Subitem `Notes', as a subtree
+		v = data['items'][node]['attributes'].find( x => x['attribute'] == "note" );
+		if( undefined != v ){
+		    resp += "<li>Notes<ul>";
+		    for( subnode in v['values'] ){
+			resp += "<li>" + v['values'][subnode] + "</li>";
+		    }
+		    resp += '</ul></li>';
+		}
+		
+		// Subitem `Publication date'
+		v = data['items'][node]['attributes'].find( x => x['attribute'] == "date de parution au JO" );
+		if( undefined != v ){
+		    resp += "<li>JO du " + v['values'][0] + ".</li>";
 		}
 		resp += '</ul></li>';
 	    }
-	    
-	    // Subitem `Publication date'
-	    v = data['items'][node]['attributes'].find( x => x['attribute'] == "date de parution au JO" );
-	    if( undefined != v ){
-		resp += "<li>JO du " + v['values'][0] + ".</li>";
-	    }
-	    resp += '</ul></li>';
 	}
     }
     resp += '</ul>';
     jQuery('#jstree_demo_div').jstree('destroy');
     jQuery('#jstree_demo_div').empty();
     jQuery('#jstree_demo_div').append(resp);
-    jQuery(function () { jQuery('#jstree_demo_div').jstree(); });
+    jQuery( initfill() );
 
     return resp;
 };
@@ -75,9 +89,22 @@ const infobox = ( data ) => {
 chrome.storage.sync.get("color", ({ color }) => {
     jQuery('#jstree_demo_div').empty();
     jQuery('#jstree_demo_div').append(color);
-    jQuery(function () { jQuery('#jstree_demo_div').jstree(); });
+    jQuery( initfill() );
     // jQuery('#infobox').val( color );
 });
+
+chrome.storage.sync.get( 'termefselection', (data) => {
+    // Set global
+    termefselection = data.termefselection;
+    // console.log( data.termefselection );
+    if( undefined == termefselection ||	0 == termefselection.length ){
+	jQuery( "#options" ).text( "R\xE9f\xE9rentiels : tous" );
+    }
+    else{
+	jQuery( "#options" ).text( "R\xE9f\xE9rentiels : " + termefselection.join() );	
+    }
+});
+
 
 // Attach `enter' key to query execution in the input field
 jQuery( '#qtext' ).on( 'keypress', function(e) {
