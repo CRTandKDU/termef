@@ -32,9 +32,13 @@ const ancestors = ( arr ) => {
 const infobox = ( data ) => {
     let node;
     let resp = '<ul>';
+    let groups = {};
+    
+    // First pass: map data to html unnumbered lists
     for( node in data['items'] ){
-	let v	= data['items'][node]['attributes'].find( x => x['attribute'] == "groupe" );
-	let url = data['items'][node]['url'];
+	let vroot = data['items'][node]['attributes'].find( x => x['attribute'] == "groupe" );
+	let v     = vroot;
+	let url   = data['items'][node]['url'];
 	if( undefined != v){
 	    // Filter with selection or don't if selection is empty or undefined
 	    if( undefined == termefselection ||
@@ -43,37 +47,57 @@ const infobox = ( data ) => {
 	    {
 		// Path in ontology 
 		resp += "<li>" + ancestors( v['values'][0] ) + '<ul>';
+		let termresp = "";
 		
 		// Subitem `Term'
 		v = data['items'][node]['attributes'].find( x => x['attribute'] == "Nom" );
 		if( undefined != v ){
-		    resp += "<li href=\"" + url + "\">Terme : <b>" + v['values'][0] + "</b></li>";
+		    termresp += "<li href=\"" + url + "\">Terme : <b>" + v['values'][0] + "</b></li>";
 		}
 
 		// Subitem `Definition'
 		v = data['items'][node]['attributes'].find( x => x['attribute'] == "d\xE9finition" );
 		if( undefined != v ){
-		    resp += "<li>D\xE9finition : " + v['values'][0] +'</li>';
+		    termresp += "<li>D\xE9finition : " + v['values'][0] +'</li>';
 		}
 		
 		// Subitem `Notes', as a subtree
 		v = data['items'][node]['attributes'].find( x => x['attribute'] == "note" );
 		if( undefined != v ){
-		    resp += "<li>Notes<ul>";
+		    termresp += "<li>Notes<ul>";
 		    for( subnode in v['values'] ){
-			resp += "<li>" + v['values'][subnode] + "</li>";
+			termresp += "<li>" + v['values'][subnode] + "</li>";
 		    }
-		    resp += '</ul></li>';
+		    termresp += '</ul></li>';
 		}
 		
 		// Subitem `Publication date'
 		v = data['items'][node]['attributes'].find( x => x['attribute'] == "date de parution au JO" );
 		if( undefined != v ){
-		    resp += "<li>JO du " + v['values'][0] + ".</li>";
+		    termresp += "<li>JO du " + v['values'][0] + ".</li>";
 		}
-		resp += '</ul></li>';
+
+		let idx = ancestors( vroot['values'][0] );
+		if( undefined == groups[ idx ] ){
+		    groups[ idx ] = new Array( termresp );
+		}
+		else{
+		    groups[ idx ].push(termresp);
+		}
+		resp += termresp + '</ul></li>';
 	    }
 	}
+    }
+    resp += '</ul>';
+
+    // Second pass: reduce by ancestor
+    resp = '<ul>';
+    for (const [key, value] of Object.entries(groups)) {
+	resp += '<li>' + key + '<ul>';
+	for( idx in value ){
+	    resp += value[idx];
+	}
+	resp += '</ul></li>';
     }
     resp += '</ul>';
     jQuery('#jstree_demo_div').jstree('destroy');
