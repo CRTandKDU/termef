@@ -14,12 +14,8 @@
 ;;; Change Log:
 ;;; Code:
 
-(defun jmc/cosma-export ()
-  (interactive)
-  (let ((ast (org-element-parse-buffer))
-	(buf (current-buffer))
-	(dir "C:\\Users\\jmchauvet\\Documents\\Cosma\\jmc")
-	(yaml-template "---
+(defvar cosma-zero-id 240000 "Start beyond 23:59:59 for id generation")
+(defconst cosma-yaml-template "---
 title: %s
 id: %s
 type: %s
@@ -27,70 +23,136 @@ tags:
   - Collège_Informatique
 %s---
 
-")
+"
+  "Template for root node and yaml headers of individual .md files.")
+
+
+(defun cosma--newid ()
+  "Generates a new unique id from the current day and incremented
+global counter."
+  (incf cosma-zero-id)
+  (let* ((now (decode-time (current-time)))
+	 (str (format "%6d" cosma-zero-id))
+	 (end (format "%2s%2s%2s" (substring str 0 2) (substring str 2 4) (substring str 4 6)))
 	)
-    ;; TOC
-    (with-current-buffer (get-buffer-create "*COSMA-TOC*")
-      (erase-buffer)
-      (set-buffer-file-coding-system 'utf-8)
-      (insert (format yaml-template "Liste17" (jmc/cosma-newid) "liste" "")))
-    
-    ;; Terms are 3rd-level headlines in the master org-file
+    (format "%04d%02d%02d%6s" (nth 5 now) (nth 4 now) (nth 3 now) end)))
+
+(defun cosma--toc (toc-title)
+  "Generates a table of content `(term . uuid)` as an association
+list and a root .md file from a properly formatted org buffer."
+  ;; Init TOC buffer
+  (with-current-buffer (get-buffer-create "*COSMA-TOC*")
+    (erase-buffer)
+    (set-buffer-file-coding-system 'utf-8)
+    (insert (format cosma-yaml-template toc-title (cosma--newid) "liste" "")))
+
+  ;; Build TOC as an alist
+  (let ((toc nil)
+	(ast (org-element-parse-buffer))
+	)
     (org-element-map ast 'headline
       (lambda (hl)
 	(if (= 3 (org-element-property ':level hl))
 	    (let ((txt (buffer-substring (org-element-property ':contents-begin hl)
 					 (org-element-property ':contents-end hl)))
-		  (newid (jmc/cosma-newid))
+		  (newid (cosma--newid))
 		  (fn "terme")
 		  )
-	      ;; Append to TOC
+	      ;; Append to TOC buffer
 	      (with-current-buffer (get-buffer-create "*COSMA-TOC*")
 		(insert
-		 (format "%s [[%s]] *%s*\n"
+		 (format "%s [[inclut:%s]] *%s*\n"
 			 (substring (format "%s" (org-element-property ':title hl)) 1 -1)
 			 newid
 			 (org-element-property ':title (org-element-property ':parent hl))
 			 )))
-
-	      ;; Create new record file
-	      (with-current-buffer (get-buffer-create "*COSMA*")
-		(erase-buffer)
-		(set-buffer-file-coding-system 'utf-8)
-		(insert
-		 (format yaml-template
-			 (substring (format "%s" (org-element-property ':title hl)) 1 -1)
-			 newid
-			 "terme"
-			 (format "  - %s\n" (substring (format "%s" (org-element-property ':title (org-element-property ':parent hl))) 1 -1))))
-		(insert (format "\n%s\n" txt))
-		(append-to-file (point-min) (point-max) (format "%s\\%s_%s.md" dir fn newid))
-		)
+	      ;; Append to alist
+	      (push (cons (substring (format "%s" (org-element-property ':title hl)) 1 -1) newid) toc)
 	      )
 	  )
 	)
       )
     ;; Save TOC
     (with-current-buffer (get-buffer-create "*COSMA-TOC*")
-      (append-to-file (point-min) (point-max) (format "%s\\Liste.md" dir)))
-
+      (append-to-file (point-min) (point-max) (format "%s\\%s.md" dir toc-title)))
+    toc
     )
   )
 
-(defun jmc/cosma-newid ()
-  (sleep-for 1)
-  (let ((now (decode-time (current-time)))
+(defun cosma--links (txt toc)
+  "Replaces the line beginning with 'Voir aussi :' with annotated
+lists of pointers (when present in org buffer)."
+  (with-current-buffer (get-buffer-create "*COSMA-TMP*")
+    (erase-buffer)
+    (insert (format "%s" txt))
+    (goto-char (point-min))
+    (if (re-search-forward "Voir aussi :" nil t)
+	(let* ((refs (delete-and-extract-region (point) (point-at-eol)))
+	       (terms (split-string refs "," t))
+	       )
+	  (insert
+	   (format
+	    "%s\n"
+	    (string-join
+	     (mapcar #'(lambda (key) (let ((val (cdr (assoc (string-trim key) toc))))
+				       (if val (format "%s [[voir_aussi:%s]]" key val) key)))
+		     terms)
+	     ", "
+	     ))
+	   )
+	  )
+      )
+    (buffer-substring-no-properties (point-min) (point-max))
+    )
+  )
+	    
+(defun cosma-export ()
+  (interactive)
+  (let ((ast (org-element-parse-buffer))
+	(buf (current-buffer))
+	(dir "C:\\Users\\jmchauvet\\Documents\\Cosma\\jmc")
 	)
-    (format "%04d%02d%02d%02d%02d%02d"
-	    (nth 5 now)
-	    (nth 4 now)
-	    (nth 3 now)
-	    (nth 2 now)
-	    (nth 1 now)
-	    (car now)
-	    ;; (random 10000)
-	    )))
 
+    ;; TOC matters
+    (let ((toc (cosma--toc (buffer-name)))
+	  )
+      ;; Terms are 3rd-level headlines in the master org-file
+      (org-element-map ast 'headline
+	(lambda (hl)
+	  (if (= 3 (org-element-property ':level hl))
+	      (let* ((txt (buffer-substring (org-element-property ':contents-begin hl)
+					    (org-element-property ':contents-end hl)))
+		     (key (substring (format "%s" (org-element-property ':title hl)) 1 -1))
+		     (newid (cdr (assoc key toc)))
+		     (fn "terme")
+		     )
+
+		;; Create new record file
+		(with-current-buffer (get-buffer-create "*COSMA*")
+		  (erase-buffer)
+		  (set-buffer-file-coding-system 'utf-8)
+		  (insert
+		   (format
+		    cosma-yaml-template
+		    (substring (format "%s" (org-element-property ':title hl)) 1 -1)
+		    newid
+		    "terme"
+		    (format "  - %s\n"
+			    (substring
+			     (format "%s" (org-element-property ':title (org-element-property ':parent hl))) 1 -1))))
+		  (insert (format "\n%s\n" (cosma--links txt toc)))
+		  (append-to-file (point-min) (point-max) (format "%s\\%s_%s.md" dir fn newid))
+		  )
+		)
+	    )
+	  )
+	)
+
+    )
+    )
+  )
+
+(provide 'cosma)
 ;;; cosma.el ends here
 
 
