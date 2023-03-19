@@ -1,0 +1,395 @@
+#+TITLE: Liste 17 INFO_TELE
+
+* Termes adoptés
+*** sondeur, -euse de faille
+Domaine :  INFORMATIQUE -TELECOMMUNICATIONS
+Forme abrégée : sondeur, -euse
+Définition : Personne dont la fonction est d’identifier les risques d’intrusion dans un système d’information. 
+Note : 
+Équivalent étranger : pentester (en), penetration tester (en) 
+
+adopté mais à réviser par Jean-Marie Chauvet : entrée et définition plus génériques ; distinguer en note le test d’intrusion de l’une attaque qui utilise une faille non corrigée (terme publié en 2021)
+
+*** module complémentaire
+Domaine :  INFORMATIQUE -TELECOMMUNICATIONS
+forme abrégée : complément
+Définition : Composant logiciel qui, une fois installé, apporte de nouvelles fonctionnalités à une ou plusieurs applications pour lesquelles il a été expressément conçu et qui ne peut être utilisé de manière autonome.
+Note : Dans l’usage on trouve également “extension”.
+Equivalent étranger : add-in (en), add-on (en), plugin (en)
+
+Attention : annule et remplace additif (add-on) et module d’extension (plugin)
+adopté
+
+*** bloc de code embarqué 
+Domaine :  INFORMATIQUE -TELECOMMUNICATIONSDéfinition : Code informatique d’un encart textuel, graphique ou vidéo, qui est destiné à être intégré dans une page de site tiers, à titre de complément de contenu ou à des fins publicitaires.  
+Note : Un bloc de code embarqué peut déclencher des actions invisibles pour l’internaute, par exemple lorsqu’il s’agit de suivre et de mesurer son comportement sur le site.Voir aussi : bloc 
+
+adopté
+
+*** informatique affective
+Domaine :  INFORMATIQUE 
+Définition : Informatique qui exploite en temps réel les éléments de langage non verbal de l’utilisateur au moyen de capteurs et d’algorithmes, et qui permet à une interface d’interagir avec celui-ci pour créer un ancrage  affectif.
+Note : L’ informatique affective peut être employée dans un cadre thérapeutique ou dans un but commercial.
+Voir aussi : interface de reconnaissance et de simulation des émotions, 
+Equivalent étranger : affective computing (en)
+adopté
+
+* Termes présentés
+** Termes renvoyés ou à revoir
+
+suggestion de la boite à idées de France terme (https://transformations-droit.com/bertrand-cassar)
+
+*** données souveraines
+Domaine : DROIT - INFORMATIQUE
+Définition : Données servant de support aux décisions de la puissance publique ou permettant de révéler une politique économique.
+Note : 
+1.Les donnés souveraines collectées sont soumises à des lois d’un ou de plusieurs pays.
+2. Certaines données peuvent devenir souveraines lorsqu’elles sont prises dans leur ensemble.
+Voir aussi : données d’intérêt général, données stratégiques.
+Équivalent étranger : sovereign data.
+
+rapporteur :  Bertrand Cassar
+
+terme renvoyé au collège du droit et à celui des affaires étrangères 
+
+
+*** microprocesseur à jeu d’instructions étendu 
+Domaine : INFORMATIQUE -ELECTRONIQUE
+Définition : Microprocesseur conçu pour exécuter un jeu d’instructions complexes, telles que virgule flottante, logarithme ou encore fonction trigonométrique, en plus des opérations élémentaires exécutées par un microprocesseur à jeu d’instructions réduit.
+Note: Les ordinateurs utilisent un microprocesseur à jeu d’instruction étendu. 
+2. On trouve aussi dans l’usage professionnel “processeur CISC”
+Voir aussi : microprocesseur à jeu d’instructions réduit, processeur,
+Équivalent étranger : complex instruction set computer (en), CISC (en)
+
+*** microprocesseur à jeu d’instructions réduit 
+Domaine : INFORMATIQUE - ELECTRONIQUE
+Définition : Microprocesseur conçu pour exécuter un jeu réduit d’instructions simples, telles que charger une valeur en mémoire, faire une opération arithmétique ou ranger le résultat en mémoire, chacune de ces instructions s’effectuant généralement en un seul cycle d’horloge. 
+Note : Les matériels informatiques simples et à bas coût ou les fonctions dédiées, comme la gestion de l’énergie d’un terminal mobile,  font appel à des microprocesseurs à jeu d’instructions réduit. 
+2. On trouve aussi dans l’usage professionnel “processeur RISC”
+Voir aussi : microprocesseur à jeu d’instructions complexe, processeur, 
+Équivalent étranger : reduced instruction set computer (en), RISC (en)
+
+
+rapporteur : Eric Mahé
+
+à revoir : réviser le terme processeur et introduire CISC et RISC en note 
+
+
+*** développement sans codage
+Domaine : INFORMATIQUE
+Définition : Méthode de développement qui consiste à agencer des blocs préprogrammés non modifiables au moyen d’une interface graphique afin de créer une application.
+Note : on trouve aussi l’expression “sans-code” en langage professionnel
+Voir aussi : bloc, interface avec l’utilisateur
+Équivalent étranger : no-code (en), zero code (en)
+
+Rapporteur : Walter Goguillon
+à revoir
+
+
+*** développement avec peu de code
+Domaine : INFORMATIQUE
+Définition : Méthode de développement qui permet la création d’applications en agençant, au moyen d’une interface graphique, des composants logiciels personnalisables, la création de nouveaux blocs et l’accès au code source si nécessaire.
+Voir aussi : interface avec l’utilisateur
+Equivalent étranger : low-code (en)
+
+Rapporteur : Walter Goguillon
+à revoir 
+
+
+*** forgerie homme-machine 
+Domaine : INFORMATIQUE
+Forme abrégée : FHMDéfinition : Modèle répétable d’interface avec l’utilisateur qui est conçu dans le but d’obtenir une validation par un utilisateur qui ne peut en évaluer les conséquences a priori ou la nature d’une information qu’il a communiquée à un ou plusieurs tiers.
+Note : La forgerie homme-machine est généralement employée pour obtenir le consentement à l’achat sur internet ou à l’accès aux données personnelles à l’insu de l’utilisateur. 
+Équivalent étranger : dark pattern
+Rapporteur : Max Pauron
+ à revoir :  tromperie est plus approprié (voir définition du GDT insérée en commentaire de l’entrée) ; truc ou astuce dans une IHM plutôt que modèle ; duplication pirate d’un site à signaler
+
+
+** Termes du domaine de la cybersécurité 
+
+*** usurpation d’adresse IP 
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Définition : Procédé qui vise à modifier l’adresse IP associée à un nom de domaine enregistré sur un serveur de résolution automatique de domaines  en la remplaçant par l’adresse IP d’un serveur pirate sans changer le nom du domaine enregistré.Equivalent étranger : DNS spoofing (en)
+
+Rapporteur : Max Pauron
+revu en réunion préparatoire
+
+
+*** robot logiciel en réseau
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Définition : Logiciel qui permet la coordination de programmes sur un ensemble d’ordinateurs en réseau afin de mobiliser une capacité de traitement massive.  
+Note : 1. Un robot logiciel en réseau peut être employé à des fins malveillantes, par exemple une attaque par interruption de service
+2. Un robot logiciel en réseau peut exploiter des ordinateurs à l’insu de leurs utilsateurs légitimes
+Voir aussi : attaque par interruption de service
+Equivalent étranger : botnet (en)
+Rapporteur : Max Pauron
+revu en réunion préparatoire
+
+** Termes du domaine de l’intelligence artificielle 
+
+
+*** grand modèle de langage
+Abréviation : 
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Définition : Distribution de probabilités sur un grand nombre de longues séquences de mots, utilisée dans le traitement automatique des langues.
+Notes : 1. Les grands modèles de langage sont le résultat de l'apprentissage automatique de grands volumes de textes sur la toile par un réseau de neurones artificiels.
+2. Les grands modèles de langages sont  employés notamment dans la transcription automatique de la parole, dans la traduction automatique et dans la génération automatique de textes.
+Voir aussi : transcription automatique de la parole, génération automatique de textes
+Équivalent étranger : large language model (en), LLM (en)
+
+rapporteur : Jean-Marie Chauvet
+
+*** modèle génératif profond
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Définition : Méthode d'apprentissage profond qui vise à apprendre les caractéristiques communes d’une collection de données pour permettre la génération de données similaires
+Note :
+Voir aussi : apprentissage auto-supervisé, apprentissage profond
+Equivalent étranger : generative model (en), deep generative model (en)
+rapporteur : Eric Mahé
+
+*** modèle préentrainé 
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Définition : Réseau de neurones artificiels déjà entraîné sur un grand ensemble de données pour accomplir une tâche spécifique et personnalisable pour d'autres applications.
+Note : Les résultats constitutifs de l'apprentissage effectué par un réseau de neurones artificiels (couches, poids) font l’objet de formats ouverts, ce qui en facilite la sauvegarde et le partage. 
+Voir aussi : réseau de neurones artificiels (en)
+Equivalent étranger : pretrained model (en), 
+rapporteur : Eric Mahé
+
+*** notice de modèle 
+Domaine : INFORMATIQUE 
+Définition : Document ouvert qui accompagne un modèle préentraîné et fournit les informations nécessaires à  l’encadrement  de son utilisation.
+Note : Une notice de modèle intègre les données ayant servi à l'apprentissage, ainsi que les biais potentiels ou les possibilités de génération de contenus non souhaités.
+Voir aussi : modèle préentrainé
+Equivalent étranger : model cards
+rapporteur : Eric Mahé
+
+*** modèle autoattentif 
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Définition : Réseau de neurones artificiels qui identifie le contexte de données séquentielles  en analysant leurs relations.  
+Note : Un modèle autoattentif est notamment  utilisé dans le domaine de la compréhension de la langue naturelle.
+Voir aussi : compréhension de la langue naturelle, réseau de neurones artificiels.
+Equivalent étranger : transformer (en)
+rapporteur : Eric Mahé
+
+*** apprentissage automatique antagoniste
+Abréviation : 
+Domaine : INFORMATIQUE
+Définition : Champ d'étude des algorithmes d'apprentissage automatique résistant aux attaques.
+Notes : L'apprentissage automatique antagoniste analyse des attaques comme la falsification du jeu de données d'entraînement ou l'extraction d'information de modèles préformés.
+Voir aussi : apprentissage automatique
+Équivalent étranger : adversarial machine learning (en)
+
+rapporteur : Jean-Marie Chauvet
+
+*** apprentissage autosupervisé
+Abreviation : 
+Domaine : INFORMATIQUE
+Définition : Apprentissage automatique dans lequel l’algorithme s’entraîne à une tâche déterminée en utilisant un jeu de données dépourvues d'annotations indiquant le résultat attendu, le plus souvent par recours aux réseaux de neurones artificiels .
+Notes : 
+2. L'apprentissage auto-supervisé, contrairement à l'apprentissage non supervisé qui utilise aussi des données dépourvues d'annotations, est utilisé, comme l'apprentissage supervisé, principalement pour des tâches de classification en particulier dans les processus de  traitement automatique des langues naturelles
+3. 
+Voir aussi : apprentissage supervisé, apprentissage non supervisé, réseau de neurones artificiels
+Équivalent étranger : self-supervised learning (en)
+
+rapporteur : Jean-Marie Chauvet
+
+
+*** apprentissage par transfert
+Abréviation : 
+Domaine : INFORMATIQUE
+
+Définition : Ensemble de techniques qui permettent de transférer les connaissances acquises à  partir de la résolution de problèmes donnés pour traiter un autre problème.
+Notes : L'apprentissage par transfert est utilisé dans l'apprentissage profond pour amorcer la phase d'apprentissage d'un nouveau modèle avec un modèle préformé.
+Voir aussi : modèle de langage, modèle préformé, apprentissage profond
+Équivalent étranger : transfer learning (en)
+
+rapporteur : Jean-Marie Chauvet
+
+*** traitement automatique de la langue naturelle
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Abréviation : TALN 
+Forme abrégée : traitement automatique des langues 
+Définition : Ensemble des processus qui font appel aux techniques de la linguistique et de l’intelligence artificielle, notamment l’apprentissage profond, pour le traitement automatique de la parole ou de l’écrit ainsi que la compréhension ou la génération automatique de textes en langue naturelle.        
+Note :  Les processus de traitement automatique de la langue naturelle sont entrainés sur des grands modèles de langue, propre à chaque langue.  
+Voir aussi : intelligence artificielle, transcription automatique de la parole, synthèse vocale, compréhension automatique des langues, génération automatique de texte, grand modèle de langue. 
+Equivalent étranger : natural language processing (en), NLP (en)
+rapporteur : Patrice Fournier
+
+ 
+*** compréhension de la langue naturelle 
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Abréviation : CLN
+Forme développée : compréhension automatique de la langue naturelle
+Définition : Domaine du traitement automatique des langues naturelles relatif à la compréhension d'énoncés, à des fins notamment de classification, d’échange avec un dialogueur, de traduction ou de preétraitement pour la génération automatique de texte en langue naturelle.  
+Note : La compréhension de la  langue naturelle peut tendre à identifier une intention, un jugement ou un sentiment.   
+Voir aussi : dialogueur, générateur automatique de texte en langue naturelle
+Equivalent étranger : natural language understanding (en), NLP (en)
+rapporteur : Patrice Fournier
+
+
+*** génération automatique de texte
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS  
+Abréviation : GAT
+Forme développée : génération automatique de texte en langue naturelle  
+Définition : Domaine du traitement automatique des langues naturelles relatif à la génération d'énoncés syntaxiquement et sémantiquement corrects, à des fins de réponse à une question, de résumé d’un document, de production de rapports ou d’écriture d’une oeuvre littéraire ; dans ce dernier cas on parle de littérature générative.   
+Note :
+Voir aussi : génération automatique de code source
+Equivalent étranger : natural language generation (en), NLG (en),  AI language generation (en), text generation (en) 
+rapporteur : Patrice Fournier
+
+*** génération automatique d’images
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Définition : Processus de génération d’images en 2 ou 3 dimensions à partir d’un énoncé en langue naturelle, qui fait appel à des modèles entraînés sur de large volumes de paires de textes et d’ images disponibles sur internet, en général sous licence libre. 
+Note : On trouve également les termes génération d’images par intelligence artificielle et générateur texte - image
+Voir aussi : génération automatique de texte
+Equivalent étranger : AI image generation, text2image
+rapporteur : Eric Mahé et Patrice Fournier
+
+
+
+*** génération de code source
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Abréviation : GCS
+Forme développée : génération automatique de code source 
+Définition : Processus de génération de code source qui fait appel à des modèles en langage informatique formel entraînés sur de large volumes de code source disponibles sur internet, en général sous licence libre.  
+Note : La génération automatique de code source est par exemple utilisée pour la réalisation d’un module complémentaire à une application, un dialogueur adapté à un domaine  d’activité, ou la conversion d’instructions en langue naturelle en langage informatique formel.  
+Voir aussi : génération automatique de texte, module complémentaire, dialogueur 
+Equivalent étranger : source code generation (en), SCG (en)
+rapporteur : Eric Mahé et Patrice Fournier
+
+** Autres termes
+
+*** monde immersif en ligne 
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS / internet 
+Définition : Espace sur la toile réunissant une communauté d’utilisateurs se présentant par leur avatar,  qui fait appel à des technologies immersives telles que  la réalité de synthèse et  la réalité augmentée afin notamment  de s’y déplacer et d’y interagir.  
+Note : 
+Un  monde immersif en ligne  peut proposer aux utilisateurs des activités de toute nature, notamment de loisir, éducative, professionnelle ou civique.     
+Les interactions entre utilisateurs peuvent donner lieu à des transactions financières,  en particulier par le recours à des  jetons identifiants non interchangeables.  
+On trouve aussi les termes métavers et méta-univers
+Voir aussi : avatar, jeton identifiant non interchangeable, réalité augmentée, réalité de synthèse
+Equivalent étranger : metaverse (en), meta universe (en)
+
+Exposé des motifs  : le metaverse promu par FaceBook semble encore incertain dans son ampleur (publics ciblés ou tous publics?) et ouvre un monde d’interactions qualifié d'ambient computing”  (informatique ambiante ou contextuelle), un environnement en ligne embarqué (embedded) dans un environnement quotidien réel (surroundings)  : voir article  ; les technologies immersives semblent ici être mises au service d’un véritable monde ce qui justifie de retenir l’adjectif en entrée (plutôt que métaunivers, qui reprend une la construction d’une marque ).    
+Rapporteur : Patrice Fournier
+
+
+A étudier avec avatar et réalité de synthèse (publiés) et réalité augmentée (présenté) 
+
+*** avatar, n.m. (publication au J.O. du 18/01/2005)
+Domaine : Audiovisuel/Infographie
+Définition : Personnage ou objet de synthèse évoluant dans un décor réel.
+Voir aussi : capture de jeu, capture de mouvement
+Équivalent étranger : avatar (en)
+
+*** réalité de synthèse (publication au J.O. du 24/04/2007)
+Domaine : Informatique
+Définition : Environnement créé à l'aide d'un ordinateur et donnant à l'utilisateur la sensation d'être immergé dans un univers artificiel.
+Note : 1. La création d'une réalité de synthèse nécessite des dispositifs d'entrée-sortie particuliers tels des gants numériques, un visiocasque, un système de restitution sonore évolué, etc., associés à des logiciels graphiques tridimensionnels.2. On trouve aussi, dans l'usage courant, l'expression « réalité virtuelle », qui n'est pas recommandée.
+Voir aussi : gant numérique
+Équivalent étranger : virtual reality (en)
+
+
+*** réalité augmentée (non publié)
+Domaine : Informatique
+Abréviation : RA
+Définition :  Superposition d’un objet de synthèse  en temps réel à un environnement réel et avec lesquels l'utilisateur peut interagir.
+Note :
+1. La réalité augmentée s'applique aussi bien à la perception visuelle comme l’intégration d'images de synthèse dans un environnement réel qu'à la perception tactile, auditive ou olfactive. 
+2. Les éléments de synthèse peuvent apporter des informations sur les éléments réels ou les masquer. 
+3. Le jeu vidéo, l'éducation, l'industrie et la médecine sont des exemples de domaines d'application de la réalité augmentée.
+Équivalent étranger : augmented reality (en), mixed reality (en), AR (en)
+
+*** loquace
+Domaine : INFORMATIQUE
+Définition : Se dit d'un programme paramétré pour que son exécution produise pas à pas une trace détaillée des opérations réalisées par l'ordinateur.
+Notes : Loquace est un paramétrage principalement utilisé dans le débogage des programmes et dans l'apprentissage de leur fonctionnement par des utilisateurs novices.
+Voir aussi : débogage
+Équivalent étranger : verbose (en)
+
+rapporteur : Jean-Marie Chauvet
+
+*** numérasse (ou numérasserie)
+Domaine : INFORMATIQUE - TELECOMMUNICATIONS
+Synonyme : paperasse numérique ou paperasserie numérique
+Dfinition :   Se dit de l’ensemble  des processus d’identification, de consentement, d'assistance et de sécurisation constatés dans l'usage  des services en ligne, tant professionnels,  administratifs ou de loisir que publicitaires  ou malveillants et qui  donne lieu à des mises à jour régulières,  mobilise un temps d’activité important pour l’internaute et limite les échanges directs entre les personnes.          
+Note : 
+Voir aussi : 
+Equivalent étranger :  
+
+Voir articles :  De la paperasse à la numérasse  ; La transformation numérique est-elle créatrice de valeur ou de dérives non maîtrisées ? 
+Dictionnaire de l’AF : paperasse et paperasserie 
+
+rapporteur : Patrice Fournier
+
+* Termes à étudier
+*** modèle à diffusion (ou modèle à diffusion latente) 
+Définition : 
+Note :
+Voir aussi : 
+Equivalent étranger : stable diffusion
+rapporteur : Eric Mahé
+
+*** xenobot
+Définition :
+Note :
+Equivalent étranger : 
+Commentaire : apport de l’IA à la conception de robot vivants ? voir article 
+
+termes du domaine de la cybersécurité 
+
+*** black hat, grey hat, white hat, 
+.... et autres :  immunity, zero trust, zero knowledge, red team, pwning (pwned et ses dérivés), side channel  
+
+Sources documentaires : 
+https://www.darkreading.com
+https://www.seo.fr/definition/black-hat-seo. 
+https://www.webconversion.fr/white-hat-black-hat-grey-hat/>, https://www.rgdcom.fr/referencement-white-hat-black-hat-grey-hat-tentons-du-voir-plus-clair/> https://pandaseo.fr/differences-entre-white-hat-grey-hat-seo/>;
+https://www.moyens.net/securite/quest-ce-que-black-hat-grey-hat-ou-white-hat-hacker/>.
+
+*** robotisation des processus
+Domaine : INFORMATIQUEDéfinition : Utilisation, dans un contexte professionnel, d’un robot logiciel pour observer et reproduire les actions effectuées par un utilisateur humain dans l’interface graphique d’un logiciel afin d’automatiser les actions répétitives.Note :Equivalent étranger : robotic process automation (en), RPA (en)
+rapporteur :  
+
+*** hyperautomatisation, n.f.
+Domaine : INFORMATIQUE 
+Définition : Processus informatique qui a pour but de rendre les robots plus autonomes en analysant un spectre élargi d’actions auparavant humaines en combinant une intelligence artificielle, l'apprentissage automatique et l'automatisation robotisée de processus.
+Note : .
+Voir aussi :  intelligence artificielle, apprentissage machine, robotisation des processus
+Equivalent étranger : hyperautomation (en)
+
+Rapporteur : 
+
+*** edge-driven data integration 
+Domaine : Informatique
+Définition : 
+Note :
+Equivalent étranger : 
+
+*** sprint / accélération
+Domaine : Informatique
+Définition : 
+Note :
+Equivalent étranger : sprint (en)
+
+*** chief analytics officer (CAO)
+Domaine : Informatique - Télécommunications
+Définition :
+Note :
+Equivalent étranger : chief analytics officer (en), CAO (en)
+
+*** air gap
+Domaine : Informatique
+Définition : isoler un ordinateur pour éviter toute intrusion.
+Note : 
+Equivalent étranger : air gap (en)
+
+*** pathfinding
+Domaine : Informatique
+Définition :
+
+*** hard fork / soft fork
+Domaine : Informatique
+Définition : 
+
+*** datamart
+Domaine : InformatiqueDéfinition :
