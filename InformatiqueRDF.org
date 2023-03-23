@@ -1,0 +1,5443 @@
+* InformatiqueRDF
+
+*** cyberdépendance
+Fiche : 
+
+Déconseillé : addiction digitale
+Déconseillé : cyber addiction
+Déconseillé : cyber dépendance
+Définition : État de dépendance psychologique à l’égard des techniques de l’information et de la communication.
+
+Voir aussi : annotation fonctionnelle
+
+Voir aussi : annotation structurale
+
+Voir aussi : interface avec l'utilisateur
+
+*** robot collaboratif
+Fiche : 
+
+Définition : Robot capable d’interagir avec l’homme dans un espace de travail partagé, pour accomplir une tâche prédéfinie.
+
+*** chimioinformatique
+Fiche : 
+
+Déconseillé : chemio informatics
+Déconseillé : chemo informatics
+Déconseillé : chimie informatique
+Déconseillé : chimie-informatique
+Définition : Discipline scientifique dont l’objet est la conception et l’utilisation d’outils informatiques destinés à traiter des questions posées par la chimie et ses applications.
+Voir aussi : bioinformatique
+
+*** bioinformatique
+Fiche : 
+
+Déconseillé : bio informatics
+Déconseillé : bioinformatic
+Définition : Discipline scientifique dont l’objet est la conception et l’utilisation d’outils informatiques destinés à traiter des questions posées par la biologie et ses applications.
+Voir aussi : chimioinformatique
+
+Voir aussi : amorce
+
+*** alignement de séquences
+Fiche : 
+
+Définition : Procédé qui consiste à disposer des séquences de nucléotides ou d’acides aminés les unes au-dessous des autres afin de les comparer.
+
+*** annotation structurale
+Fiche : 
+
+Définition : Opération qui consiste, en analysant la séquence d’un génome, à identifier et à localiser les séquences remarquables de celui-ci.
+Voir aussi : annotation fonctionnelle
+
+*** annotation fonctionnelle
+Fiche : 
+
+Définition : Opération qui consiste à assigner des fonctions biologiques aux séquences du génome identifiées lors de l’annotation structurale.
+Voir aussi : annotation structurale
+
+Voir aussi : amorce
+
+Voir aussi : traducteur de test
+
+*** fenêtre intruse
+Fiche : 
+
+Déconseillé : popup window
+Définition : Fenêtre qui s'affiche soudainement à l'écran sans que l'utilisateur en ait fait la demande.
+
+*** cliquer-parler
+Fiche : 
+
+Déconseillé : click & talk
+Définition : Service permettant à un internaute d'établir une liaison vocale avec un opérateur et de dialoguer avec lui pendant qu'il visite un site.
+
+*** dialogue en ligne
+Fiche : 
+
+Déconseillé : tchat
+Définition : Conversation entre plusieurs personnes connectées en même temps à un réseau, qui échangent des messages s'affichant en temps réel sur leur écran.
+
+Voir aussi : gestion des actifs numériques
+
+*** pavé tactile
+Fiche : 
+
+Déconseillé : touchpad
+Déconseillé : trackpad
+Définition : Dispositif de pointage et de navigation, qui comporte une surface plane sur laquelle on déplace le doigt.
+
+*** boîtier multiservice
+Fiche : 
+
+Déconseillé : box
+Définition : Appareil permettant d'accéder, à partir de terminaux, à plusieurs services de communication, tels que l'internet, la téléphonie et la télévision, à travers un même réseau.
+Voir aussi : quadruple service
+Voir aussi : triple service
+
+*** quadruple service
+Fiche : 
+
+Définition : Service combinant l'accès à l'internet, à la téléphonie fixe et mobile et à la télévision par l'intermédiaire d'un boîtier multiservice.
+Voir aussi : boîtier multiservice
+
+*** triple service
+Fiche : 
+
+Définition : Service combinant l'accès à l'internet, à la téléphonie fixe et à la télévision par l'intermédiaire d'un boîtier multiservice.
+Voir aussi : boîtier multiservice
+
+*** cybersquat
+Fiche : 
+
+Déconseillé : typosquat
+Déconseillé : typosquatting
+Définition : Pratique consistant à accaparer, en le déposant, un nom de domaine reprenant ou évoquant une marque, un nom commercial, un patronyme ou toute autre dénomination, afin de tirer un profit matériel ou moral de sa notoriété présente ou à venir.
+Voir aussi : cybersquatteur, -euse
+
+*** cybersquatteur, -euse
+Fiche : 
+
+Déconseillé : typosquatter
+Déconseillé : typosquatteur
+Voir aussi : cybersquat
+
+*** animaloïde
+Fiche : 
+
+Définition : Robot ou automate ayant l'aspect ou le comportement d'un animal ; se dit d'un tel robot ou automate.
+
+*** boîte noire
+Fiche : 
+
+Définition : Dispositif réel ou théorique dont on ignore ou veut ignorer la structure et le fonctionnement pour ne s'intéresser qu'aux fonctions qu'il remplit.
+
+*** boucle fermée
+Fiche : 
+
+Définition : Mode de fonctionnement d'un système naturel ou artificiel caractérisé par une réaction de son entrée ou de son fonctionnement aux valeurs du signal de sortie.
+Voir aussi : boucle ouverte
+
+*** boucle ouverte
+Fiche : 
+
+Définition : Mode de fonctionnement d'un système naturel ou artificiel dont le comportement est indépendant des valeurs de la grandeur de sortie.
+Voir aussi : boucle fermée
+
+*** bras esclave
+Fiche : 
+
+Déconseillé : système de téléopération
+Déconseillé : téléopérateur
+Définition : Dispositif électromécanique qui exécute diverses tâches de manipulation d'objets ou de produits, dangereux ou inaccessibles, en reproduisant, grâce à une liaison électronique, les manœuvres effectuées à distance par un opérateur humain actionnant un dispositif similaire.
+Voir aussi : bras maître
+
+*** bras maître
+Fiche : 
+
+Déconseillé : système de téléopération
+Déconseillé : téléopérateur
+Définition : Dispositif électromécanique servant à manœuvrer à distance un dispositif similaire qui exécute diverses tâches de manipulation d'objets ou de produits, dangereux ou inaccessibles.
+Voir aussi : bras esclave
+
+*** écotechniques de l'information et de la communication
+Fiche : 
+
+Déconseillé : green TIC
+Déconseillé : green computing
+Définition : Techniques de l'information et de la communication dont la conception ou l'emploi permettent de réduire les effets négatifs des activités humaines sur l'environnement.
+
+*** informatique en nuage
+Fiche : 
+
+Définition : Mode de traitement des données d'un client, dont l'exploitation s'effectue par l'internet, sous la forme de services fournis par un prestataire.
+Voir aussi : nuage
+Voir aussi : gérance de l'informatique
+Voir aussi : infrastructure à la demande
+Voir aussi : matériel à la demande
+Voir aussi : logiciel à la demande
+Voir aussi : provisionnement
+Voir aussi : centre de données
+Voir aussi : informatique en périphérie
+
+*** nuage
+Fiche : 
+
+Définition : Ensemble des matériels et des logiciels accessibles par l'internet, qu'un prestataire met à la disposition de ses clients sous la forme de services en ligne.
+Voir aussi : informatique en nuage
+
+*** barre d'actualités
+Fiche : 
+
+Déconseillé : news bar
+Définition : Bandeau réservé sur un écran à la diffusion en continu d'informations.
+
+*** débrider
+Fiche : 
+
+Déconseillé : débridage
+Déconseillé : jailbreaking
+Déconseillé : to jailbreak
+Définition : Contourner les protections d'un système pour supprimer les restrictions d'utilisation mises en place par le constructeur.
+
+*** tablette
+Fiche : 
+
+Déconseillé : iPad
+Déconseillé : iSlate
+Définition : Ordinateur portable et ultraplat, qui se présente comme un écran tactile et qui permet notamment d'accéder à des contenus multimédias.
+Voir aussi : écran tactile
+Voir aussi : ordinateur
+Voir aussi : mobile multifonction
+
+*** vignette active
+Fiche : 
+
+Définition : Outil logiciel interactif associé à un élément graphique, qui permet d'afficher, sous une forme condensée, certaines informations pouvant renvoyer à des données plus détaillées contenues dans l'ordinateur ou fournies par un site de l'internet.
+
+Voir aussi : copieur de carte
+
+*** copieur de carte
+Fiche : 
+
+Définition : Dispositif technique permettant de lire et de capter frauduleusement les données confidentielles d'une carte de paiement.
+
+*** liseuse
+Fiche : 
+
+Déconseillé : ebook
+Déconseillé : livre électronique
+Définition : Appareil portable doté d'un écran et destiné au stockage et à la lecture des livres numériques ou des périodiques.
+Voir aussi : mise en page fixe
+Voir aussi : mise en page adaptative
+Voir aussi : encre électronique
+
+Voir aussi : liseuse
+Voir aussi : mise en page fixe
+Voir aussi : mise en page adaptative
+
+*** mot-dièse
+Fiche : 
+
+Déconseillé : hash tag
+Déconseillé : mot-clic
+Déconseillé : mots-dièse
+Définition : Suite signifiante de caractères sans espace commençant par le signe # (dièse), qui signale un sujet d'intérêt et est insérée dans un message par son rédacteur afin d'en faciliter le repérage.
+Voir aussi : microblogue
+
+*** apportez votre équipement personnel de communication
+Fiche : 
+
+Définition : Se dit de l'utilisation, dans un cadre professionnel, d'un matériel personnel tel qu'un téléphone multifonction ou un ordinateur.
+
+Voir aussi : référencement non payant
+
+Voir aussi : données ouvertes
+
+*** données ouvertes
+Fiche : 
+
+Définition : Données qu'un organisme met à la disposition de tous sous forme de fichiers numériques afin de permettre leur réutilisation.
+Voir aussi : données liées
+Voir aussi : données FAIR
+
+Voir aussi : téléchargement
+
+*** mégadonnées
+Fiche : 
+
+Déconseillé : données de masse
+Déconseillé : données en masse
+Déconseillé : données massives
+Déconseillé : données volumineuses
+Déconseillé : masse de données
+Définition : Données structurées ou non dont le très grand volume requiert des outils d'analyse adaptés.
+Voir aussi : traitement automatique de données
+Voir aussi : expert, -e en mégadonnées
+Voir aussi : science des données
+Voir aussi : moissonnage de données
+Voir aussi : triturage de données
+
+*** avatar
+Fiche : 
+
+Définition : Personnage ou objet de synthèse évoluant dans un décor réel.
+
+*** cybercaméra
+Fiche : 
+
+Déconseillé : web cam
+Définition : Caméra numérique, reliée à un ordinateur, qui permet de filmer et de diffuser en temps réel des vidéogrammes sur un réseau, en particulier l'internet.
+
+Voir aussi : disque numérique polyvalent
+
+*** collage
+Fiche : 
+
+Définition : Assemblage, au moyen d'outils numériques, d'éléments visuels ou sonores provenant de différentes sources.
+
+*** gamme de couleurs
+Fiche : 
+
+Déconseillé : colour gamut
+Définition : Ensemble des nuances de couleurs disponible sur un équipement audiovisuel ou informatique.
+
+Voir aussi : avatar
+
+Voir aussi : avatar
+
+*** diode électroluminescente
+Fiche : 
+
+Définition : Diode semiconductrice à jonction qui émet une lumière colorée lorsqu'elle est traversée par un courant électrique.
+Voir aussi : diode électroluminescente organique
+Voir aussi : diode électroluminescente modulable
+Voir aussi : microdiode électroluminescente
+
+Voir aussi : informatique en nuage
+
+*** vidéo à la demande par abonnement
+Fiche : 
+
+Voir aussi : vidéo à la demande
+
+*** vidéo à la demande
+Fiche : 
+
+Définition : Service de diffusion qui offre à l’usager la possibilité d’accéder à tout moment à un programme vidéo choisi dans un ensemble de titres proposés.
+Voir aussi : vidéo à la demande par abonnement
+Voir aussi : vidéo à la demande en téléchargement définitif
+
+*** vidéo à la demande en téléchargement définitif
+Fiche : 
+
+Voir aussi : vidéo à la demande
+
+*** mise en page fixe
+Fiche : 
+
+Définition : Mode d’affichage d’une publication numérique, généralement un livre, qui permet de maintenir la mise en page identique quel que soit le terminal de lecture.
+Voir aussi : liseuse
+Voir aussi : mise en page adaptative
+
+*** éditeur, -trice de contenu
+Fiche : 
+
+Déconseillé : curateur de contenu
+Déconseillé : curatrice de contenu
+Déconseillé : éditeur de contenus
+Déconseillé : éditrice de contenus
+Définition : Personne chargée de l’édition de contenu.
+Voir aussi : édition de contenu
+
+*** édition de contenu
+Fiche : 
+
+Déconseillé : curation de contenu
+Déconseillé : édition de contenus
+Définition : Activité qui consiste à sélectionner, organiser et publier en ligne des documents textuels, iconographiques et audiovisuels sur un thème donné.
+Voir aussi : éditeur, -trice de contenu
+
+*** publicité caméléon
+Fiche : 
+
+Déconseillé : publicité intégrée
+Déconseillé : publicité native
+Déconseillé : publicité rédactionnelle
+Définition : Publicité en ligne, intégrée à un site dont elle adopte les codes formels, qui n’est pas toujours signalée comme telle.
+
+*** péage
+Fiche : 
+
+Déconseillé : barrière de péage
+Déconseillé : pay wall
+Définition : Droit d’accès payant à certains contenus numériques.
+
+*** mise en page adaptative
+Fiche : 
+
+Définition : Mode d’affichage d’une publication numérique, généralement un livre, qui permet d’adapter la mise en page au terminal de lecture.
+Voir aussi : liseuse
+Voir aussi : mise en page fixe
+
+Voir aussi : intelligence artificielle
+
+*** journalisme de données
+Fiche : 
+
+Déconseillé : data journalist
+Déconseillé : journaliste de données
+Définition : Journalisme qui exploite et analyse un très grand nombre de documents, le plus souvent numériques.
+
+Voir aussi : bannière
+
+*** piège à clics
+Fiche : 
+
+Déconseillé : attrape-clics
+Déconseillé : click bait
+Déconseillé : clickbaiting
+Déconseillé : piège à clic
+Déconseillé : putaclic
+Déconseillé : putaclics
+Définition : Lien hypertextuel accrocheur conduisant à un contenu qui n’est qu’un leurre, mis en place à seule fin d’augmenter le trafic en incitant les internautes à cliquer ; par extension, le contenu lui-même.
+Voir aussi : hypertextuel
+
+*** infox vidéo
+Fiche : 
+
+Déconseillé : audio deep fake
+Déconseillé : audio deepfake
+Déconseillé : deep fake puppetry
+Déconseillé : deep fake video
+Déconseillé : deepfake puppetry
+Déconseillé : puppetry
+Définition : Infox qui se présente sous la forme d’une vidéo falsifiée grâce aux techniques de l’intelligence artificielle, en particulier à celles de l’apprentissage profond.
+Voir aussi : substitution de visage
+Voir aussi : apprentissage profond
+
+Voir aussi : infox vidéo
+
+Voir aussi : vidéo à la demande
+
+*** haineur, -euse
+Fiche : 
+
+Déconseillé : cyberharceleur
+Déconseillé : cyberharceleuse
+Déconseillé : fomentateur de haine
+Déconseillé : fomentatrice de haine
+Déconseillé : fomenteur de haine
+Déconseillé : fomenteuse de haine
+Déconseillé : haineux
+Déconseillé : haters
+Déconseillé : rageuse
+Déconseillé : rageux
+Déconseillé : semeur de haine
+Déconseillé : semeuse de haine
+Définition : Personne qui utilise la toile et les réseaux sociaux pour inciter à la haine envers un individu ou un groupe.
+Voir aussi : cyberharcèlement
+
+*** moniteur
+Fiche : 
+
+*** microrécit vidéo
+Fiche : 
+
+Déconseillé : brève
+Déconseillé : brève vidéo
+Déconseillé : fil d'actualité
+Déconseillé : stories
+Déconseillé : vidéorécit
+Définition : Vidéo de format très court, mise en ligne pendant une période limitée, qui est utilisée sur les réseaux sociaux pour mettre en récit la vie quotidienne de son auteur.
+
+Voir aussi : expérience de l'utilisateur
+
+*** substitution de visage
+Fiche : 
+
+Déconseillé : face swapping
+Déconseillé : permutation de visage
+Déconseillé : permutation de visages
+Déconseillé : swapped face
+Déconseillé : swapping
+Déconseillé : échange de visage
+Déconseillé : échange de visages
+Définition : Procédé qui permet de remplacer, partiellement ou en totalité, un visage par un autre sur une image fixe ou animée.
+Voir aussi : infox vidéo
+
+Voir aussi : expérience de l'utilisateur
+
+Voir aussi : logiciel à la demande
+
+Voir aussi : gratuit-payant
+
+*** point de coupure
+Fiche : 
+
+Définition : Point de repère sur une courbe caractéristique de tube électronique ou de dispositif semi-conducteur, correspondant à l'arrêt du courant dans une électrode donnée.
+
+*** Automatique
+Fiche : 
+
+Définition : Science visant l'emploi d'une machine où l'intervention humaine est limitée à la préparation préalable, intellectuelle et matérielle, d'un programme incorporé à la machine qui le suivra seule, en le modifiant d'elle-même s'il y a lieu, par des décisions logiques conditionnées par les circonstances de déroulement des opérations.
+
+*** Électronique
+Fiche : 
+
+Définition : L’électronique est une science technique, ou science de l’ingénieur, constituant l'une des branches les plus importantes de la physique appliquée, qui étudie et conçoit les structures effectuant des traitements de signaux électriques, c'est-à-dire de courants ou de tensions électriques, porteurs d’informations.
+
+*** Informatique
+Fiche : 
+
+Définition : L'informatique est un domaine d'activité scientifique, technique et industriel concernant le traitement automatique de l'information par l'exécution de programmes informatiques par des machines : des systèmes embarqués, des ordinateurs, des robots, des automates, etc.
+
+*** Robotique
+Fiche : 
+
+Définition : La robotique est l'ensemble des techniques permettant la conception et la réalisation de machines automatiques ou de robots.
+
+*** optoélectronique
+Fiche : 
+
+Définition : Technique utilisant simultanément l'optique et l'électronique.
+Voir aussi : électronique
+
+*** adaptateur de phase
+Fiche : 
+
+Définition : Dispositif couplant les phases de deux courants alternatifs.
+
+*** symétrique
+Fiche : 
+
+Définition : Se dit d'un montage électronique souvent utilisé dans les amplificateurs et dont les deux éléments fonctionnent constamment en opposition de phase.
+
+*** cyberattaque
+Fiche : 
+
+Déconseillé : cyber-attaque
+Définition : Ensemble coordonné d’actions menées dans le cyberespace qui visent des informations ou les systèmes qui les traitent, en portant atteinte à leur disponibilité, à leur intégrité ou à leur confidentialité.
+Voir aussi : cyberespace
+Voir aussi : cyberprotection
+Voir aussi : cyberrésilience
+Voir aussi : lutte informatique défensive
+Voir aussi : cyberattaque persistante
+Voir aussi : cyberguerre
+Voir aussi : logiciel rançonneur
+Voir aussi : porte dérobée
+Voir aussi : cybercriminalité
+Voir aussi : cyberterrorisme
+
+*** cyberespace
+Fiche : 
+
+Déconseillé : cyber-espace
+Déconseillé : cybermonde
+Définition : Espace constitué par les infrastructures interconnectées relevant des technologies de l’information, notamment l’internet, et par les données qui y sont traitées.
+Voir aussi : cyberattaque
+Voir aussi : cyberdéfense
+Voir aussi : cyberrésilience
+Voir aussi : lutte informatique offensive
+Voir aussi : cyberrenseignement
+Voir aussi : cyberguerre
+Voir aussi : cybercriminalité
+
+*** cybersécurité
+Fiche : 
+
+Déconseillé : cyber-sécurité
+Définition : État d’un système d’information qui résiste aux cyberattaques et aux pannes accidentelles survenant dans le cyberespace.
+Voir aussi : cyberprotection
+Voir aussi : cyberdéfense
+Voir aussi : prime à la faille détectée
+
+*** cyberprotection
+Fiche : 
+
+Définition : Ensemble des moyens, techniques ou juridiques, qui contribuent à assurer la cybersécurité.
+Voir aussi : cyberattaque
+Voir aussi : cybersécurité
+Voir aussi : cyberdéfense
+Voir aussi : cyberattaque persistante
+
+*** cyberdéfense
+Fiche : 
+
+Déconseillé : cyber defense
+Déconseillé : cyberdefense
+Définition : Ensemble des moyens mis en place par un État pour défendre dans le cyberespace les systèmes d’information jugés d’importance vitale, qui contribuent à assurer la cybersécurité.
+Voir aussi : cyberespace
+Voir aussi : cybersécurité
+Voir aussi : cyberprotection
+Voir aussi : lutte informatique défensive
+Voir aussi : lutte informatique offensive
+Voir aussi : cyberguerre
+
+Voir aussi : cyberespace
+Voir aussi : cybersécurité
+Voir aussi : cyberprotection
+Voir aussi : cyberdéfense
+Voir aussi : cyberrésilience
+
+*** cyberrésilience
+Fiche : 
+
+Déconseillé : cyber-résilience
+Définition : Capacité d’un système d’information à résister aux cyberattaques et aux pannes accidentelles, puis à revenir à un état de fonctionnement et de sécurité satisfaisant.
+Voir aussi : cyberattaque
+Voir aussi : cyberespace
+
+Voir aussi : cyberterrorisme
+
+Voir aussi : lutte informatique défensive
+Voir aussi : lutte informatique offensive
+Voir aussi : cyberrenseignement
+Voir aussi : cyberguerre
+
+*** lutte informatique défensive
+Fiche : 
+
+Définition : Ensemble coordonné d’actions menées par un État, qui consistent à détecter, à analyser et à prévenir des cyberattaques, et à y réagir le cas échéant.
+Voir aussi : cyberattaque
+Voir aussi : cyberdéfense
+Voir aussi : lutte informatique offensive
+Voir aussi : cyberguerre
+
+*** lutte informatique offensive
+Fiche : 
+
+Définition : Ensemble coordonné d’actions menées dans le cyberespace par un État contre des systèmes d’information ou de données pour les perturber, les modifier, les dégrader ou les détruire.
+Voir aussi : cyberespace
+Voir aussi : cyberdéfense
+Voir aussi : lutte informatique défensive
+Voir aussi : cyberguerre
+
+Voir aussi : cyberespace
+Voir aussi : cyberrenseignement
+
+*** cyberattaque persistante
+Fiche : 
+
+Déconseillé : cyber-attaque persistante
+Déconseillé : cyberattaque sophistiquée persistante
+Déconseillé : menace persistante avancée
+Définition : Cyberattaque qui met en œuvre des moyens humains et techniques importants pour infiltrer durablement les systèmes d’information vitaux d’une organisation.
+Voir aussi : cyberattaque
+Voir aussi : cyberprotection
+Voir aussi : cyberespionnage
+
+*** cyberrenseignement
+Fiche : 
+
+Déconseillé : EI
+Déconseillé : exploitation informatique
+Définition : Ensemble des opérations menées dans le cyberespace par un État, consistant à infiltrer les systèmes informatiques d’une organisation et à s’emparer de données pour exploiter, à des fins opérationnelles, les renseignements ainsi recueillis.
+Voir aussi : cyberespace
+Voir aussi : cyberespionnage
+
+*** prime à la faille détectée
+Fiche : 
+
+Définition : Rémunération octroyée par une organisation à un expert informatique indépendant qui découvre une faille de sécurité au sein d’un système informatique utilisé par cette organisation.
+Voir aussi : cybersécurité
+Voir aussi : faille non corrigée
+
+*** cyberguerre
+Fiche : 
+
+Déconseillé : cyber guerre
+Déconseillé : cyber war
+Définition : Conflit se caractérisant par un ensemble d’actions offensives et défensives menées dans le cyberespace.
+Voir aussi : cyberattaque
+Voir aussi : cyberespace
+Voir aussi : cyberdéfense
+Voir aussi : lutte informatique défensive
+Voir aussi : lutte informatique offensive
+
+*** gratuit-payant
+Fiche : 
+
+Définition : Modèle commercial qui propose le choix, pour un produit donné, entre une version de base gratuite et une ou plusieurs versions payantes offrant des fonctions supplémentaires ou dépourvues de publicité.
+
+*** dispositif d'enregistrement électronique partagé
+Fiche : 
+
+Déconseillé : registre partagé
+Définition : Dispositif d’enregistrement et de sécurisation de données qui recourt à un protocole d’authentification et à la duplication de ces données chez les participants à ce dispositif.
+Voir aussi : registre partagé
+Voir aussi : actif numérique
+Voir aussi : cyberjeton
+Voir aussi : automate exécuteur de clauses
+Voir aussi : cybermonnaie
+Voir aussi : titrisation en cyberjetons
+Voir aussi : chaîne de blocs
+
+*** registre partagé
+Fiche : 
+
+Déconseillé : dispositif d'enregistrement électronique partagé
+Déconseillé : registre distribué
+Définition : Ensemble des données qui sont enregistrées par un dispositif d’enregistrement électronique partagé et conservées par les participants à l’enregistrement.
+Voir aussi : dispositif d'enregistrement électronique partagé
+Voir aussi : cyberjeton
+
+*** actif numérique
+Fiche : 
+
+Définition : Actif constitué par des données numériques, dont la propriété ou le droit d’usage est un élément du patrimoine d’une personne physique ou morale.
+Voir aussi : dispositif d'enregistrement électronique partagé
+Voir aussi : cyberjeton
+Voir aussi : gestion des actifs numériques
+Voir aussi : titrisation en cyberjetons
+
+*** cyberjeton
+Fiche : 
+
+Définition : Actif numérique émis et attribué ou transféré au moyen d’un dispositif d’enregistrement électronique partagé à un participant à ce dispositif.
+Voir aussi : dispositif d'enregistrement électronique partagé
+Voir aussi : registre partagé
+Voir aussi : actif numérique
+Voir aussi : offre au public de cyberjetons
+Voir aussi : cybermonnaie
+Voir aussi : titrisation en cyberjetons
+
+*** gestion des actifs numériques
+Fiche : 
+
+Définition : Processus d’enregistrement, d’exploitation et de suivi des actifs numériques et des droits qui leur sont attachés.
+Voir aussi : actif numérique
+
+*** offre au public de cyberjetons
+Fiche : 
+
+Déconseillé : vente de cyberjetons
+Déconseillé : vente de jetons
+Définition : Émission de cyberjetons qui a pour but de financer un projet ou une organisation.
+Voir aussi : cyberjeton
+Voir aussi : chaîne de blocs
+
+*** automate exécuteur de clauses
+Fiche : 
+
+Déconseillé : contrat intelligent
+Définition : Protocole informatique qui exécute des clauses préalablement définies, dont certaines peuvent être conditionnées par des évènements susceptibles de se produire.
+Voir aussi : dispositif d'enregistrement électronique partagé
+
+Voir aussi : cyberjeton
+
+*** cybermonnaie
+Fiche : 
+
+Déconseillé : crypto-monnaie
+Déconseillé : cryptomonnaie
+Déconseillé : monnaie digitale
+Déconseillé : monnaie numérique
+Déconseillé : monnaie virtuelle
+Définition : Ensemble de cyberjetons de même nature pouvant servir à des paiements, à l’instar d’une monnaie ayant cours légal.
+Voir aussi : dispositif d'enregistrement électronique partagé
+Voir aussi : cyberjeton
+Voir aussi : pair à pair
+Voir aussi : chaîne de blocs
+Voir aussi : validation de bloc
+
+Voir aussi : cybermonnaie
+
+*** titrisation en cyberjetons
+Fiche : 
+
+Définition : Émission, au moyen d’un dispositif d’enregistrement électronique partagé, de cyberjetons qui sont adossés à un actif, en vue notamment de faciliter la vente en tout ou partie de cet actif.
+Voir aussi : dispositif d'enregistrement électronique partagé
+Voir aussi : actif numérique
+Voir aussi : cyberjeton
+
+Voir aussi : titrisation en cyberjetons
+
+Voir aussi : cyberjeton
+Voir aussi : cybermonnaie
+
+*** référencement non payant sur la toile
+Fiche : 
+
+Déconseillé : search engine optimisation
+Définition : Référencement sur la toile qui s’obtient en optimisant les contenus du site pour correspondre aux caractéristiques des algorithmes des moteurs de recherche.
+Voir aussi : référencement payant
+
+*** référencement payant
+Fiche : 
+
+Déconseillé : PPC
+Déconseillé : Pay-Per-Click
+Déconseillé : paid referencing
+Définition : Ensemble de techniques qui permettent d’assurer à un site de la toile, moyennant paiement, une meilleure position dans les résultats proposés par les moteurs de recherche.
+Voir aussi : référencement non payant sur la toile
+Voir aussi : référencement non payant
+
+Voir aussi : référencement non payant sur la toile
+Voir aussi : référencement payant
+Voir aussi : référencement non payant
+
+Voir aussi : cyberjeton
+
+*** référencement non payant
+Fiche : 
+
+Déconseillé : référencement naturel
+Déconseillé : search engine optimisation
+Définition : Ensemble de techniques qui permettent d’assurer à un site de la toile, sans recourir à des moyens payants, une meilleure position dans les résultats proposés par les moteurs de recherche en adaptant le contenu de ce site aux caractéristiques des algorithmes des moteurs.
+Voir aussi : référencement payant
+
+Voir aussi : gratuit-payant
+
+*** magazine en ligne
+Fiche : 
+
+*** metteur en toile
+Fiche : 
+
+Déconseillé : web agent
+Déconseillé : web designer
+Déconseillé : webagency
+Déconseillé : webagent
+Déconseillé : webdesigner
+Définition : Agence ou personne spécialisée dans la conception et la création de sites sur la toile.
+
+*** adresse informatique
+Fiche : 
+
+Définition : Caractère ou groupe de caractères ayant pour fonction de localiser une information dans une mémoire ou d'indiquer le destinataire d'un message.
+
+Voir aussi : graphe de connaissances
+
+Voir aussi : accès libre
+
+*** accès libre
+Fiche : 
+
+Déconseillé : OA
+Déconseillé : en accès libre
+Déconseillé : libre accès
+Déconseillé : open access
+Définition : Modalité d’exploitation et de modification sans aucune restriction de ressources en ligne.
+
+*** boîte aux lettres
+Fiche : 
+
+Définition : Dans une messagerie électronique, espace de mémoire réservé à un abonné, dans lequel sont conservés les messages qui lui sont destinés et éventuellement les messages qu'il envoie.
+
+*** convivialité
+Fiche : 
+
+Définition : Qualité d'un système de traitement de l'information qui comporte des éléments destinés à rendre aisé et vivant le dialogue avec l'utilisateur.
+
+*** mémoire magnétique
+Fiche : 
+
+Définition : Support magnétique, susceptible d'être modifié ou effacé, constituant une mémoire d'information permanente.
+
+Voir aussi : atelier numérique ouvert
+
+Voir aussi : écotechniques de l'information et de la communication
+
+Voir aussi : diode électroluminescente
+
+*** administrateur, -trice de bâti immobilier modélisé
+Fiche : 
+
+Déconseillé : administrateur BIM
+Déconseillé : administratrice BIM
+Déconseillé : gestionnaire BIM
+Déconseillé : manager BIM
+Voir aussi : bâti immobilier modélisé
+
+*** bâti immobilier modélisé
+Fiche : 
+
+Définition : Maquette numérique d’un ouvrage immobilier qui permet de mettre en commun et d’actualiser les données géométriques et techniques durant les phases de conception, de construction et d’utilisation, voire de démolition.
+Voir aussi : administrateur, -trice de bâti immobilier modélisé
+
+Voir aussi : diode électroluminescente modulable
+
+*** réseau informatique
+Fiche : 
+
+Définition : Ensemble des moyens matériels et logiciels mis en œuvre pour assurer les communications entre ordinateurs, stations de travail et terminaux informatiques.
+
+*** connexité
+Fiche : 
+
+Déconseillé : connectivité
+Définition : Propriété d'un réseau de téléinformatique dans lequel il est toujours possible de relier directement ou indirectement deux équipements quelconques.
+
+*** circuit intégré prédiffusé programmable
+Fiche : 
+
+Définition : Réseau logique programmable électriquement chez le client final.
+
+*** circuit intégré semi-personnalisé
+Fiche : 
+
+Déconseillé : circuit semi-personnalisé
+Déconseillé : semi-personnalisé
+Définition : Circuit intégré dont la conception est fondée sur l'utilisation de blocs prédéfinis ou préconstruits.
+
+*** circuit intégré sur mesure
+Fiche : 
+
+Déconseillé : circuit à la demande
+Définition : Circuit intégré dont l'ensemble des caractéristiques est conçu pour répondre à une demande déterminée.
+
+*** clicher
+Fiche : 
+
+Déconseillé : to dump
+Définition : Recopier le contenu, à un instant déterminé, de tout ou partie d'une mémoire sur un autre support.
+
+*** codet
+Fiche : 
+
+Définition : Groupe d'éléments représentant, selon un code, une donnée élémentaire.
+
+*** conception
+Fiche : 
+
+Définition : Ensemble des études préliminaires à la fabrication d'un produit.
+
+*** convertisseur analogique-numérique
+Fiche : 
+
+Déconseillé : analog-to-digital converter
+Déconseillé : analogue-to-digital converter
+Définition : Dispositif électronique qui permet de convertir un signal analogique en un signal numérique.
+
+*** débogage
+Fiche : 
+
+Définition : Action d'éliminer les bogues.
+Voir aussi : déboguer
+Voir aussi : bogue
+
+*** coprocesseur
+Fiche : 
+
+Définition : Processeur complémentaire d'un processeur principal destiné à rendre plus efficace l'exécution d'un jeu particulier d'instructions.
+Voir aussi : processeur
+
+*** déboguer
+Fiche : 
+
+Déconseillé : to debug
+Définition : Éliminer les bogues.
+Voir aussi : débogage
+Voir aussi : bogue
+
+*** débogueur
+Fiche : 
+
+Définition : Programme d'aide à l'élimination des bogues.
+Voir aussi : bogue
+
+*** défaillance
+Fiche : 
+
+Définition : Cessation de l'aptitude d'une unité fonctionnelle à accomplir une fonction requise.
+
+*** descripteur
+Fiche : 
+
+Définition : Mot ou locution destiné à caractériser les informations contenues dans un document pour faciliter les recherches documentaires.
+
+*** déverminage
+Fiche : 
+
+Définition : Séquences de contraintes thermiques, ou climatiques, ou électriques, ou mécaniques, ayant pour but d'éliminer les défauts de jeunesse dans une production donnée de composants électroniques.
+
+*** dévideur
+Fiche : 
+
+Définition : Dérouleur de bande magnétique destiné à la sauvegarde des informations contenues dans un disque.
+
+*** diffusion
+Fiche : 
+
+Définition : Opération qui consiste à doper un semiconducteur positivement ou négativement par exposition des tranches du semiconducteur à des gaz dopants à température élevée.
+
+*** disque optique
+Fiche : 
+
+Définition : Disque sur lequel sont enregistrées des données lisibles par un procédé optique.
+
+*** donnée
+Fiche : 
+
+Définition : Représentation d'une information sous une forme conventionnelle destinée à faciliter son traitement.
+Voir aussi : traitement automatique de données
+Voir aussi : directeur, -trice des données
+Voir aussi : données liées
+Voir aussi : visualisation de données
+
+*** crènelage
+Fiche : 
+
+Définition : Effet visuel indésirable provoqué par l'insuffisance de la définition d'une image ou par un filtrage inadéquat des contours d'objets, et qui prend habituellement la forme de dentelures et de contours brisés.
+Voir aussi : anticrènelage
+
+*** écran tactile
+Fiche : 
+
+Déconseillé : touchscreen
+Définition : Écran muni d'un dispositif qui permet de sélectionner certaines de ses zones par contact.
+Voir aussi : tablette
+Voir aussi : interface homme-machine
+Voir aussi : interface utilisateur
+
+*** écriture directe
+Fiche : 
+
+Définition : Opération qui consiste, à partir des données fournies par les outils de conception, à tracer directement le dessin du circuit sur une tranche de matériau semiconducteur avec, par exemple, un faisceau d'électrons ou un laser.
+
+*** éditeur
+Fiche : 
+
+Définition : Programme qui permet, à partir d'un écran, d'introduire des données textuelles ou graphiques ou d'en modifier la disposition.
+
+*** épitaxie
+Fiche : 
+
+Définition : Opération qui consiste à faire croître une couche de matériau semiconducteur sur un substrat, cette couche ayant la même orientation cristalline que le substrat.
+
+*** fixage de puce
+Fiche : 
+
+Déconseillé : report de puce
+Définition : Opération de soudage ou de collage de puces sur un substrat.
+
+*** fonderie de silicium
+Fiche : 
+
+Définition : Entreprise qui fabrique des circuits intégrés généralement à base de silicium, à partir de masques établis par des concepteurs.
+
+*** fondeur de silicium
+Fiche : 
+
+Définition : Fabricant de circuits intégrés généralement à base de silicium, qui met ses lignes de production à la disposition des utilisateurs.
+
+*** format
+Fiche : 
+
+Définition : Agencement structuré d'un support de données ; par extension, disposition des données elles-mêmes.
+
+*** échange de données informatisé
+Fiche : 
+
+Définition : Transfert, entre systèmes d'information, de données structurées directement émises et traitées par des applications informatiques selon des procédures normalisées.
+
+*** formatage d'une disquette
+Fiche : 
+
+Définition : Action de formater une disquette.
+
+*** formater
+Fiche : 
+
+Déconseillé : to format
+Définition : Structurer un support de données ou des données selon un format.
+
+*** forme
+Fiche : 
+
+Définition : Ensemble de caractéristiques retenues pour représenter une entité en fonction du problème à résoudre.
+
+*** fusionner
+Fiche : 
+
+Déconseillé : to merge
+Définition : Réunir en un seul ensemble les éléments de plusieurs ensembles rangés suivant les mêmes critères.
+
+*** générateur de dessin de masques
+Fiche : 
+
+Définition : Équipement qui permet d'exposer une résine photosensible sur une plaque de verre afin de réaliser des masques.
+Voir aussi : masque
+
+*** génération de séquences de test
+Fiche : 
+
+Définition : Opération automatisée qui consiste à créer les séquences de tests permettant de vérifier le bon fonctionnement d'un circuit.
+Voir aussi : séquence de test
+Voir aussi : vecteur de test
+
+*** génie informatique
+Fiche : 
+
+Définition : Conception, réalisation et validation des systèmes informatiques.
+
+*** génie logiciel
+Fiche : 
+
+Définition : Application systématique des connaissances, des méthodes et des acquis scientifiques et techniques pour la conception, le développement, le test et la documentation de logiciels, afin d'en rationaliser la production, le suivi et la qualité.
+
+*** grapheur
+Fiche : 
+
+Définition : Logiciel qui permet de représenter des données sous forme de graphiques.
+Voir aussi : tableur
+
+*** gravure
+Fiche : 
+
+Définition : Opération qui consiste à enlever, selon un dessin donné, une couche de matériau sur un substrat.
+
+*** heuristique
+Fiche : 
+
+Définition : Méthode de résolution de problèmes non fondée sur un modèle formel et qui n'aboutit pas nécessairement à une solution.
+
+*** hydrorésistant
+Fiche : 
+
+Définition : Caractérise un composant ou un élément dont les propriétés en présence d'eau ne s'altèrent que progressivement et selon des conditions déterminées.
+
+*** implanter
+Fiche : 
+
+Déconseillé : to implement
+Définition : Installer un logiciel ou un sous-système donné en réalisant les adaptations nécessaires à leur fonctionnement dans un environnement défini.
+Voir aussi : implémenter
+
+*** interactif, -ive
+Fiche : 
+
+Définition : Qualifie les matériels, les programmes ou les conditions d'exploitation qui permettent des actions réciproques avec des utilisateurs ou avec des appareils.
+
+*** invite
+Fiche : 
+
+Définition : Message visuel ou sonore sollicitant, conformément à une disposition programmée, l'avis ou l'action de l'opérateur.
+
+*** langage à objets
+Fiche : 
+
+Déconseillé : langage orienté objets
+Déconseillé : objet
+Définition : Langage adapté à la programmation par objets.
+Voir aussi : programmation par objets
+
+*** ligne (en)
+Fiche : 
+
+Déconseillé : en ligne
+Définition : Se dit d'un matériel lorsqu'il fonctionne en relation directe avec un autre.
+Voir aussi : autonome
+
+*** listage
+Fiche : 
+
+Définition : Action de lister.
+Voir aussi : lister
+Voir aussi : listage
+
+*** liste d'interconnexions
+Fiche : 
+
+Définition : Énumération des connexions entre les différents composants ou blocs fonctionnels d'un circuit.
+
+*** lister
+Fiche : 
+
+Déconseillé : to list
+Définition : Produire un document en continu à l'aide d'une imprimante d'ordinateur.
+Voir aussi : lister
+Voir aussi : listage
+
+*** grappe
+Fiche : 
+
+Définition : Ensemble d'appareils de même type (terminaux, ordinateurs, etc.) rattachés à une même unité de contrôle.
+
+*** logiciel
+Fiche : 
+
+Définition : Ensemble des programmes, procédés et règles, et éventuellement de la documentation, relatifs au fonctionnement d'un ensemble de traitement de données.
+
+*** logiciel à contribution
+Fiche : 
+
+Définition : Logiciel mis à la disposition du public par son auteur, moyennant le versement d'une contribution en cas d'utilisation effective.
+
+*** logiciel de groupe de travail
+Fiche : 
+
+Définition : Logiciel permettant à un groupe d'utilisateurs de travailler en collaboration sur un même projet sans être nécessairement réunis.
+
+*** logiciel de vérification de schéma
+Fiche : 
+
+Définition : Logiciel permettant de comparer la topologie d'un circuit par rapport au schéma d'origine et de vérifier la continuité électrique.
+
+*** macrocellule
+Fiche : 
+
+Définition : Cellule regroupant tous les éléments d'une fonction complexe spécifique, tels que mémoire ou microprocesseur.
+
+*** macroordinateur
+Fiche : 
+
+Définition : Ordinateur central de grande puissance possédant des mémoires de taille importante, et apte à exécuter des opérations mettant en œuvre de nombreux périphériques.
+
+*** manche à balai
+Fiche : 
+
+Déconseillé : poignée
+Définition : Dispositif de commande à plusieurs degrés de liberté servant à déplacer le curseur d'un écran de visualisation.
+
+*** maquette
+Fiche : 
+
+Définition : Réalisation sous forme de montage expérimental d'un circuit électronique destiné à l'intégration.
+
+*** marquage
+Fiche : 
+
+Définition : Action de faire ressortir un élément graphique ou une partie de texte par modification de ses attributs visuels.
+Voir aussi : surbrillance
+
+*** masque
+Fiche : 
+
+Définition : Plaque de verre ou de métal permettant d'imprimer un motif sur un substrat.
+Voir aussi : générateur de dessin de masques
+Voir aussi : substrat
+
+*** groupe
+Fiche : 
+
+Définition : Ensemble des secteurs constituant une zone logique sur un disque.
+
+*** matériel
+Fiche : 
+
+Définition : Ensemble des éléments physiques employés pour le traitement de données.
+
+*** mémoire
+Fiche : 
+
+Définition : Dispositif qui permet d'enregistrer, de conserver et de restituer des données.
+
+*** mémoire morte
+Fiche : 
+
+Définition : Mémoire dont le contenu ne peut être modifié en usage normal.
+Voir aussi : mémoire flash
+
+*** mémoire tampon
+Fiche : 
+
+Définition : Mémoire ou partie de mémoire permettant le stockage temporaire de données entre deux organes ayant des caractéristiques différentes.
+
+*** mémoire vive
+Fiche : 
+
+Définition : Mémoire dont le contenu peut être modifié en usage normal.
+Voir aussi : mémoire vive magnétique
+Voir aussi : mémoire flash
+
+*** mer de portes
+Fiche : 
+
+Déconseillé : océan de portes
+Définition : Réseau prédiffusé dans lequel les portes élémentaires sont réparties sur toute la surface de la puce sans utilisation de canaux de routage spécifiques.
+Voir aussi : porte
+Voir aussi : réseau prédiffusé
+
+*** métallisation
+Fiche : 
+
+Déconseillé : metallisation
+Déconseillé : metallization
+Définition : Opération qui consiste à déposer une couche métallique sur une tranche de semiconducteur afin de réaliser des interconnexions.
+Voir aussi : réseau prédiffusé
+
+*** microordinateur
+Fiche : 
+
+Définition : Ordinateur de dimension réduite dont l'unité centrale est constituée d'un ou plusieurs microprocesseurs.
+Voir aussi : microprocesseur
+
+*** mise à niveau
+Fiche : 
+
+Définition : Actualisation d'un logiciel ou d'un matériel.
+
+*** icône
+Fiche : 
+
+Définition : Sur un écran, symbole graphique qui représente une fonction ou une application logicielle particulière que l'on peut sélectionner et activer au moyen d'un dispositif tel qu'une souris.
+
+*** mise en boîtier
+Fiche : 
+
+Définition : Opération qui consiste à enfermer une ou plusieurs puces dans un boîtier.
+Voir aussi : boîtier à puce
+Voir aussi : encapsulation sur tranche
+
+*** mode dialogué
+Fiche : 
+
+Définition : Mode de traitement de données permettant un échange entre un système informatique et un utilisateur.
+
+*** moteur d'inférence
+Fiche : 
+
+Définition : Partie d'un système expert qui effectue la sélection et l'application des règles en vue de la résolution d'un problème donné.
+Voir aussi : système expert
+Voir aussi : bloqueur de publicités
+
+*** multitraitement
+Fiche : 
+
+Définition : Mode de fonctionnement d'un ordinateur selon lequel plusieurs processeurs ayant accès à des mémoires communes peuvent opérer en parallèle sur des programmes différents.
+Voir aussi : multitâche
+
+*** numérique
+Fiche : 
+
+Déconseillé : analogique
+Définition : Se dit, par opposition à « analogique », de la représentation discrète de données ou de grandeurs physiques au moyen de caractères (des chiffres généralement) ; se dit aussi des systèmes, dispositifs ou procédés employant ce mode de représentation.
+Voir aussi : numérique
+Voir aussi : transformation numérique
+
+*** numériser
+Fiche : 
+
+Déconseillé : to digitize
+Définition : Représenter un signal (caractère, image, impulsion, etc.) sous forme numérique.
+Voir aussi : numériseur
+
+*** numéro d'urgence
+Fiche : 
+
+Définition : Numéro d'appel qui permet le recours immédiat à un service d'assistance spécialisée.
+Voir aussi : centre d'assistance
+
+*** ordinateur
+Fiche : 
+
+Définition : Équipement informatique de traitement automatique de données comprenant les organes nécessaires à son fonctionnement autonome.
+Voir aussi : tablette
+Voir aussi : interface homme-machine
+Voir aussi : interface utilisateur
+
+*** panne
+Fiche : 
+
+Définition : État anormal d'une unité fonctionnelle la mettant dans l'impossibilité d'accomplir une fonction requise.
+
+*** pastillage
+Fiche : 
+
+Définition : Procédé de montage et d'interconnexion d'une puce sur un circuit imprimé.
+
+*** logement
+Fiche : 
+
+Définition : Emplacement muni d'un connecteur qui permet l'insertion d'un élément électronique amovible dans un ordinateur.
+
+*** pilote de périphérique
+Fiche : 
+
+Définition : Programme de gestion des échanges avec un périphérique.
+
+*** placement
+Fiche : 
+
+Définition : Opération de la phase d'étude qui consiste à définir l'emplacement de chaque élément d'un circuit.
+
+*** plan de masse
+Fiche : 
+
+Définition : Représentation de l'implantation physique des blocs fonctionnels constituant un circuit.
+
+*** plot de contact
+Fiche : 
+
+Définition : Contact en relief à la surface d'une puce, utilisé pour établir une liaison électrique avec des circuits extérieurs.
+
+*** pointeur
+Fiche : 
+
+Définition : Donnée permettant de retrouver l'adresse d'un groupe de données.
+
+*** ponteuse
+Fiche : 
+
+Définition : Machine de soudage de fils d'interconnexion entre puces et substrat ou entre puces.
+Voir aussi : microsoudeuse de puces
+
+*** porte
+Fiche : 
+
+Définition : Unité de base d'une fonction logique combinatoire.
+Voir aussi : mer de portes
+Voir aussi : réseau logique programmable
+
+*** processeur
+Fiche : 
+
+Définition : Organe destiné, dans un ordinateur ou dans une autre machine, à interpréter et à exécuter des instructions ; par extension, ensemble de programmes permettant d'exécuter sur un ordinateur des programmes écrits dans un certain langage.
+Voir aussi : coprocesseur
+Voir aussi : processeur vectoriel
+Voir aussi : multiprocesseur
+Voir aussi : microprocesseur
+
+*** processeur vectoriel
+Fiche : 
+
+Définition : Processeur conçu pour appliquer simultanément le même traitement à des éléments homologues de tableaux de données.
+Voir aussi : processeur
+
+*** moteur d'exécution
+Fiche : 
+
+Définition : Sous-ensemble dérivé d'un logiciel et limité à l'exécution de certaines applications, elles-mêmes développées avec le logiciel complet.
+
+*** progiciel
+Fiche : 
+
+Définition : Ensemble complet et documenté de programmes conçu pour être fourni à plusieurs utilisateurs, en vue d'une même application ou d'une même fonction.
+
+*** programmation par objets
+Fiche : 
+
+Déconseillé : objet
+Définition : Mode de programmation dans lequel les données et les procédures qui s'appliquent sont regroupées en entités appelées « objets ».
+Voir aussi : langage à objets
+
+*** puce
+Fiche : 
+
+Définition : Composant électronique monolithique non encapsulé.
+Voir aussi : puce-système
+
+*** relancer
+Fiche : 
+
+Déconseillé : to restart
+Définition : Remettre en marche un système informatique après retour à un état de référence.
+
+*** répertoire
+Fiche : 
+
+Définition : Liste d'identificateurs, classés selon des arguments appropriés, permettant l'accès aux informations qu'ils désignent.
+
+*** réseau
+Fiche : 
+
+Définition : Circuit intégré conçu à partir de microstructures élémentaires organisées le plus souvent en matrice.
+
+*** réseau local
+Fiche : 
+
+Définition : Ensemble connexe, à caractère privatif, de moyens de communication établi sur un site restreint, pourvu de règles de gestion du trafic et permettant des échanges internes d'informations de toute nature, notamment sous forme de données, sons, images, etc.
+
+*** réseau logique programmable
+Fiche : 
+
+Définition : Réseau de portes aux connexions matérialisées par des points d'interconnexion pouvant être ouverts par fusion ou court-circuités par apport de métal.
+Voir aussi : porte
+
+*** réseau prédiffusé
+Fiche : 
+
+Déconseillé : réseau de portes
+Définition : Réseau ou matrice de portes non interconnectées dont la fabrication a été arrêtée avant métallisation pour permettre la personnalisation du circuit.
+Voir aussi : mer de portes
+Voir aussi : métallisation
+
+*** restaurer
+Fiche : 
+
+Déconseillé : to reset
+Déconseillé : to restore
+Définition : Remettre dans un état de référence un système informatique ou une application.
+
+*** multiprocesseur
+Fiche : 
+
+Définition : Ordinateur possédant plusieurs processeurs principaux.
+Voir aussi : processeur
+
+*** révision
+Fiche : 
+
+Définition : Logiciel comportant des corrections par rapport à l'état précédent.
+Voir aussi : version
+
+*** robotique
+Fiche : 
+
+Définition : Ensemble des études et des techniques de conception et de mise en œuvre des robots effectuant des tâches déterminées en s'adaptant à leur environnement.
+
+*** routage
+Fiche : 
+
+Définition : Opération qui consiste à définir les interconnexions entre les éléments d'un circuit au niveau de sa topologie.
+Voir aussi : topologie
+
+*** saisie de schéma
+Fiche : 
+
+Définition : Opération permettant de définir la fonction d'un circuit au moyen de représentations symboliques affichées à l'écran.
+
+*** salle blanche
+Fiche : 
+
+Définition : Salle conçue pour maintenir les taux de poussières et éventuellement d'autres agents contaminants, la température et l'hygrométrie à des niveaux spécifiés de façon à pouvoir y réaliser des opérations sensibles à ces facteurs.
+Voir aussi : classe de propreté
+
+*** secours (de)
+Fiche : 
+
+Déconseillé : de secours
+Déconseillé : secours
+Définition : Qualifie les procédures et les matériels destinés à être utilisés dans certains cas d'anomalie de fonctionnement.
+
+*** secours informatique
+Fiche : 
+
+Définition : Ensemble des services permettant d'assurer la surveillance et la continuité des travaux des centres informatiques afin d'en prévenir ou d'en pallier les interruptions accidentelles.
+
+*** séquence de test
+Fiche : 
+
+Déconseillé : pattern de test
+Définition : Ensemble des vecteurs de test permettant de stimuler un circuit afin de tester son comportement fonctionnel.
+Voir aussi : génération de séquences de test
+Voir aussi : testeur
+
+*** simulateur analogique
+Fiche : 
+
+Déconseillé : analog simulator
+Déconseillé : analogue simulator
+Définition : Outil logiciel servant à simuler la fonction à partir de grandeurs d'entrées ou de sorties analogiques.
+
+*** simulateur logique
+Fiche : 
+
+Définition : Outil logiciel permettant de connaître la réponse d'un circuit numérique à des signaux binaires.
+
+*** société de conception
+Fiche : 
+
+Définition : Société spécialisée dont l'activité est celle d'un centre de conception.
+Voir aussi : centre de conception
+
+*** souris
+Fiche : 
+
+Définition : Dispositif de commande tenu à la main, connecté à un ordinateur, et dont le déplacement sur une surface entraîne le déplacement d'un repère sur l'écran.
+Voir aussi : boule de commande
+Voir aussi : interface homme-machine
+Voir aussi : interface utilisateur
+
+*** substrat
+Fiche : 
+
+Définition : Matériau sur lequel ou dans lequel sont fabriqués les éléments d'un dispositif ou d'un circuit électronique.
+Voir aussi : masque
+Voir aussi : microsoudeuse de puces
+Voir aussi : module multipuce
+
+*** surbrillance
+Fiche : 
+
+Définition : Marquage par une luminosité plus grande.
+Voir aussi : marquage
+
+*** survol
+Fiche : 
+
+Définition : Exploration rapide sur écran, sans possibilité de modification, du contenu d'une mémoire.
+
+*** système d'exploitation
+Fiche : 
+
+Définition : Logiciel gérant un ordinateur, indépendant des programmes d'application mais indispensable à leur mise en œuvre.
+
+*** système de gestion de base de données
+Fiche : 
+
+Définition : Pour une base de données, logiciel permettant d'introduire les données, de les mettre à jour et d'y accéder.
+
+*** système exclusif
+Fiche : 
+
+Déconseillé : système exclusif constructeur
+Déconseillé : système propriétaire
+Définition : Système d'exploitation ou architecture conçu pour un matériel ou un ensemble de matériels d'un constructeur donné.
+
+*** numériseur
+Fiche : 
+
+Définition : Appareil permettant de transformer un signal analogique en un signal numérique.
+Voir aussi : numériser
+Voir aussi : scanneur
+
+*** système expert
+Fiche : 
+
+Définition : Ensemble de logiciels exploitant dans un domaine particulier des connaissances explicites et organisées, pouvant se substituer à un expert humain.
+Voir aussi : moteur d'inférence
+
+*** tableur
+Fiche : 
+
+Définition : Logiciel de création et de manipulation interactives de tableaux numériques.
+Voir aussi : grapheur
+
+*** téléinformatique
+Fiche : 
+
+Définition : Exploitation automatisée de systèmes informatiques utilisant des réseaux de télécommunication.
+
+*** télémaintenance
+Fiche : 
+
+Définition : Maintenance d'une unité fonctionnelle, assurée par télécommunication directe entre cette unité et un centre spécialisé.
+
+*** télématique
+Fiche : 
+
+Définition : Ensemble des services de nature ou d'origine informatique pouvant être fournis à travers un réseau de télécommunication.
+
+*** télétraitement
+Fiche : 
+
+Définition : Mode de traitement selon lequel les données sont émises ou reçues par des terminaux éloignés de l'ordinateur.
+Voir aussi : télétraitement par lots
+
+*** télétraitement par lots
+Fiche : 
+
+Définition : Télétraitement qui comporte un groupement par lots des programmes à exécuter ou des données à traiter.
+Voir aussi : télétraitement
+
+*** temps réel
+Fiche : 
+
+Définition : Mode de traitement qui permet l'admission des données à un instant quelconque et l'obtention immédiate des résultats.
+Voir aussi : intelligence artificielle embarquée
+
+*** terminal
+Fiche : 
+
+Définition : Appareil permettant l'accès à distance à un système informatique.
+
+*** test de performance
+Fiche : 
+
+Définition : Évaluation des performances d'un système par simulation des conditions réelles d'utilisation, à l'aide de programmes-échantillons.
+
+*** octet
+Fiche : 
+
+Définition : Ensemble ordonné de huit éléments binaires traités comme un tout.
+Voir aussi : élément binaire
+
+*** test dynamique
+Fiche : 
+
+Définition : Test d'un circuit par lequel les vecteurs de test sont appliqués à un rythme suffisamment rapide pour tenir compte des temps de propagation des signaux à l'intérieur du circuit.
+Voir aussi : test statique
+
+*** test fonctionnel
+Fiche : 
+
+Définition : Test destiné à vérifier, pour une spécification donnée, le comportement fonctionnel d'un circuit.
+
+*** test intégré
+Fiche : 
+
+Définition : Test réalisé au moyen de cellules introduites dans un circuit, permettant l'analyse des nœuds d'interconnexion.
+
+*** test statique
+Fiche : 
+
+Définition : Test d'un circuit par lequel les vecteurs de test sont appliqués à un rythme suffisamment lent pour assurer que le circuit a bien atteint un état stable avant l'application du prochain vecteur de test.
+Voir aussi : test dynamique
+
+*** test structurel
+Fiche : 
+
+Définition : Test conçu pour vérifier chaque étape du procédé de fabrication d'une tranche de semiconducteur.
+
+*** testeur
+Fiche : 
+
+Définition : Équipement qui permet d'appliquer une séquence de tests sur les entrées d'un circuit et qui mesure les états de sorties afin de vérifier leur conformité aux spécifications.
+Voir aussi : séquence de test
+
+*** tolérance aux pannes
+Fiche : 
+
+Définition : Aptitude d'un système informatique à demeurer fonctionnel malgré certaines pannes de ses constituants.
+
+*** tolérant aux pannes
+Fiche : 
+
+Définition : Se dit d'un système informatique apte à demeurer fonctionnel malgré certaines pannes de ses constituants.
+
+*** topologie
+Fiche : 
+
+Définition : Représentation de l'implantation physique d'un circuit obtenue à l'issue des phases de placement et de routage, par opposition à sa fonction électrique définie par un schéma.
+Voir aussi : routage
+Voir aussi : bloc de propriété intellectuelle
+
+*** traducteur de test
+Fiche : 
+
+Déconseillé : post-processeur de test
+Définition : Logiciel qui convertit automatiquement les vecteurs de test définis lors de la conception du circuit en commandes utilisables par le testeur.
+Voir aussi : vecteur de test
+
+*** permutation
+Fiche : 
+
+Définition : Processus consistant à échanger le contenu d'une zone de mémoire principale avec le contenu d'une zone de mémoire auxiliaire.
+
+*** traitement automatique de données
+Fiche : 
+
+Déconseillé : traitement automatique de l'information
+Définition : Ensemble des opérations réalisées par des moyens automatiques, relatif à la collecte, l'enregistrement, l'élaboration, la modification, la conservation, la destruction, l'édition de données et, d'une façon générale, leur exploitation.
+Voir aussi : mégadonnées
+Voir aussi : donnée
+
+*** traitement par lots
+Fiche : 
+
+Définition : Mode de traitement des données suivant lequel les programmes à exécuter ou les données à traiter sont groupés en lots.
+
+*** unité arithmétique logique
+Fiche : 
+
+Définition : Ensemble de circuits électroniques connectés logiquement de façon à réaliser, sous l'action de commandes élémentaires, les opérations arithmétiques ou logiques pour lesquelles cet ensemble a été conçu.
+
+*** unité de fabrication finale
+Fiche : 
+
+Définition : Ensemble d'opérations de fabrication faisant suite à celles de l'unité de fabrication initiale et se terminant, suivant les fabricants, à la découpe des puces ou au test final après montage.
+Voir aussi : unité de fabrication initiale
+
+*** unité de fabrication initiale
+Fiche : 
+
+Déconseillé : centre de diffusion
+Définition : Ensemble d'opérations de fabrication débutant avec la première étape du traitement de la plaquette de semiconducteurs et se terminant, suivant les fabricants, avant ou après les étapes de métallisation.
+Voir aussi : unité de fabrication finale
+
+*** vecteur de test
+Fiche : 
+
+Définition : Ensemble de signaux appliqués aux entrées d'un circuit en vue de provoquer une réponse.
+Voir aussi : génération de séquences de test
+Voir aussi : traducteur de test
+
+*** vérificateur de prototype
+Fiche : 
+
+Définition : Équipement de test manuel utilisé pour vérifier la fonctionnalité d'un prototype.
+
+*** vérification des règles de conception
+Fiche : 
+
+Définition : Vérification effectuée par logiciel des règles de dessin et des règles d'interconnexion.
+Voir aussi : vérification des règles de dessin
+Voir aussi : vérification de la conformité aux règles d'interconnexion
+
+*** vérification des règles de dessin
+Fiche : 
+
+Définition : Vérification effectuée par logiciel des dimensions géométriques d'un circuit imposées par sa technologie de fabrication.
+Voir aussi : vérification des règles de conception
+
+Voir aussi : afficher
+
+*** raccourci au clavier
+Fiche : 
+
+Définition : Touche ou combinaison de touches du clavier qui peut se substituer à une séquence de commandes plus complexes.
+
+*** réamorcer
+Fiche : 
+
+Déconseillé : to reboot
+Définition : Provoquer de nouveau l'exécution de l'amorce.
+Voir aussi : amorcer
+Voir aussi : amorce
+
+*** référentiel
+Fiche : 
+
+Définition : Ensemble structuré d'informations utilisé pour l'exécution d'un logiciel et constituant un cadre commun à plusieurs applications.
+
+*** réinitialiser
+Fiche : 
+
+Déconseillé : to reset
+Définition : Remettre un système informatique ou une application dans son état initial.
+
+*** scanneur
+Fiche : 
+
+Définition : Numériseur à balayage pouvant inclure un traitement de l'information numérisée.
+Voir aussi : numériseur
+
+*** scrutation
+Fiche : 
+
+Déconseillé : invitation à émettre
+Définition : Examen répété de l'état d'un ou plusieurs éléments d'un système pour y détecter un changement éventuel.
+
+*** documentation intégrée (à)
+Fiche : 
+
+Déconseillé : à documentation intégrée
+Définition : Qualifie une réalisation informatique dont la documentation, incorporée au programme, peut être consultée directement sur écran.
+
+*** configurer
+Fiche : 
+
+Déconseillé : to configure
+Définition : Définir les sous-ensembles constituant un matériel, un logiciel, ou agir sur leurs paramètres pour en assurer la mise en œuvre.
+
+*** anticrènelage
+Fiche : 
+
+Définition : Prévention du crènelage par un procédé qui consiste à lisser les lignes et les contours d'une image.
+Voir aussi : crènelage
+
+*** administrateur, -trice de site, de serveur
+Fiche : 
+
+Déconseillé : administrateur de serveur
+Déconseillé : administrateur de site
+Déconseillé : administratrice de serveur
+Déconseillé : administratrice de site
+Définition : Personne chargée de la maintenance et du suivi d'un site ou d'un serveur sur la toile.
+Voir aussi : toile
+
+*** agenda électronique
+Fiche : 
+
+Déconseillé : organiseur
+Définition : Logiciel pour la gestion de données personnelles telles que rendez-vous, adresses, etc. ; par extension, ordinateur de poche remplissant essentiellement cette fonction.
+Voir aussi : ordinateur de poche
+
+*** article de forum
+Fiche : 
+
+Définition : Document similaire à un message électronique, destiné à alimenter un ou plusieurs forums.
+Voir aussi : fil de la discussion
+Voir aussi : forum
+
+*** cadre
+Fiche : 
+
+Définition : Sous-fenêtre de la fenêtre principale d'un logiciel de navigation, qui peut afficher un document différent de ceux affichés dans les autres sous-fenêtres.
+Voir aussi : fenêtre
+Voir aussi : logiciel de navigation
+
+*** disque numérique polyvalent
+Fiche : 
+
+Définition : Disque numérique optique de grande capacité, à usages divers (audio, vidéo, multimédia, mémoire vive, mémoire morte).
+Voir aussi : cédérom
+
+*** fenêtre
+Fiche : 
+
+Définition : Partie rectangulaire de l'écran d'un ordinateur à l'intérieur de laquelle sont affichées les informations relatives à une activité déterminée.
+Voir aussi : cadre
+
+*** amorcer
+Fiche : 
+
+Déconseillé : to boot
+Définition : Mettre en marche un ordinateur en provoquant l'exécution de l'amorce.
+Voir aussi : réamorcer
+Voir aussi : amorce
+
+*** fil de la discussion
+Fiche : 
+
+Définition : Dans les échanges au sein d'un forum ou entre utilisateurs du courrier électronique, enchaînement des commentaires à un article donné.
+Voir aussi : article de forum
+Voir aussi : forum
+Voir aussi : microblogue
+
+*** fouineur
+Fiche : 
+
+Déconseillé : bidouilleur
+Définition : Personne passionnée d'informatique qui, par jeu, curiosité, défi personnel ou par souci de notoriété, sonde, au hasard plutôt qu'à l'aide de manuels techniques, les possibilités matérielles et logicielles des systèmes informatiques afin de pouvoir éventuellement s'y immiscer.
+Voir aussi : pirate
+
+*** frimousse
+Fiche : 
+
+Déconseillé : binette
+Déconseillé : émoji
+Définition : Dans un message, association facétieuse de quelques caractères typographiques qui évoquent un visage expressif.
+
+*** glisser-déposer
+Fiche : 
+
+Définition : Action par laquelle l'utilisateur sélectionne un objet à l'écran, le déplace jusqu'à une autre position, puis le lâche pour déclencher une action sur cet objet.
+
+*** hypertexte
+Fiche : 
+
+Définition : Système de renvois permettant de passer directement d'une partie d'un document à une autre, ou d'un document à d'autres documents choisis comme pertinents par l'auteur.
+Voir aussi : hypertextuel
+Voir aussi : ancre
+Voir aussi : rétrolien
+Voir aussi : toile
+
+*** hypertextuel
+Fiche : 
+
+Définition : Relatif à l'hypertexte.
+Voir aussi : piège à clics
+Voir aussi : hypertexte
+Voir aussi : logiciel de navigation
+Voir aussi : ancre
+Voir aussi : référencement abusif
+
+*** signet
+Fiche : 
+
+Définition : Moyen d'accéder rapidement à une adresse universelle préalablement stockée en mémoire par l'utilisateur.
+Voir aussi : adresse universelle
+
+*** bloc
+Fiche : 
+
+Définition : Groupe de données enregistré ou transmis globalement pour des motifs techniques indépendamment de leur contenu.
+Voir aussi : chaîne de blocs
+
+*** amorce
+Fiche : 
+
+Définition : Programme nécessaire à la mise en marche d'un ordinateur, et exécuté à chaque mise sous tension ou réinitialisation.
+Voir aussi : réamorcer
+Voir aussi : amorcer
+
+*** boîtier
+Fiche : 
+
+Définition : Enveloppe protégeant un ou plusieurs composants et comportant des traversées pour le raccordement à l'extérieur.
+Voir aussi : boîtier-système
+
+*** broche de raccordement
+Fiche : 
+
+Définition : Pièce métallique mécaniquement solidaire d'un boîtier, d'un circuit imprimé ou d'un composant, destiné à en assurer la connexion électrique et éventuellement la fixation.
+Voir aussi : pas
+Voir aussi : pas
+
+*** bus
+Fiche : 
+
+Déconseillé : omnibus
+Définition : Dispositif non bouclé reliant plusieurs composants, sous-ensembles ou matériels pour permettre entre eux l'apport d'énergie et la circulation d'informations.
+
+*** câblage
+Fiche : 
+
+Définition : Opération qui consiste à réaliser des connexions entre les divers éléments d'un composant, sous-ensemble ou matériel ; l'ensemble de ces connexions.
+
+*** témoin de connexion
+Fiche : 
+
+Déconseillé : mouchard
+Définition : Appliquette envoyée par un serveur de la toile à un utilisateur, parfois à l'insu de celui-ci, au cours d'une connexion afin de caractériser cet utilisateur ; par extension, information que l'appliquette peut enregistrer sur le disque de l'utilisateur et à laquelle le serveur peut accéder ultérieurement.
+Voir aussi : appliquette
+Voir aussi : toile
+
+*** carte électronique
+Fiche : 
+
+Définition : Circuit imprimé nu équipé de composants.
+Voir aussi : circuit imprimé nu
+
+*** carte fille
+Fiche : 
+
+Définition : Carte électronique enfichée sur une autre carte, en général la carte mère.
+Voir aussi : carte mère
+
+*** carte mère
+Fiche : 
+
+Définition : Carte électronique qui sert de support aux composants principaux d'un ensemble électronique et éventuellement aux cartes filles.
+Voir aussi : carte fille
+
+*** circuit à configurations multiples
+Fiche : 
+
+Définition : Circuit logique intégré pouvant réaliser des fonctions différentes selon les demandes successives de l'utilisateur.
+
+*** circuit imprimé nu
+Fiche : 
+
+Déconseillé : carte électronique
+Déconseillé : circuit imprimé
+Définition : Ensemble constitué d'un support isolant et de conducteurs métalliques plats destinés à assurer des liaisons électriques entre des composants électroniques qui seront disposés à la surface du support.
+Voir aussi : carte électronique
+Voir aussi : plage d'accueil
+
+*** circuit intégré hybride
+Fiche : 
+
+Définition : Circuit intégré constitué d'une combinaison d'au moins deux composants intégrés ou discrets.
+
+*** composant discret
+Fiche : 
+
+Déconseillé : diode
+Déconseillé : résistance
+Déconseillé : transistor
+Définition : Composant électronique élémentaire.
+
+*** fond de panier
+Fiche : 
+
+Définition : Ensemble généralement placé au fond d'un équipement électronique et constitué de connecteurs reliés par un câblage interne, dans lesquels on peut enficher des cartes électroniques.
+
+*** jeu de puces
+Fiche : 
+
+Définition : Ensemble de composants de base d'un équipement électronique (téléviseur, microordinateur, téléphone portable, etc.) assurant un certain nombre de fonctions de l'équipement considéré.
+
+*** mémoire vive dynamique
+Fiche : 
+
+Définition : Mémoire vive dans laquelle les états binaires correspondent à la présence ou à l'absence de charges électriques qu'il est nécessaire de régénérer périodiquement.
+Voir aussi : mémoire vive statique
+
+*** visionneur
+Fiche : 
+
+Définition : Logiciel permettant d'afficher un document sans disposer du logiciel qui a servi à le produire.
+Voir aussi : interface utilisateur
+
+*** montage en surface
+Fiche : 
+
+Définition : Technique de montage de composants consistant à braser ou coller les composants sur un support non percé qui comporte des conducteurs métalliques déposés à sa surface.
+
+*** pas
+Fiche : 
+
+Définition : Distance séparant deux lignes d'interconnexion voisines dans un circuit intégré ou sur un circuit imprimé nu.
+Voir aussi : broche de raccordement
+Voir aussi : pas
+
+*** pastille
+Fiche : 
+
+Définition : Zone conductrice d'un circuit imprimé, perforée et utilisée entre autres pour la fixation d'un composant.
+Voir aussi : plage d'accueil
+
+*** plage d'accueil
+Fiche : 
+
+Définition : Zone conductrice d'un circuit imprimé nu à laquelle est raccordé un plot de contact d'un composant monté en surface.
+Voir aussi : circuit imprimé nu
+Voir aussi : pastille
+
+*** puce retournée
+Fiche : 
+
+Déconseillé : puce montée face avant
+Déconseillé : puce à protubérances
+Définition : Puce comportant tous ses contacts sur une seule face, sous forme de billes ou de bossages métalliques, et que l'on retourne pour le brasage sur un support.
+
+*** tranche
+Fiche : 
+
+Déconseillé : plaquette
+Déconseillé : rondelle
+Définition : Disque de faible épaisseur découpé dans un lingot monocristallin de matériau semiconducteur et utilisé comme matériau de base pour réaliser un ou plusieurs circuits ou composants en une seule fois.
+
+*** brasage
+Fiche : 
+
+*** concepteur, -trice de circuits
+Fiche : 
+
+*** réseau logique programmable par l'utilisateur
+Fiche : 
+
+*** base de données
+Fiche : 
+
+*** logiciel de navigation
+Fiche : 
+
+Définition : Dans un environnement de type internet, logiciel qui permet à l'utilisateur de rechercher et de consulter des documents et d'exploiter les liens hypertextuels qu'ils comportent.
+Voir aussi : cadre
+Voir aussi : hypertextuel
+Voir aussi : appliquette
+Voir aussi : page d'accueil
+Voir aussi : portail de messagerie
+Voir aussi : page d'accueil
+
+*** logiciel de dessin
+Fiche : 
+
+*** police de caractères
+Fiche : 
+
+*** microprocesseur
+Fiche : 
+
+Voir aussi : microordinateur
+Voir aussi : processeur
+Voir aussi : microcontrôleur
+
+*** liste de signets
+Fiche : 
+
+*** page sur la toile
+Fiche : 
+
+Déconseillé : page web
+
+*** assemblage
+Fiche : 
+
+*** appliquette
+Fiche : 
+
+Définition : Petite application indépendante du matériel et du logiciel utilisés, qui est téléchargée depuis un serveur de la toile et qui est exécutée localement au sein d'un logiciel de navigation.
+Voir aussi : témoin de connexion
+Voir aussi : logiciel de navigation
+Voir aussi : code à octets
+Voir aussi : toile
+
+*** bloc-notes électronique
+Fiche : 
+
+*** calculateur
+Fiche : 
+
+Voir aussi : avantage quantique
+
+*** cédérom interactif
+Fiche : 
+
+*** console de visualisation
+Fiche : 
+
+*** défilement
+Fiche : 
+
+*** disque compact
+Fiche : 
+
+Voir aussi : cédérom
+
+*** disquette
+Fiche : 
+
+*** instruction
+Fiche : 
+
+*** pirate
+Fiche : 
+
+Définition : Personne qui contourne ou détruit les protections d'un logiciel, d'un ordinateur ou d'un réseau informatique.
+Voir aussi : fouineur
+
+*** mot clé
+Fiche : 
+
+Voir aussi : indexation personnelle
+Voir aussi : référencement abusif
+
+*** ordinateur de poche
+Fiche : 
+
+Voir aussi : agenda électronique
+Voir aussi : assistant électronique de poche
+
+*** ordinateur individuel
+Fiche : 
+
+*** ordinateur portable
+Fiche : 
+
+Déconseillé : laptop
+
+*** publication assistée par ordinateur
+Fiche : 
+
+*** tirage
+Fiche : 
+
+*** traitement de texte
+Fiche : 
+
+Voir aussi : logiciel de traitement de texte
+
+*** logiciel médiateur
+Fiche : 
+
+Déconseillé : middelware
+Définition : Logiciel qui permet le fonctionnement de plusieurs ordinateurs en coordination, en attribuant à chacun une tâche spécifique, comme les échanges avec les utilisateurs, l'accès aux bases de données ou aux réseaux.
+
+*** version
+Fiche : 
+
+Voir aussi : révision
+
+*** microprogramme
+Fiche : 
+
+*** conception assistée par ordinateur appliquée à l'électronique
+Fiche : 
+
+*** conception pour test
+Fiche : 
+
+*** motif
+Fiche : 
+
+*** module d'extension
+Fiche : 
+
+Déconseillé : plugin
+Définition : Élément logiciel que l'on adjoint à une application pour en étendre les fonctions.
+Voir aussi : bloqueur de publicités
+
+*** agent
+Fiche : 
+
+Déconseillé : agent intelligent
+Définition : Logiciel envoyé sur un réseau pour effectuer une tâche à la place de l'utilisateur et sans son intervention.
+Voir aussi : dialogueur
+Voir aussi : intelligence artificielle
+
+*** page d'accueil
+Fiche : 
+
+Définition : Page de présentation d'un site sur la toile.
+Voir aussi : logiciel de navigation
+Voir aussi : site
+Voir aussi : adresse universelle
+Voir aussi : toile
+Voir aussi : page d'accueil
+
+*** ancre
+Fiche : 
+
+Définition : Zone déterminée d'un document servant de départ ou d'arrivée à un lien hypertextuel avec une autre zone de ce document ou avec une zone déterminée d'un autre document.
+Voir aussi : hypertexte
+Voir aussi : hypertextuel
+
+*** anneau de sites
+Fiche : 
+
+Définition : Ensemble de sites sur la toile, consacrés à des sujets apparentés et ayant entre eux des liens privilégiés.
+
+*** arrobe
+Fiche : 
+
+Déconseillé : @
+Définition : Caractère @ fréquemment employé dans les adresses de courrier électronique pour séparer le nom identifiant l'utilisateur de celui du gestionnaire de la messagerie.
+
+*** calcul intensif
+Fiche : 
+
+Définition : Ensemble des techniques et des moyens destinés à traiter des applications complexes en faisant appel à des ordinateurs spécialisés dans le traitement rapide de gros volumes de données numériques.
+Voir aussi : accélérateur quantique
+Voir aussi : avantage quantique
+
+*** incendier
+Fiche : 
+
+Déconseillé : to flame
+Définition : Adresser à un ou plusieurs internautes un message électronique à caractère agressif ou malveillant.
+Voir aussi : message incendiaire
+Voir aussi : bombardement
+
+*** message incendiaire
+Fiche : 
+
+Définition : Message à caractère agressif ou malveillant adressé à un ou plusieurs internautes sur un réseau.
+Voir aussi : incendier
+Voir aussi : bombardement
+
+*** portail
+Fiche : 
+
+Définition : Page d'accueil d'un site de l'internet mettant à la disposition de l'internaute un large ensemble de ressources et services intérieurs et extérieurs au site.
+Voir aussi : site
+Voir aussi : portail de messagerie
+
+*** site
+Fiche : 
+
+Déconseillé : site de la toile
+Déconseillé : site sur la toile
+Déconseillé : site web
+Définition : Ensemble de documents et d'applications placés sous une même autorité et accessibles par la toile à partir d'une même adresse universelle.
+Voir aussi : page d'accueil
+Voir aussi : portail
+Voir aussi : adresse universelle
+Voir aussi : blogue
+
+*** additif
+Fiche : 
+
+Déconseillé : addon
+Définition : Module complémentaire d'un logiciel ou d'un matériel existant, qui lui apporte des améliorations ou des extensions et ne peut fonctionner qu'avec lui.
+
+*** adressage dispersé
+Fiche : 
+
+Définition : Technique logicielle de gestion de données faisant appel à une fonction de hachage sur chaque donnée pour calculer l'emplacement où doit être rangée cette donnée.
+Voir aussi : hachage
+
+*** assistant électronique de poche
+Fiche : 
+
+Définition : Ordinateur tenant dans la main, prévu pour la gestion de données personnelles et permettant le traitement de l'information en liaison avec un ordinateur principal, un téléphone mobile, etc.
+Voir aussi : ordinateur de poche
+
+*** extensibilité
+Fiche : 
+
+Définition : Aptitude d'un produit ou d'un système à fonctionner correctement, sans perdre ses propriétés essentielles, lors d'un changement d'échelle d'un ou plusieurs paramètres.
+
+*** exploration de données
+Fiche : 
+
+Définition : Processus de recherche dans un ensemble de données destiné à détecter des corrélations cachées ou des informations nouvelles.
+Voir aussi : expert, -e en mégadonnées
+
+*** flux de travaux
+Fiche : 
+
+Définition : Processus industriel ou administratif au cours duquel des tâches, des documents et des informations sont traités successivement, selon des règles prédéfinies, en vue de réaliser un produit ou de fournir un service.
+
+*** hachage
+Fiche : 
+
+Définition : Opération consistant à déterminer une information de taille fixe et réduite à partir d'une donnée de taille indifférente, de telle façon que deux données quelconques aient une faible probabilité de produire le même résultat ; par extension, résultat de cette opération.
+Voir aussi : adressage dispersé
+Voir aussi : validation de bloc
+Voir aussi : anonymisation des données
+
+*** retouche
+Fiche : 
+
+Définition : Modification destinée à corriger provisoirement un défaut dans un programme informatique existant, dans l'attente d'une nouvelle version.
+
+*** logiciel-socle
+Fiche : 
+
+Définition : Logiciel qui prend en charge les particularités matérielles d'un ordinateur ou d'un réseau.
+
+*** magasin de données
+Fiche : 
+
+Définition : Entrepôt de données spécialisé, destiné à ne contenir que les informations élaborées pour un objectif particulier.
+
+*** morphose
+Fiche : 
+
+Définition : Transformation progressive d'une image en une autre par traitement informatique.
+
+*** nommage
+Fiche : 
+
+Définition : Attribution de noms identifiant des éléments d'un réseau ou des utilisateurs.
+
+*** forum
+Fiche : 
+
+Déconseillé : BBS
+Déconseillé : Bulletin Board System
+Définition : Service permettant discussions et échanges sur un thème donné : chaque utilisateur peut lire à tout moment les interventions de tous les autres et apporter sa propre contribution sous forme d'articles.
+Voir aussi : article de forum
+Voir aussi : fil de la discussion
+Voir aussi : modérateur, -trice
+Voir aussi : fureteur, -euse
+
+*** ordinateur de bureau
+Fiche : 
+
+*** adresse de courrier électronique
+Fiche : 
+
+Définition : Libellé permettant l'identification d'un utilisateur de messagerie électronique et l'acheminement des messages qui lui sont destinés.
+Voir aussi : courriel
+Voir aussi : messagerie électronique
+
+*** courriel
+Fiche : 
+
+Déconseillé : email
+Déconseillé : mail
+Définition : Document informatisé qu'un utilisateur saisit, envoie ou consulte en différé par l'intermédiaire d'un réseau.
+Voir aussi : adresse de courrier électronique
+Voir aussi : messagerie électronique
+
+*** messagerie électronique
+Fiche : 
+
+Définition : Service permettant aux utilisateurs habilités de saisir, envoyer ou consulter en différé des courriels.
+Voir aussi : adresse de courrier électronique
+Voir aussi : courriel
+Voir aussi : Mél.
+Voir aussi : portail de messagerie
+
+*** Mél.
+Fiche : 
+
+Définition : Symbole de « messagerie électronique » qui peut figurer devant l'adresse électronique sur un document (papier à lettres ou carte de visite, par exemple), tout comme Tél. devant le numéro de téléphone.
+Voir aussi : messagerie électronique
+
+*** vérification de la conformité aux règles d'interconnexion
+Fiche : 
+
+Définition : Vérification effectuée par logiciel de la conformité des interconnexions électriques aux règles imposées par la technologie de fabrication.
+Voir aussi : vérification des règles de conception
+
+*** adresse universelle
+Fiche : 
+
+Définition : Dénomination unique à caractère universel qui permet de localiser une ressource ou un document sur l'internet, et qui indique la méthode pour y accéder, le nom du serveur et le chemin à l'intérieur du serveur.
+Voir aussi : signet
+Voir aussi : page d'accueil
+Voir aussi : site
+Voir aussi : domaine
+Voir aussi : système d'adressage par domaines
+Voir aussi : internet
+Voir aussi : identifiant universel de ressource
+Voir aussi : identifiant de ressource internationalisé
+
+*** diffusion systématique sur la toile
+Fiche : 
+
+Définition : Envoi systématique de données ou de documents à des utilisateurs de la toile.
+Voir aussi : distribution sélective
+Voir aussi : toile
+
+*** distribution sélective
+Fiche : 
+
+Définition : Technique utilisée pour faire bénéficier automatiquement un utilisateur de la toile, à sa demande, d'un envoi de données d'un type choisi.
+Voir aussi : diffusion systématique sur la toile
+Voir aussi : recherche individuelle
+Voir aussi : toile
+
+*** domaine
+Fiche : 
+
+Définition : Ensemble d'adresses faisant l'objet d'une gestion commune.
+Voir aussi : adresse universelle
+Voir aussi : système d'adressage par domaines
+Voir aussi : dévoiement
+Voir aussi : domaine de premier niveau
+
+Voir aussi : centre de données
+
+*** foire aux questions
+Fiche : 
+
+Définition : Rubrique présentant par sujets les questions les plus fréquemment posées par les utilisateurs, accompagnées des réponses correspondantes.
+
+*** recherche individuelle
+Fiche : 
+
+Définition : Technique utilisée sur la toile lorsque l'internaute recherche des données par une démarche active au moyen de son logiciel de navigation, qui lui présentera ensuite le résultat de cette recherche.
+Voir aussi : distribution sélective
+
+*** serveur mandataire
+Fiche : 
+
+Définition : Dispositif informatique associé à un serveur et réalisant, pour des applications autorisées, des fonctions de médiation, telles que le stockage des documents les plus fréquemment demandés ou l'établissement de passerelles.
+Voir aussi : passerelle
+Voir aussi : serveur
+
+*** internaute
+Fiche : 
+
+Déconseillé : cybernaute
+Définition : Utilisateur de l'internet.
+Voir aussi : système d'adressage par domaines
+Voir aussi : internet
+
+*** système d'adressage par domaines
+Fiche : 
+
+Définition : Système de bases de données et de serveurs assurant la correspondance entre les noms de domaine ou de site utilisés par les internautes et les adresses numériques utilisables par les ordinateurs.
+Voir aussi : adresse universelle
+Voir aussi : domaine
+Voir aussi : internaute
+Voir aussi : internet
+Voir aussi : domaine de premier niveau
+Voir aussi : office d'enregistrement
+Voir aussi : registraire
+
+*** intranet
+Fiche : 
+
+Définition : Réseau de télécommunication et de téléinformatique destiné à l'usage exclusif d'un organisme et utilisant les mêmes protocoles et techniques que l'internet.
+Voir aussi : extranet
+Voir aussi : internet
+
+*** passerelle
+Fiche : 
+
+Définition : Dispositif destiné à connecter des réseaux de télécommunication ayant des architectures différentes ou des protocoles différents, ou offrant des services différents.
+Voir aussi : serveur mandataire
+
+*** microsoudeuse de puces
+Fiche : 
+
+Définition : Machine de soudage de puces sur substrat.
+Voir aussi : ponteuse
+Voir aussi : substrat
+
+*** extranet
+Fiche : 
+
+Définition : Réseau de télécommunication et de téléinformatique constitué d'un intranet étendu pour permettre la communication avec certains organismes extérieurs, par exemple des clients ou des fournisseurs.
+Voir aussi : intranet
+
+*** internet
+Fiche : 
+
+Déconseillé : IP
+Déconseillé : ISOC
+Déconseillé : Internet Protocol
+Déconseillé : Internet Society
+Définition : Réseau mondial associant des ressources de télécommunication et des ordinateurs serveurs et clients, destiné à l'échange de messages électroniques, d'informations multimédias et de fichiers.
+Voir aussi : adresse universelle
+Voir aussi : internaute
+Voir aussi : système d'adressage par domaines
+Voir aussi : intranet
+Voir aussi : toile
+
+*** accès
+Fiche : 
+
+Définition : Le fait d'engager la consultation d'un document sur un serveur.
+Voir aussi : visite
+
+*** microcontrôleur
+Fiche : 
+
+Définition : Circuit intégré comprenant essentiellement un microprocesseur, ses mémoires, et des éléments personnalisés selon l'application.
+Voir aussi : microprocesseur
+
+*** simulation
+Fiche : 
+
+*** cocuisson
+Fiche : 
+
+Définition : Opération de cuisson permettant de réaliser un substrat comprenant plusieurs couches par fusion d'un liant.
+Voir aussi : cocuit
+
+*** cocuit
+Fiche : 
+
+Définition : Qualifie un produit obtenu par cocuisson.
+Voir aussi : cocuisson
+
+*** cofrittage
+Fiche : 
+
+Définition : Opération de cuisson permettant de réaliser un substrat comprenant plusieurs couches par agglomération des matériaux utilisés.
+Voir aussi : cofritté, -e
+
+*** cofritté, -e
+Fiche : 
+
+Définition : Se dit d'un produit obtenu par cofrittage.
+Voir aussi : cofrittage
+
+*** testabilité
+Fiche : 
+
+*** arrosage
+Fiche : 
+
+Déconseillé : spam
+Déconseillé : spaming
+Définition : Envoi d'un même message électronique à un très grand nombre de destinataires au risque de les importuner.
+Voir aussi : modérateur, -trice
+Voir aussi : bombardement
+Voir aussi : arroseur, -euse
+
+*** bombe programmée
+Fiche : 
+
+Définition : Logiciel malveillant conçu pour causer des dommages à un système informatique et qui est déclenché lorsque certaines conditions sont réunies.
+Voir aussi : logiciel malveillant
+Voir aussi : ver
+
+*** canular
+Fiche : 
+
+Définition : Information fausse transmise par messagerie électronique et incitant les destinataires abusés à effectuer des opérations ou à prendre des initiatives inutiles, voire dommageables.
+Voir aussi : virus
+Voir aussi : ver
+
+*** cheval de Troie
+Fiche : 
+
+Définition : Logiciel apparemment inoffensif, installé ou téléchargé et au sein duquel a été dissimulé un programme malveillant qui peut par exemple permettre la collecte frauduleuse, la falsification ou la destruction de données.
+Voir aussi : logiciel rançonneur
+
+*** fenêtre d'attente
+Fiche : 
+
+Définition : Fenêtre qui s'affiche provisoirement sur un écran pendant l'installation d'un logiciel.
+
+*** logiciel antivirus
+Fiche : 
+
+Définition : Logiciel conçu pour détecter les virus et les vers et, le cas échéant, les éliminer ou suggérer des remèdes.
+Voir aussi : signature de virus
+Voir aussi : virus
+Voir aussi : ver
+
+*** logiciel malveillant
+Fiche : 
+
+Déconseillé : maliciel
+Définition : Ensemble de programmes conçu par un pirate pour être implanté dans un système afin d'y déclencher une opération non autorisée ou d'en perturber le fonctionnement.
+Voir aussi : bombe programmée
+Voir aussi : virus
+Voir aussi : ver
+Voir aussi : logiciel rançonneur
+Voir aussi : logiciel passe-droit
+Voir aussi : cyberespionnage
+
+*** modérateur, -trice
+Fiche : 
+
+Déconseillé : modératrice
+Définition : Personne qui veille au respect de l'objet et du règlement des échanges de messages électroniques effectués dans un cadre organisé.
+Voir aussi : forum
+Voir aussi : arrosage
+Voir aussi : bombardement
+
+*** riper
+Fiche : 
+
+Déconseillé : to rip
+Définition : Extraire directement d'un support enregistré des données numériques en vue de les reporter sur un autre support, sans recourir à la conversion analogique intermédiaire habituellement nécessaire.
+Voir aussi : ver
+
+*** signature de virus
+Fiche : 
+
+Définition : Suite d'éléments binaires commune à chacune des copies d'un virus ou d'un ver particulier, et utilisée par les logiciels antivirus pour détecter leur présence.
+Voir aussi : logiciel antivirus
+Voir aussi : virus
+Voir aussi : ver
+
+*** virus
+Fiche : 
+
+Définition : Logiciel malveillant, généralement de petite taille, qui se transmet par les réseaux ou les supports d'information amovibles, s'implante au sein des programmes en les parasitant, se duplique à l'insu des utilisateurs et produit ses effets dommageables quand le programme infecté est exécuté ou quand survient un évènement donné.
+Voir aussi : canular
+Voir aussi : logiciel antivirus
+Voir aussi : logiciel malveillant
+Voir aussi : signature de virus
+Voir aussi : ver
+
+*** cliquer
+Fiche : 
+
+Déconseillé : bouton-poussoir
+Déconseillé : cliquet
+Déconseillé : to click
+Définition : Enfoncer et relâcher le bouton-poussoir (ou cliquet) d'une souris ou d'un dispositif similaire.
+
+*** balise
+Fiche : 
+
+Définition : Dans un langage de description de documents, marque destinée à l'identification, la description ou la mise en forme d'un élément de document.
+
+*** ver
+Fiche : 
+
+Définition : Logiciel malveillant indépendant qui se transmet d'ordinateur à ordinateur par l'internet ou tout autre réseau et perturbe le fonctionnement des systèmes concernés en s'exécutant à l'insu des utilisateurs.
+Voir aussi : bombe programmée
+Voir aussi : canular
+Voir aussi : logiciel antivirus
+Voir aussi : logiciel malveillant
+Voir aussi : riper
+Voir aussi : signature de virus
+Voir aussi : virus
+Voir aussi : logiciel rançonneur
+
+*** antémémoire
+Fiche : 
+
+Définition : Mémoire très rapide, intercalée entre le processeur et la mémoire principale, que l'ordinateur consulte avant d'interroger la mémoire principale et qui, fournissant les parties de programme et les données les plus utilisées dans le traitement en cours, permet de réduire la durée de celui-ci.
+Voir aussi : cache
+
+*** cache
+Fiche : 
+
+Déconseillé : antémémoire
+Définition : Mémoire ou partie de mémoire dans laquelle sont stockés de façon temporaire les données ou les programmes les plus fréquemment ou les plus récemment utilisés, que l'ordinateur peut interroger afin de réduire les temps de réponse.
+Voir aussi : antémémoire
+Voir aussi : cache-disque
+Voir aussi : cache-toile
+Voir aussi : disque dur hybride
+
+*** cache-disque
+Fiche : 
+
+Définition : Cache, intercalé entre le processeur et le disque, qui évite une lecture sur le disque auquel l'accès serait plus lent.
+Voir aussi : cache
+
+*** cache-toile
+Fiche : 
+
+Déconseillé : mettre en cache
+Définition : Cache qui contient temporairement une copie des documents consultés récemment et qui permet à l'utilisateur d'en disposer sans qu'il soit nécessaire de procéder à une nouvelle recherche sur la toile.
+Voir aussi : cache
+
+*** centre d'assistance
+Fiche : 
+
+Déconseillé : helpdesk
+Définition : Service chargé de répondre aux demandes d'assistance émanant des utilisateurs de produits ou de services.
+Voir aussi : numéro d'urgence
+
+*** entrepôt de données
+Fiche : 
+
+Définition : Ensemble de données collectées dans une entreprise ou un organisme pour être exploitées par des outils d'aide à la décision.
+
+*** fournisseur d'applications en ligne
+Fiche : 
+
+Définition : Prestataire qui offre à plusieurs clients la possibilité d'utiliser la même application informatique à travers un réseau de télécommunication afin d'en répartir le coût.
+
+*** bombardement
+Fiche : 
+
+Définition : Envoi d'une grande quantité de messages à un destinataire unique dans une intention malveillante.
+Voir aussi : incendier
+Voir aussi : message incendiaire
+Voir aussi : arrosage
+Voir aussi : modérateur, -trice
+
+*** gant numérique
+Fiche : 
+
+Définition : Gant muni de capteurs destinés à convertir les mouvements de la main et des doigts en signaux utilisables par un ordinateur pour l'analyse de gestes ou l'action dans un environnement de synthèse.
+Voir aussi : réalité de synthèse
+
+*** gérance de l'informatique
+Fiche : 
+
+Déconseillé : infogérance
+Définition : Prise en charge contractuelle de tout ou partie de la gestion d'un système d'information d'un organisme par un prestataire extérieur.
+Voir aussi : informatique en nuage
+
+*** implémenter
+Fiche : 
+
+Déconseillé : to implement
+Définition : Effectuer l'ensemble des opérations qui permettent de définir un projet et de le réaliser, de l'analyse du besoin à l'installation et la mise en service du système ou du produit.
+Voir aussi : implanter
+
+*** interface
+Fiche : 
+
+Définition : Limite physique ou théorique entre deux systèmes matériels ou logiciels, entre deux parties d'un système ou entre l'utilisateur et sa machine, où s'appliquent les règles et conventions régissant leur interaction ; par extension, l'ensemble de ces règles et conventions.
+Voir aussi : interface avec l'utilisateur
+Voir aussi : expérience de l'utilisateur
+Voir aussi : interface de programmation d'application
+
+*** logiciel de traitement de texte
+Fiche : 
+
+Déconseillé : texteur
+Définition : Logiciel permettant de créer, de modifier et de mettre en forme des documents en vue de les conserver, de les transmettre ou de les imprimer.
+Voir aussi : traitement de texte
+
+*** logiciel éducatif
+Fiche : 
+
+Déconseillé : didacticiel
+Définition : Logiciel d'aide à l'acquisition de connaissances ou de compétences.
+
+*** logiciel gratuit
+Fiche : 
+
+Définition : Logiciel que l'auteur met à la disposition des utilisateurs sans exiger de rémunération, mais en conservant l'intégralité de ses droits.
+
+*** logiciel libre
+Fiche : 
+
+Déconseillé : logiciel open source
+Déconseillé : open source
+Définition : Logiciel distribué avec l'intégralité de ses programmes-sources, afin que l'ensemble des utilisateurs qui l'emploient, puissent l'enrichir et le redistribuer à leur tour.
+
+*** modèle
+Fiche : 
+
+Définition : Descriptif des propriétés communes à certains objets informatiques, qui peut servir de cadre de référence pour la création d'objets de même nature, notamment des documents.
+
+*** réalité de synthèse
+Fiche : 
+
+Déconseillé : réalité virtuelle
+Définition : Environnement créé à l'aide d'un ordinateur et donnant à l'utilisateur la sensation d'être immergé dans un univers artificiel.
+Voir aussi : gant numérique
+
+*** code à octets
+Fiche : 
+
+Définition : Ensemble d'instructions indépendant de tout processeur, destiné à être interprété par un logiciel spécialisé.
+Voir aussi : appliquette
+
+*** recherche en texte intégral
+Fiche : 
+
+Déconseillé : full-text
+Déconseillé : texte intégral
+Définition : Recherche de mots, de phrases ou d'une chaîne de caractères quelconque dans un ensemble de documents, s'appuyant sur une exploration systématique de la totalité de cet ensemble.
+
+*** relationnel, -elle
+Fiche : 
+
+Définition : Se dit d'une base de données construite sur un modèle fondé sur la théorie mathématique des relations.
+
+*** réseautique
+Fiche : 
+
+Définition : Ensemble des activités et des techniques destinées à créer, gérer, exploiter et utiliser des réseaux de télécommunication ou des réseaux d'ordinateurs.
+
+*** script
+Fiche : 
+
+Définition : Programme constitué d'une suite de commandes dispensant l'utilisateur de les saisir, et permettant d'effectuer une fonction particulière ou de contribuer à l'exécution d'un autre programme.
+
+*** serveur
+Fiche : 
+
+Définition : Matériel, logiciel ou système informatique destiné à fournir un service déterminé à d'autres systèmes informatiques ou à des utilisateurs connectés sur un réseau.
+Voir aussi : serveur mandataire
+
+*** surcadencer
+Fiche : 
+
+Déconseillé : to overclock
+Définition : Faire fonctionner un processeur à une cadence supérieure à celle pour laquelle il a été initialement conçu, afin d'en améliorer les performances.
+
+*** tutoriel
+Fiche : 
+
+Définition : Guide d'initiation et d'aide à l'utilisation d'un produit ou d'un service informatique.
+
+*** étiquette
+Fiche : 
+
+*** liste de diffusion
+Fiche : 
+
+*** compresser
+Fiche : 
+
+Déconseillé : zipper
+Définition : Diminuer la taille d'un ou de plusieurs fichiers au moyen d'un algorithme permettant leur restitution à l'identique, en vue de les stocker ou de les transférer.
+
+*** connecteur logiciel
+Fiche : 
+
+Définition : Mécanisme logiciel de communication entre processus informatiques, souvent utilisé entre une application et un réseau.
+
+*** macro-instruction
+Fiche : 
+
+Définition : Instruction écrite dans un langage de programmation, qui peut se substituer à une suite d'instructions dans ce même langage et dispense l'utilisateur de la saisir.
+
+*** prêt à l'emploi
+Fiche : 
+
+Déconseillé : plug & play
+Définition : Se dit d'un équipement électronique utilisable dès sa connexion.
+
+*** transférer
+Fiche : 
+
+Déconseillé : forwarder
+Déconseillé : to forward
+
+*** assistant
+Fiche : 
+
+Définition : Programme d'aide intégré à un logiciel, qui guide l'utilisateur dans l'exécution de certaines tâches.
+
+*** grille informatique
+Fiche : 
+
+Déconseillé : distributed computing
+Déconseillé : grid computing
+Déconseillé : grille de calcul
+Déconseillé : informatique en grille
+Définition : Réseau constitué d'un grand nombre d'ordinateurs interconnectés dont les ressources sont exploitées de façon à disposer, à moindre coût, d'une capacité de traitement importante.
+
+*** lien
+Fiche : 
+
+Définition : Connexion prévue par le concepteur d'une application informatique pour relier des programmes, des parties de programmes, des données, des documents, des sites ou des pages sur la toile.
+
+*** logiciel espion
+Fiche : 
+
+Déconseillé : espiogiciel
+Définition : Logiciel destiné à collecter et à transmettre à des tiers, à l'insu de l'utilisateur, des données le concernant ou des informations relatives au système qu'il utilise.
+Voir aussi : logiciel publicitaire
+Voir aussi : cyberespionnage
+
+*** logiciel publicitaire
+Fiche : 
+
+Définition : Logiciel qui affiche des annonces publicitaires sur l'écran d'un ordinateur et qui transmet à son éditeur des renseignements permettant d'adapter ces annonces au profil de l'utilisateur.
+Voir aussi : logiciel espion
+
+*** publier
+Fiche : 
+
+Déconseillé : to post
+Définition : Introduire un article ou une contribution sur un forum ou dans un groupe de discussion.
+
+*** syndication
+Fiche : 
+
+Définition : Regroupement automatisé de certaines données disponibles dans un ensemble de sites, au fur et à mesure de leur mise à jour.
+Voir aussi : flux de dépêches
+
+*** tatouage numérique
+Fiche : 
+
+Définition : Insertion, dans un document audiovisuel numérique, d'une marque ou d'un message non perceptible, robuste et indélébile ; par extension, la marque ou le message inséré.
+
+*** option d'adhésion (à)
+Fiche : 
+
+Déconseillé : à option d'adhésion
+Définition : Se dit d'un fichier de données personnelles dans lequel un internaute ne peut être inscrit que s'il exprime explicitement son consentement.
+Voir aussi : option de retrait (à)
+
+*** option de retrait (à)
+Fiche : 
+
+Déconseillé : à option de retrait
+Définition : Se dit d'un fichier de données personnelles dans lequel un internaute est inscrit sans son accord et continue de figurer tant qu'il n'a pas exprimé explicitement son refus.
+Voir aussi : option d'adhésion (à)
+
+*** bannière
+Fiche : 
+
+Définition : Zone d'écran plus haute que large, à vocation publicitaire, informative ou décorative, située sur un des côtés de la page d'un site.
+
+*** démon
+Fiche : 
+
+Définition : Programme actif en permanence dans un système multitâche, qui effectue certaines fonctions sans l'intervention de l'utilisateur.
+Voir aussi : démon de messagerie
+
+*** démon de messagerie
+Fiche : 
+
+Définition : Démon qui assure l'acheminement des messages électroniques et avertit l'expéditeur lorsqu'un message n'a pu atteindre son destinataire.
+Voir aussi : démon
+
+*** dévoiement
+Fiche : 
+
+Définition : Technique consistant à détourner subrepticement des communications à destination d'un domaine vers une adresse différente de son adresse légitime.
+Voir aussi : domaine
+Voir aussi : hameçonnage
+
+*** encre en poudre
+Fiche : 
+
+*** moteur de recherche
+Fiche : 
+
+Définition : Système d'exploitation de banque de données, et, par extension, serveur spécialisé permettant d'accéder sur la toile à des ressources (pages, sites, etc.) à partir de mots clés.
+
+*** espace de confiance
+Fiche : 
+
+Définition : Ensemble de ressources, de services informatiques et de services de communication qui permettent des échanges dans des conditions de sécurité suffisantes et cohérentes.
+Voir aussi : cercle de confiance
+
+*** cercle de confiance
+Fiche : 
+
+Définition : Ensemble des fournisseurs et des utilisateurs d'un espace de confiance.
+Voir aussi : espace de confiance
+
+*** directeur des systèmes d'information
+Fiche : 
+
+*** directeur des techniques informatiques
+Fiche : 
+
+*** gestionnaire d'évènement
+Fiche : 
+
+Définition : Programme en mémoire qui s'active lorsqu'un évènement particulier survient au cours de l'exécution d'un autre programme.
+
+*** indexation personnelle
+Fiche : 
+
+Définition : Classification de contenus de l'internet par l'attribution de mots clés librement choisis par un utilisateur.
+Voir aussi : mot clé
+
+*** offre groupée
+Fiche : 
+
+*** pièce jointe
+Fiche : 
+
+Déconseillé : fichier joint
+Définition : Document ou fichier annexé au corps d'un message électronique.
+
+*** parcours sur la toile
+Fiche : 
+
+Déconseillé : click stream
+Définition : Succession des pages visitées et des actions effectuées par un internaute, dont l'analyse permet de dégager les habitudes, les centres d'intérêt, les goûts.
+
+*** service de la toile
+Fiche : 
+
+Déconseillé : service web
+Définition : Composant applicatif utilisant les protocoles de la toile, doté d'une adresse universelle et communiquant avec d'autres composants.
+
+*** actionneur
+Fiche : 
+
+Déconseillé : actuateur
+Définition : Dispositif qui convertit en énergie cinématique divers types d'énergie tels que l'énergie électrique ou l'énergie chimique, afin de produire une action mécanique.
+
+*** microsystème électromécanique
+Fiche : 
+
+Déconseillé : microelectromechanical system
+Définition : Système intégrant sur une puce des dispositifs mécaniques et électroniques, qui remplit une fonction déterminée.
+Voir aussi : micro-usinage
+Voir aussi : micropoutre
+Voir aussi : microsystème optoélectromécanique
+
+*** micro-usinage
+Fiche : 
+
+Déconseillé : micro-machining
+Définition : Ensemble de techniques utilisées dans la fabrication des microsystèmes électromécaniques.
+Voir aussi : microsystème électromécanique
+Voir aussi : micromiroir
+Voir aussi : micro-usinage de surface
+Voir aussi : micro-usinage de volume
+
+*** micropoutre
+Fiche : 
+
+Déconseillé : micro-cantilever
+Définition : Élément d'un microsystème électromécanique, présentant une forme allongée, qui est fixé par une seule de ses extrémités afin de permettre sa déformation par flexion ou par torsion, selon sa fonction.
+Voir aussi : microsystème électromécanique
+
+*** trou de liaison
+Fiche : 
+
+Définition : Trou dont la paroi métallisée permet d'établir une liaison électrique entre deux niveaux d'un circuit intégré, à travers la couche isolante.
+
+*** diode électroluminescente organique
+Fiche : 
+
+Définition : Diode électroluminescente dont la couche émettrice de lumière est composée de semiconducteurs organiques.
+Voir aussi : diode électroluminescente
+
+*** micromiroir
+Fiche : 
+
+Déconseillé : micro-mirror
+Définition : Miroir orientable réalisé par micro-usinage, destiné à réfléchir des signaux lumineux dans des directions déterminées.
+Voir aussi : micro-usinage
+Voir aussi : matrice de micromiroirs
+
+*** téléchargement
+Fiche : 
+
+Définition : Transfert de programmes ou de données d'un ordinateur vers un autre.
+
+*** matrice de micromiroirs
+Fiche : 
+
+Déconseillé : DLP
+Déconseillé : digital light processing
+Définition : Dispositif destiné à la vidéoprojection, composé d'un grand nombre de micromiroirs commandés à partir de données numériques.
+Voir aussi : micromiroir
+
+*** cœur de processeur
+Fiche : 
+
+Définition : Unité de calcul d'un processeur.
+Voir aussi : processeur multicœur
+
+*** processeur multicœur
+Fiche : 
+
+Déconseillé : multi-core processor
+Définition : Circuit intégré comprenant plusieurs cœurs de processeur, qui permet le traitement en parallèle de plusieurs opérations, différentes ou de même type.
+Voir aussi : cœur de processeur
+Voir aussi : processeur bicœur
+Voir aussi : processeur quadricœur
+
+*** processeur bicœur
+Fiche : 
+
+Déconseillé : dualcore processor
+Voir aussi : processeur multicœur
+
+*** processeur quadricœur
+Fiche : 
+
+Déconseillé : quadcore processor
+Voir aussi : processeur multicœur
+
+*** boîtier à puce
+Fiche : 
+
+Déconseillé : boîtier-puce
+Définition : Boîtier destiné à l'encapsulation d'une seule puce de circuit intégré et qui présente une surface à peine supérieure à celle de la puce.
+Voir aussi : mise en boîtier
+Voir aussi : encapsulation sur tranche
+
+*** boîtier matriciel
+Fiche : 
+
+Définition : Boîtier dont les sorties sont disposées sur le fond, selon une structure en grille.
+Voir aussi : boîtier matriciel à billes
+Voir aussi : boîtier matriciel à broches
+
+*** boîtier matriciel à billes
+Fiche : 
+
+Définition : Boîtier matriciel dont les sorties sont des billes de soudure.
+Voir aussi : boîtier matriciel
+
+*** boîtier matriciel à broches
+Fiche : 
+
+Déconseillé : boîtier PGA
+Définition : Boîtier matriciel dont les sorties sont des broches.
+Voir aussi : boîtier matriciel
+
+*** module multipuce
+Fiche : 
+
+Déconseillé : multichip module
+Définition : Assemblage, sur un même substrat, de plusieurs puces et éventuellement de composants discrets.
+Voir aussi : substrat
+
+*** visite
+Fiche : 
+
+Définition : Succession d'accès à des documents liés entre eux à l'intérieur d'un site.
+Voir aussi : accès
+
+*** encapsulation sur tranche
+Fiche : 
+
+Définition : Technique de fabrication conjointe d'un boîtier à puce et de sa puce, qui consiste à réaliser toutes les opérations au niveau des tranches de silicium, avant le découpage en composants individuels.
+Voir aussi : mise en boîtier
+Voir aussi : boîtier à puce
+
+*** lister
+Fiche : 
+
+Déconseillé : to list
+Définition : Présenter sous forme de liste des données ou des instructions.
+Voir aussi : listage
+Voir aussi : lister
+
+*** listage
+Fiche : 
+
+Déconseillé : liste
+Définition : Document produit en continu par une imprimante d'ordinateur.
+Voir aussi : listage
+Voir aussi : lister
+
+*** affichage à émission d'électrons par conduction de surface
+Fiche : 
+
+Définition : Dispositif d'affichage constitué d'émetteurs d'électrons à deux électrodes qui, placés chacun devant un pixel luminescent, projettent sous l'action d'un champ électrique les électrons depuis la surface formée par les deux électrodes jusqu'à la couche luminescente.
+
+*** écran à double affichage
+Fiche : 
+
+Déconseillé : Split view
+Définition : Dispositif d'affichage, généralement à cristaux liquides, permettant de voir deux images différentes selon l'angle sous lequel on le regarde.
+
+*** silicium étiré
+Fiche : 
+
+Déconseillé : silicium contraint
+Définition : Silicium déposé en couche mince sur un matériau de façon à aligner les atomes de silicium sur ceux, plus espacés, du substrat.
+
+*** silicium sur isolant
+Fiche : 
+
+Définition : Structure constituée d'une couche de silicium recouvrant une couche d'isolant, dans laquelle sont réalisés les circuits intégrés.
+
+*** boîtier-système
+Fiche : 
+
+Déconseillé : système en boîtier
+Définition : Boîtier qui contient les puces nécessaires à la mise en œuvre des fonctions d'un système.
+Voir aussi : boîtier
+Voir aussi : puce-système
+
+*** circuit intégré développé pour un client
+Fiche : 
+
+Déconseillé : circuit intégré spécifique
+Déconseillé : circuit intégré spécifique à un client
+Définition : Circuit intégré conçu et réalisé pour exécuter des fonctions contenues dans un cahier des charges défini par un client pour une application donnée.
+Voir aussi : composant spécifique standard
+
+*** accès direct
+Fiche : 
+
+Définition : Mode d'écriture ou de lecture de données se faisant au moyen d'adresses qui repèrent l'emplacement de ces données.
+
+*** composant spécifique standard
+Fiche : 
+
+Définition : Composant électronique destiné à une application donnée et figurant au catalogue d'un fournisseur.
+Voir aussi : circuit intégré développé pour un client
+
+*** puce-système
+Fiche : 
+
+Déconseillé : système sur puce
+Définition : Circuit intégré sur une puce qui contient l'ensemble des composants nécessaires à la mise en œuvre des fonctions d'un système.
+Voir aussi : puce
+Voir aussi : boîtier-système
+
+*** multitâche
+Fiche : 
+
+Déconseillé : multitasking
+Définition : Se dit du mode de fonctionnement d'un ordinateur dont le système d'exploitation permet d'exécuter plusieurs programmes simultanément.
+Voir aussi : multitraitement
+
+*** fil d'exécution
+Fiche : 
+
+Définition : Composante élémentaire et indépendante d'un processus, qui intervient dans un programme.
+Voir aussi : multifil
+Voir aussi : multifil simultané
+
+*** multifil
+Fiche : 
+
+Définition : Se dit du mode de fonctionnement d'un programme qui se décompose en plusieurs fils capables d'être exécutés quasi simultanément ; ce mode de fonctionnement lui-même.
+Voir aussi : fil d'exécution
+
+*** multifil simultané
+Fiche : 
+
+Déconseillé : HTT
+Déconseillé : hyperthreading technology
+Définition : Se dit du mode de fonctionnement d'un processeur permettant l'exécution simultanée de plusieurs fils pouvant provenir de programmes différents, grâce à un logiciel adapté et à la duplication de certaines parties du matériel ; ce mode de fonctionnement lui-même.
+Voir aussi : fil d'exécution
+
+*** contrôleur de mémoire
+Fiche : 
+
+Définition : Circuit d'un ordinateur qui organise et régule les échanges entre le processeur et les mémoires vives.
+Voir aussi : contrôleur d'entrée et de sortie
+
+*** contrôleur d'entrée et de sortie
+Fiche : 
+
+Définition : Circuit d'un ordinateur qui organise et régule les échanges entre le processeur et les périphériques d'entrée et de sortie.
+Voir aussi : contrôleur de mémoire
+
+*** mémoire volatile
+Fiche : 
+
+Définition : Mémoire qui, lors d'une coupure d'alimentation électrique, perd les informations qui y sont stockées.
+Voir aussi : mémoire vive statique
+
+*** mémoire vive magnétique
+Fiche : 
+
+Définition : Mémoire vive non volatile dans laquelle les états binaires correspondent à deux valeurs de conductance électrique établies par l'action d'un champ magnétique.
+Voir aussi : mémoire vive
+Voir aussi : mémoire vive résistive
+
+*** connectabilité
+Fiche : 
+
+Définition : Aptitude d'un équipement à fonctionner dans un réseau donné du fait de ses caractéristiques matérielles et logicielles.
+
+*** accès séquentiel
+Fiche : 
+
+Définition : Mode d'écriture ou de lecture de données, effectuées en suivant un ordre préétabli de rangement.
+
+*** micro-usinage de surface
+Fiche : 
+
+Déconseillé : surface micro-machining
+Voir aussi : micro-usinage
+
+*** micro-usinage de volume
+Fiche : 
+
+Déconseillé : bulk micro-machining
+Voir aussi : micro-usinage
+
+*** conducteur-poutre
+Fiche : 
+
+Définition : Patte rigide dépassant d'une puce, fabriquée en même temps que celle-ci et servant à sa fixation mécanique et à sa connexion électrique.
+
+*** mappe
+Fiche : 
+
+Définition : Représentation de la localisation d'ensembles de données dans une mémoire d'ordinateur, en vue d'en faciliter l'accès et la visualisation.
+
+*** accréditation
+Fiche : 
+
+Définition : Procédure permettant d'attribuer à une personne ou à une entité des droits d'accès à des ressources ou à des services électroniques ; par extension, ensemble des informations caractérisant ces droits.
+
+*** investigation informatique
+Fiche : 
+
+Déconseillé : découverte
+Définition : Processus par lequel des informations ou documents électroniques sont recherchés, identifiés et rassemblés pour la production d'éléments de preuve.
+
+*** réseau de stockage
+Fiche : 
+
+Définition : Ensemble de mémoires reliées par des interconnexions à très haut débit, accessible depuis plusieurs ordinateurs.
+Voir aussi : unité de stockage en réseau
+
+*** rétrolien
+Fiche : 
+
+Déconseillé : track back
+Déconseillé : track back link
+Définition : Système de liaison hypertextuelle fonctionnant de manière que, si l'auteur d'un blogue relie son texte à un article connexe d'un autre blogue, un lien est automatiquement créé depuis cet article vers le texte d'origine.
+Voir aussi : hypertexte
+Voir aussi : blogue
+
+*** unité de stockage en réseau
+Fiche : 
+
+Définition : Mémoire de masse autonome accessible par l'intermédiaire d'un réseau local.
+Voir aussi : réseau de stockage
+
+*** algorithmique
+Fiche : 
+
+Définition : Étude de la résolution de problèmes par la mise en œuvre de suites d'opérations élémentaires selon un processus défini aboutissant à une solution.
+Voir aussi : algorithme
+
+*** cédérom autonome
+Fiche : 
+
+Définition : Cédérom comportant un système d'exploitation qui fonctionne sans installation préalable.
+Voir aussi : cédérom
+
+*** charge utile
+Fiche : 
+
+Définition : Partie d'un élément transmis, tel qu'un message électronique, un flux de données ou un programme d'installation, qui correspond au contenu à transmettre et non aux données d'acheminement.
+
+*** appariement de formes
+Fiche : 
+
+Définition : Mise en correspondance de formes selon un ensemble prédéfini de règles ou de critères.
+
+*** flux de dépêches
+Fiche : 
+
+Déconseillé : fil de syndication
+Déconseillé : flux rss
+Définition : Suite de données générées automatiquement par un site de la toile pour permettre l'accès aux nouveautés de ce site.
+Voir aussi : syndication
+
+*** impression en ligne
+Fiche : 
+
+Déconseillé : web 2 print
+Définition : Service en ligne qui permet de faire réaliser tout type d'impression et de façonnage.
+
+*** infrastructure à la demande
+Fiche : 
+
+Déconseillé : infrastructure sous forme de service
+Définition : Prestation de service qui propose à un client l'utilisation à distance d'une infrastructure comprenant du matériel et des logiciels, et dont le coût correspond à leur usage effectif.
+Voir aussi : informatique en nuage
+Voir aussi : matériel à la demande
+Voir aussi : logiciel à la demande
+
+*** matériel à la demande
+Fiche : 
+
+Déconseillé : matériel sous forme de service
+Définition : Prestation de service proposant à un client l'utilisation à distance d'un matériel et dont le coût correspond à son usage effectif.
+Voir aussi : informatique en nuage
+Voir aussi : infrastructure à la demande
+Voir aussi : logiciel à la demande
+
+*** ardoise électronique
+Fiche : 
+
+Définition : Ordinateur portatif sans clavier dans lequel on fait entrer les données par saisie directe sur l'écran.
+
+*** fureteur, -euse
+Fiche : 
+
+Déconseillé : INFO9
+Déconseillé : badaud
+Déconseillé : badaude
+Déconseillé : lurkeur
+Définition : Personne qui, dans un espace d’échanges de l’internet tel qu’un forum ou un blogue, suit les discussions ou consulte les articles sans apporter de contribution.
+Voir aussi : forum
+Voir aussi : blogue
+
+*** usurpation d'adresse électronique
+Fiche : 
+
+Déconseillé : email spoofing
+Définition : Pratique consistant à utiliser frauduleusement une adresse de courrier électronique appartenant à une autre personne.
+
+*** exploration de modèle
+Fiche : 
+
+Définition : Méthode de vérification algorithmique, qui permet de déterminer avec efficacité si un système représenté par un modèle satisfait à un ensemble de spécifications formelles et qui, si une des spécifications n'est pas vérifiée, fournit des contre-exemples servant à identifier la source des erreurs.
+Voir aussi : explorateur de modèle
+
+*** arrière-plan (d')
+Fiche : 
+
+Déconseillé : d'arrière-plan
+Définition : Qualifie un traitement informatique non prioritaire qui est exécuté lorsque les ressources ne sont pas affectées à un programme en temps réel ou à des programmes prioritaires.
+
+*** explorateur de modèle
+Fiche : 
+
+Définition : Dispositif permettant l'exploration d'un modèle.
+Voir aussi : exploration de modèle
+
+*** rétro-ingénierie
+Fiche : 
+
+Déconseillé : rétroingénierie
+Définition : Ensemble des opérations d'analyse d'un logiciel ou d'un matériel destinées à retrouver le processus de sa conception et de sa fabrication, ainsi que les modalités de son fonctionnement.
+
+*** guichet
+Fiche : 
+
+Déconseillé : INFO9
+Définition : Interface permettant d'accéder aux services en ligne proposés par une entreprise ou une organisation.
+Voir aussi : arrière-guichet
+
+*** logiciel à la demande
+Fiche : 
+
+Déconseillé : logiciel sous forme de service
+Définition : Prestation de service proposant à un client l'utilisation à distance d'un logiciel et dont le coût correspond à son usage effectif.
+Voir aussi : informatique en nuage
+Voir aussi : infrastructure à la demande
+Voir aussi : matériel à la demande
+
+*** arrière-guichet
+Fiche : 
+
+Définition : Support informatique et logistique d'un ou de plusieurs guichets.
+Voir aussi : guichet
+
+*** collecteur
+Fiche : 
+
+Définition : Programme qui parcourt la toile pour en extraire des éléments de repérage de contenus, destinés à être utilisés par un moteur de recherche.
+
+*** enregistreur de frappe
+Fiche : 
+
+Définition : Dispositif conçu pour enregistrer la succession des frappes effectuées par un utilisateur sur un clavier.
+
+*** autonome
+Fiche : 
+
+Définition : Se dit d'un matériel lorsqu'il fonctionne indépendamment de tout autre.
+Voir aussi : ligne (en)
+
+*** brouillage
+Fiche : 
+
+Définition : Transformation du code source d'un programme destinée à le rendre incompréhensible.
+
+*** mémoire non volatile
+Fiche : 
+
+Voir aussi : disque statique à semiconducteurs
+Voir aussi : mémoire flash
+Voir aussi : mémoire vive résistive
+Voir aussi : résistance-mémoire
+
+*** test captcha
+Fiche : 
+
+Définition : Test invitant l'utilisateur d'un site ou d'une application informatique à saisir correctement une suite de caractères présentés à l'écran d'une manière déformée, qui permet de s'assurer que la demande d'accès émane bien d'une personne et non d'un automate.
+
+*** circuit tampon
+Fiche : 
+
+Définition : Circuit intermédiaire réalisant une adaptation d'impédance.
+
+*** bloc de propriété intellectuelle
+Fiche : 
+
+Définition : Ensemble électronique dont l’utilisation pour la conception de circuits intégrés est protégée par les règles de la propriété intellectuelle.
+Voir aussi : topologie
+
+*** microsystème optoélectromécanique
+Fiche : 
+
+Déconseillé : microsystème opto-électromécanique
+Définition : Système intégrant sur une puce des dispositifs mécaniques, électroniques et optiques, et qui remplit une fonction déterminée.
+Voir aussi : microsystème électromécanique
+
+*** répartition de l'usure
+Fiche : 
+
+Définition : Technique qui consiste à répartir les opérations d’écriture sur tout l’espace de stockage d’une mémoire flash afin de solliciter moins souvent les mêmes cellules et d’augmenter la durée de vie de cette mémoire.
+Voir aussi : mémoire flash
+
+*** cellule binaire
+Fiche : 
+
+Définition : Cellule de mémoire qui ne peut contenir qu’un seul élément binaire.
+Voir aussi : cellule de mémoire
+Voir aussi : mémoire à cellules multiniveaux
+Voir aussi : élément binaire
+
+*** cellule de mémoire
+Fiche : 
+
+Définition : Le plus petit emplacement d’une mémoire numérique dans lequel un élément de données peut être introduit, conservé ou duquel il peut être extrait.
+Voir aussi : cellule binaire
+Voir aussi : cellule multiniveau
+Voir aussi : mémoire flash
+Voir aussi : élément binaire
+
+*** banque de données
+Fiche : 
+
+Définition : Ensemble de données relatif à un domaine défini de connaissances et organisé pour être offert aux consultations d'utilisateurs.
+
+*** cellule multiniveau
+Fiche : 
+
+Définition : Cellule de mémoire qui peut contenir plusieurs éléments binaires.
+Voir aussi : cellule de mémoire
+Voir aussi : mémoire à cellules multiniveaux
+Voir aussi : élément binaire
+
+*** dispositif à couplage de charge
+Fiche : 
+
+Définition : Dispositif à transfert de charges qui est constitué d’un ensemble de cellules élémentaires, associant chacune un élément générateur d’une charge électrique à un élément d’accumulation de cette dernière, et qui transfère ces charges de proche en proche dans une couche semiconductrice, à partir de variations cycliques de potentiel électrique.
+Voir aussi : dispositif à transfert de charges
+
+*** dispositif à transfert de charges
+Fiche : 
+
+Définition : Dispositif électronique à semiconducteurs dont le fonctionnement repose sur le déplacement de paquets de charges électriques.
+Voir aussi : dispositif à couplage de charge
+Voir aussi : dispositif en chapelet
+
+*** dispositif en chapelet
+Fiche : 
+
+Définition : Dispositif à transfert de charges où le déplacement des paquets de charges électriques s’effectue par l’intermédiaire de dispositifs de commutation insérés entre les éléments d’accumulation des charges.
+Voir aussi : dispositif à transfert de charges
+
+*** disque dur hybride
+Fiche : 
+
+Définition : Dispositif de stockage combinant un disque dur et des mémoires flash qui, utilisées en cache, permettent un accès rapide à ce disque dur.
+Voir aussi : cache
+Voir aussi : mémoire flash
+
+*** disque statique à semiconducteurs
+Fiche : 
+
+Déconseillé : disque dur électronique
+Déconseillé : disque électronique
+Définition : Composant de stockage de données qui est constitué de mémoires non volatiles à semiconducteurs, généralement des mémoires flash, et d’une électronique de commande, et qui remplit la même fonction qu’un disque dur.
+Voir aussi : mémoire non volatile
+Voir aussi : mémoire flash
+
+*** mémoire à cellules multiniveaux
+Fiche : 
+
+Déconseillé : MLC memory
+Définition : Mémoire dont les cellules peuvent contenir plusieurs éléments binaires.
+Voir aussi : cellule binaire
+Voir aussi : cellule multiniveau
+
+*** mémoire flash
+Fiche : 
+
+Déconseillé : mémoire à écriture flash
+Définition : Mémoire non volatile à semiconducteurs dont le contenu est modifiable par blocs de cellules de mémoire, ce qui augmente la vitesse d’écriture.
+Voir aussi : mémoire morte
+Voir aussi : mémoire vive
+Voir aussi : mémoire non volatile
+Voir aussi : répartition de l'usure
+Voir aussi : cellule de mémoire
+Voir aussi : disque dur hybride
+Voir aussi : disque statique à semiconducteurs
+
+*** mémoire vive statique
+Fiche : 
+
+Définition : Mémoire vive volatile à semiconducteurs qui ne nécessite pas de circuit de régénération de son contenu.
+Voir aussi : mémoire vive dynamique
+Voir aussi : mémoire volatile
+
+*** mémoire vive résistive
+Fiche : 
+
+Définition : Mémoire vive non volatile dans laquelle les états binaires correspondent à deux valeurs de conductance électrique établies par une tension électrique ou un courant.
+Voir aussi : mémoire vive magnétique
+Voir aussi : mémoire non volatile
+
+*** base de connaissances
+Fiche : 
+
+Définition : Partie d'un système expert contenant l'ensemble des informations, en particulier des règles et des faits, qui constituent le domaine de compétence du système.
+
+*** blogue
+Fiche : 
+
+Déconseillé : bloc-notes
+Définition : Site, souvent personnel, présentant, du plus récent au plus ancien, de courts articles ouverts aux commentaires des internautes.
+Voir aussi : site
+Voir aussi : rétrolien
+Voir aussi : fureteur, -euse
+Voir aussi : microblogue
+Voir aussi : microblogage
+
+*** microblogue
+Fiche : 
+
+Déconseillé : INFO9
+Définition : Blogue constitué de minimessages diffusés en temps réel, qui contiennent souvent des mots-dièse et dont l’enchaînement forme des fils de discussion.
+Voir aussi : mot-dièse
+Voir aussi : fil de la discussion
+Voir aussi : blogue
+Voir aussi : microblogage
+
+*** carrousel
+Fiche : 
+
+Déconseillé : cover flow
+Définition : Menu graphique, généralement tridimensionnel, qui fait défiler de manière cyclique sur un écran un ensemble d’images donnant chacune accès à un contenu.
+
+*** cyberconférence
+Fiche : 
+
+Déconseillé : conférence web
+Définition : Téléconférence utilisant l’internet ou des réseaux informatiques privés et pouvant combiner le son, l’image et le texte.
+
+*** encre électronique
+Fiche : 
+
+Définition : Matériau composé de microcapsules contenant des particules dont le déplacement, sous l’effet d'un champ électrique, permet d'afficher des textes ou des images.
+Voir aussi : liseuse
+Voir aussi : papier électronique
+
+*** papier électronique
+Fiche : 
+
+Déconseillé : INFO9
+Définition : Support souple fonctionnant avec une source d’énergie et un microprocesseur, sur lequel peuvent s’afficher des textes ou des images au moyen d'encre électronique.
+Voir aussi : encre électronique
+
+*** environnement de développement
+Fiche : 
+
+Définition : Infrastructure logicielle qui permet la création de programmes.
+
+*** bibliothèque de cellules
+Fiche : 
+
+Définition : Collection de fonctions électroniques prédéfinies, sous forme de base de données informatisées, contenant des données relatives à la représentation graphique, aux résultats de simulation et à la topologie d'un circuit.
+Voir aussi : circuit intégré précaractérisé
+
+*** aide au dépannage
+Fiche : 
+
+Définition : Protocole d'assistance proposé à l'utilisateur d’un logiciel ou d'un matériel pour lui permettre de résoudre une difficulté d'emploi ou de faire face à une défaillance technique.
+
+*** bogue
+Fiche : 
+
+Définition : Défaut de conception ou de réalisation se manifestant par des anomalies de fonctionnement.
+Voir aussi : débogage
+Voir aussi : déboguer
+Voir aussi : débogueur
+
+*** microblogage
+Fiche : 
+
+Déconseillé : micro-blogging
+Définition : Publication de minimessages sur un microblogue.
+Voir aussi : blogue
+Voir aussi : microblogue
+
+*** connexion
+Fiche : 
+
+Déconseillé : login
+Définition : Procédure permettant à un utilisateur de se mettre en relation avec un système informatique et, si nécessaire, de se faire reconnaître de celui-ci.
+
+*** boule de commande
+Fiche : 
+
+Définition : Boule qui, par rotation dans son logement, permet de déplacer un curseur sur un écran et d'en relever à volonté les coordonnées.
+Voir aussi : souris
+
+*** imagette
+Fiche : 
+
+Déconseillé : INFO9
+Définition : Image dont la taille a été réduite par rapport à l'original pour limiter l'encombrement de l'espace d’affichage.
+
+*** pair à pair
+Fiche : 
+
+Définition : Se dit du mode d’utilisation d’un réseau dans lequel chacun des participants connectés dispose des mêmes droits et qui permet un échange direct de services sans recourir à un serveur central ; par extension, se dit d’un tel réseau.
+Voir aussi : cybermonnaie
+Voir aussi : internet clandestin
+
+*** bureautique
+Fiche : 
+
+Définition : Ensemble des techniques et des moyens tendant à automatiser les activités de bureau et principalement le traitement et la communication de la parole, de l'écrit et de l'image.
+
+*** chaîne de blocs
+Fiche : 
+
+Définition : Mode d’enregistrement de données produites en continu, sous forme de blocs liés les uns aux autres dans l’ordre chronologique de leur validation, chacun des blocs et leur séquence étant protégés contre toute modification.
+Voir aussi : dispositif d'enregistrement électronique partagé
+Voir aussi : offre au public de cyberjetons
+Voir aussi : cybermonnaie
+Voir aussi : bloc
+Voir aussi : preuve de travail
+Voir aussi : validation de bloc
+
+Voir aussi : cybermonnaie
+Voir aussi : validation de bloc
+
+*** preuve de travail
+Fiche : 
+
+Définition : Résultat d’une tâche fortement consommatrice de ressources de calcul, dont l’exactitude est facilement vérifiable par tout participant et atteste que cette tâche a bien été effectuée en consommant les ressources nécessaires.
+Voir aussi : chaîne de blocs
+Voir aussi : validation de bloc
+
+*** internet clandestin
+Fiche : 
+
+Définition : Ensemble de réseaux conçus pour assurer l’anonymat des utilisateurs par la mise en œuvre d’une architecture décentralisée ainsi que de logiciels et d’autorisations d’accès spécifiques ; par extension, l’ensemble des activités, souvent illicites, qui y sont pratiquées.
+Voir aussi : pair à pair
+Voir aussi : toile profonde
+Voir aussi : réseau privé virtuel
+
+*** directeur, -trice des données
+Fiche : 
+
+Définition : Personne chargée, au sein d’une organisation, de définir la politique de gestion des données, de déterminer celles qui sont utiles à la prise de décision et de s’assurer de la qualité et de la cohérence de ces dernières.
+Voir aussi : donnée
+
+*** interface avec l'utilisateur
+Fiche : 
+
+Déconseillé : interfaces homme-machine
+Déconseillé : interfaces utilisateur
+Définition : Interface informatique qui régit les interactions entre une machine et son utilisateur.
+Voir aussi : interface
+Voir aussi : conception d'interfaces adaptatives
+Voir aussi : synthèse vocale de texte
+Voir aussi : expérience de l'utilisateur
+
+*** graphe de connaissances
+Fiche : 
+
+Définition : Représentation graphique des relations sémantiques entre des sujets tels que des notions, personnes, organismes ou lieux, qui permet d’exposer de manière synthétique un ensemble de connaissances.
+Voir aussi : cartouche
+Voir aussi : données liées
+Voir aussi : toile sémantique
+Voir aussi : ontologie informatique
+
+*** système d'engagement
+Fiche : 
+
+Définition : Ensemble des services mis en ligne par une organisation pour renforcer ses liens avec ses clients, ses partenaires extérieurs et ses employés ou pour créer des relations entre eux, dans le cadre d’une stratégie commerciale ou managériale, ou encore d’une stratégie de communication.
+
+*** toile profonde
+Fiche : 
+
+Déconseillé : dark web
+Déconseillé : web caché
+Déconseillé : web invisible
+Déconseillé : web profond
+Définition : Partie de la toile qui n’est pas accessible aux internautes au moyen des moteurs de recherche usuels.
+Voir aussi : internet clandestin
+Voir aussi : toile
+
+*** cartouche
+Fiche : 
+
+Déconseillé : encadré
+Déconseillé : infoboîte
+Définition : Fenêtre présentant de façon synthétique et structurée des informations textuelles ou graphiques sur un sujet, qui apparaît notamment en marge de la page des résultats d’une recherche sur la toile.
+Voir aussi : graphe de connaissances
+
+*** conception d'interfaces adaptatives
+Fiche : 
+
+Déconseillé : adaptive web design
+Déconseillé : conception de sites adaptatifs
+Déconseillé : conception de sites web adaptatifs
+Définition : Élaboration et mise en œuvre de méthodes et de techniques qui permettent d’adapter automatiquement les interfaces avec l’utilisateur à différents types de terminaux, fixes ou mobiles.
+Voir aussi : interface avec l'utilisateur
+
+*** cadre
+Fiche : 
+
+Définition : Structure de données permettant de décrire les connaissances relatives à une entité, sous forme d'un ensemble d'attributs et de procédures liées à ces attributs.
+
+*** expert, -e en mégadonnées
+Fiche : 
+
+Définition : Spécialiste de l’extraction et de l’exploitation d’informations pertinentes à partir de mégadonnées, qu’il organise, traite et interprète à l’aide d’outils statistiques, mathématiques et informatiques.
+Voir aussi : mégadonnées
+Voir aussi : exploration de données
+Voir aussi : science des données
+
+*** portail de messagerie
+Fiche : 
+
+Définition : Service en ligne qui, au moyen d’un logiciel de navigation, permet le traitement des courriels et donne accès aux fonctions habituelles d’un logiciel de messagerie.
+Voir aussi : logiciel de navigation
+Voir aussi : portail
+Voir aussi : messagerie électronique
+
+*** provisionnement
+Fiche : 
+
+Définition : Dispositif qui permet d’allouer automatiquement des ressources informatiques ou de télécommunication afin de répondre à une variation d’activité d’un utilisateur.
+Voir aussi : informatique en nuage
+
+Voir aussi : cybermonnaie
+
+*** validation de bloc
+Fiche : 
+
+Définition : Opération informatique utilisée pour rendre un bloc infalsifiable et le valider dans une chaîne de blocs.
+Voir aussi : cybermonnaie
+Voir aussi : hachage
+Voir aussi : chaîne de blocs
+Voir aussi : preuve de travail
+
+*** logiciel rançonneur
+Fiche : 
+
+Déconseillé : logiciel de rançon
+Déconseillé : ransom software
+Déconseillé : rançongiciel
+Définition : Logiciel malveillant qui empêche l’accès aux données stockées sur un ordinateur et propose leur récupération contre le paiement d’une rançon.
+Voir aussi : cyberattaque
+Voir aussi : cheval de Troie
+Voir aussi : logiciel malveillant
+Voir aussi : ver
+
+*** référencement abusif
+Fiche : 
+
+Déconseillé : spam indexing
+Déconseillé : spamindexing
+Définition : Ensemble de techniques qui leurrent les robots d’indexation des moteurs de recherche pour assurer à un site de la toile une meilleure position dans les résultats proposés par ces moteurs.
+Voir aussi : hypertextuel
+Voir aussi : mot clé
+Voir aussi : masquage
+
+*** masquage
+Fiche : 
+
+Déconseillé : dissmulation
+Définition : Référencement abusif qui consiste à proposer deux versions différentes d’une même page de la toile, l’une visible par les internautes, l’autre destinée uniquement aux robots d’indexation des moteurs de recherche.
+Voir aussi : référencement abusif
+
+*** toile
+Fiche : 
+
+Définition : Système de publication, de gestion et de consultation de documents et d’autres ressources, qui est réparti géographiquement et structurellement dans l’internet et fait appel aux techniques de l’hypertexte.
+Voir aussi : administrateur, -trice de site, de serveur
+Voir aussi : hypertexte
+Voir aussi : témoin de connexion
+Voir aussi : appliquette
+Voir aussi : page d'accueil
+Voir aussi : diffusion systématique sur la toile
+Voir aussi : distribution sélective
+Voir aussi : internet
+Voir aussi : toile profonde
+Voir aussi : toile sémantique
+
+*** apprentissage automatique
+Fiche : 
+
+Déconseillé : apprentissage artificiel
+Définition : Processus par lequel un algorithme évalue et améliore ses performances sans l’intervention d’un programmeur, en répétant son exécution sur des jeux de données jusqu’à obtenir, de manière régulière, des résultats pertinents.
+Voir aussi : apprentissage supervisé
+Voir aussi : apprentissage non supervisé
+Voir aussi : apprentissage par renforcement
+Voir aussi : réseau de neurones artificiels
+Voir aussi : apprentissage profond
+Voir aussi : dialogueur
+Voir aussi : intelligence artificielle
+Voir aussi : bloqueur de publicités
+
+*** calculette
+Fiche : 
+
+Définition : Calculatrice électronique de petite dimension.
+
+*** apprentissage supervisé
+Fiche : 
+
+Définition : Apprentissage automatique dans lequel l’algorithme s’entraîne à une tâche déterminée en utilisant un jeu de données assorties chacune d’une annotation indiquant le résultat attendu.
+Voir aussi : apprentissage automatique
+Voir aussi : apprentissage non supervisé
+Voir aussi : réseau de neurones artificiels
+Voir aussi : intelligence artificielle
+
+*** apprentissage non supervisé
+Fiche : 
+
+Définition : Apprentissage automatique dans lequel l’algorithme utilise un jeu de données brutes et obtient un résultat en se fondant sur la détection de similarités entre certaines de ces données.
+Voir aussi : apprentissage automatique
+Voir aussi : apprentissage supervisé
+Voir aussi : intelligence artificielle
+
+*** apprentissage par renforcement
+Fiche : 
+
+Définition : Apprentissage automatique dans lequel un programme extérieur évalue positivement ou négativement les résultats successifs de l’algorithme, l’accumulation des résultats permettant à l’algorithme d’améliorer ses performances jusqu’à ce qu’il atteigne un objectif préalablement fixé.
+Voir aussi : apprentissage automatique
+Voir aussi : intelligence artificielle
+
+*** réseau de neurones artificiels
+Fiche : 
+
+Déconseillé : réseau neuronal
+Définition : Ensemble de neurones artificiels interconnectés qui constitue une architecture de calcul.
+Voir aussi : apprentissage automatique
+Voir aussi : apprentissage supervisé
+Voir aussi : neurone artificiel
+Voir aussi : apprentissage profond
+Voir aussi : intelligence artificielle
+Voir aussi : neuromorphique
+Voir aussi : neurotransistor
+
+*** neurone artificiel
+Fiche : 
+
+Définition : Dispositif à plusieurs entrées et une sortie, qui simule certaines propriétés du neurone biologique.
+Voir aussi : réseau de neurones artificiels
+Voir aussi : neuromorphique
+
+*** apprentissage profond
+Fiche : 
+
+Déconseillé : apprentissage en profondeur
+Définition : Apprentissage automatique qui utilise un réseau de neurones artificiels composé d’un grand nombre de couches dont chacune correspond à un niveau croissant de complexité dans le traitement et l’interprétation des données.
+Voir aussi : infox vidéo
+Voir aussi : apprentissage automatique
+Voir aussi : réseau de neurones artificiels
+Voir aussi : intelligence artificielle
+
+*** dialogueur
+Fiche : 
+
+Déconseillé : agent conversationnel
+Déconseillé : chat bot
+Définition : Logiciel spécialisé dans le dialogue en langage naturel avec un humain, qui est capable notamment de répondre à des questions ou de déclencher l’exécution de tâches.
+Voir aussi : agent
+Voir aussi : apprentissage automatique
+Voir aussi : intelligence artificielle
+
+*** intelligence artificielle
+Fiche : 
+
+Définition : Champ interdisciplinaire théorique et pratique qui a pour objet la compréhension de mécanismes de la cognition et de la réflexion, et leur imitation par un dispositif matériel et logiciel, à des fins d’assistance ou de substitution à des activités humaines.
+Voir aussi : agent
+Voir aussi : apprentissage automatique
+Voir aussi : apprentissage supervisé
+Voir aussi : apprentissage non supervisé
+Voir aussi : apprentissage par renforcement
+Voir aussi : réseau de neurones artificiels
+Voir aussi : apprentissage profond
+Voir aussi : dialogueur
+Voir aussi : intelligence artificielle embarquée
+
+*** bloqueur de publicités
+Fiche : 
+
+Déconseillé : advertisement blocker
+Déconseillé : advertising blocker
+Définition : Module d’extension d’un navigateur dont la tâche est de repérer les messages publicitaires et d’en empêcher l’affichage.
+Voir aussi : moteur d'inférence
+Voir aussi : module d'extension
+Voir aussi : apprentissage automatique
+
+*** caractérisation
+Fiche : 
+
+Déconseillé : characterisation
+Déconseillé : characterization
+Définition : Vérification de la conformité d'un produit à ses spécifications au moyen d'un ensemble de tests physiques ou électriques.
+
+*** synthèse vocale de texte
+Fiche : 
+
+Définition : Conversion automatique d’un texte en un énoncé oral, qui recourt notamment aux techniques de traitement automatique des langues naturelles et de production de la parole.
+Voir aussi : interface avec l'utilisateur
+Voir aussi : transcription automatique de la parole
+
+*** centre de données
+Fiche : 
+
+Déconseillé : datacenter
+Déconseillé : datacentre
+Définition : Site physique où sont regroupées des infrastructures informatiques et de télécommunication destinées à stocker, à traiter ou à distribuer des données de façon sécurisée.
+Voir aussi : informatique en nuage
+
+*** expérience de l'utilisateur
+Fiche : 
+
+Définition : Ensemble des impressions que l’utilisateur retire de son interaction avec un dispositif numérique et qui tiennent à l’interface et aux fonctionnalités de ce dispositif.
+Voir aussi : interface
+Voir aussi : interface avec l'utilisateur
+
+*** gestion de versions
+Fiche : 
+
+Déconseillé : gestion de version
+Déconseillé : gestion des versions
+Déconseillé : versionnage
+Définition : Ensemble de techniques qui permettent de conserver les modifications successives d’un logiciel ou d’un document et leur historique ainsi que d’en restituer toute version antérieure.
+
+*** transcription automatique de la parole
+Fiche : 
+
+Déconseillé : reconnaissance de la parole
+Déconseillé : reconnaissance vocale
+Définition : Conversion automatique d’un énoncé oral en texte, qui recourt notamment aux techniques de traitement du signal et de traitement automatique des langues naturelles.
+Voir aussi : synthèse vocale de texte
+
+*** atelier numérique ouvert
+Fiche : 
+
+Déconseillé : hacker house
+Déconseillé : hacker space
+Définition : Lieu physique ou espace en ligne ouvert aux spécialistes et aux passionnés de technologies numériques, notamment de programmation, qui est destiné au partage de savoir-faire et de ressources.
+
+*** marathon de programmation
+Fiche : 
+
+Déconseillé : programmathon
+Définition : Rassemblement de développeurs, organisés par équipes, ayant pour objectif de fournir, en une ou deux journées, un prototype d’application, de service en ligne ou de produit.
+
+*** cédérom
+Fiche : 
+
+Définition : Disque optique numérique à usage principalement informatique.
+Voir aussi : disque numérique polyvalent
+Voir aussi : disque compact
+Voir aussi : cédérom autonome
+
+*** interface de programmation d'application
+Fiche : 
+
+Définition : Interface logicielle qui permet à un programmeur d’accéder aux fonctions d’une application et de développer de nouvelles applications utilisant ces fonctions.
+Voir aussi : interface
+
+*** données liées
+Fiche : 
+
+Déconseillé : data liée
+Déconseillé : data liées
+Déconseillé : donnée liée
+Définition : Données dont la description est normalisée, ce qui permet de les lier, via leur identifiant universel de ressource, avec des données provenant d’autres sources et décrites de la même façon.
+Voir aussi : données ouvertes
+Voir aussi : donnée
+Voir aussi : graphe de connaissances
+Voir aussi : données FAIR
+Voir aussi : identifiant universel de ressource
+Voir aussi : identifiant de ressource internationalisé
+Voir aussi : toile sémantique
+Voir aussi : ontologie informatique
+
+*** données FAIR
+Fiche : 
+
+Déconseillé : data FAIR
+Déconseillé : donnée FAIR
+Définition : Données dont l’identification, la description normalisée, les conditions d’accès techniques ou juridiques et le type de licence facilitent leur mise à disposition et leur exploitation par les personnes intéressées.
+Voir aussi : données ouvertes
+Voir aussi : données liées
+
+*** préproduction
+Fiche : 
+
+Définition : Processus consistant à assembler les modules d’une nouvelle application informatique et à tester cette dernière avant de la mettre en service.
+
+*** numérique
+Fiche : 
+
+Définition : Ensemble des disciplines scientifiques et techniques, des activités économiques et des pratiques sociétales fondées sur le traitement de données numériques.
+Voir aussi : numérique
+
+*** science des données
+Fiche : 
+
+Déconseillé : science de la donnée
+Déconseillé : science des data
+Définition : Discipline qui fait appel à des méthodes statistiques, mathématiques et informatiques pour analyser des données, en particulier des mégadonnées, afin d’en extraire toute information utile.
+Voir aussi : mégadonnées
+Voir aussi : expert, -e en mégadonnées
+Voir aussi : triturage de données
+
+*** porte dérobée
+Fiche : 
+
+Définition : Point d’entrée d’un logiciel, mis en place lors de la conception ou résultant d’une erreur survenue lors du développement, qui permet aux spécialistes d’agir sur ce logiciel.
+Voir aussi : cyberattaque
+
+*** faille non corrigée
+Fiche : 
+
+Déconseillé : vulnérabilité jour zéro
+Déconseillé : vulnérabilité zéro jour
+Définition : Faille identifiée par des utilisateurs d’un système informatique, à laquelle il n’existe pas encore de parade.
+Voir aussi : prime à la faille détectée
+
+*** centre de conception
+Fiche : 
+
+Déconseillé : design center
+Déconseillé : design centre
+Définition : Service équipé en matériels et logiciels spécialisés dans la conception de composants.
+Voir aussi : société de conception
+
+*** identifiant universel de ressource
+Fiche : 
+
+Déconseillé : identifiant uniforme de ressource
+Définition : Dénomination conforme à une norme de l’internet, qui permet d’identifier de façon univoque et pérenne dans l’internet une ressource abstraite ou physique.
+Voir aussi : adresse universelle
+Voir aussi : données liées
+Voir aussi : identifiant de ressource internationalisé
+
+*** identifiant de ressource internationalisé
+Fiche : 
+
+Déconseillé : internationalised resource identifier
+Définition : Identifiant universel de ressource qui prend en compte les caractères utilisés par les différentes langues du monde, grâce à un répertoire universel dans lequel sont codés ces caractères.
+Voir aussi : adresse universelle
+Voir aussi : données liées
+Voir aussi : identifiant universel de ressource
+
+*** toile sémantique
+Fiche : 
+
+Déconseillé : web sémantique
+Définition : Partie de la toile dont les données sont structurées et liées de manière à faciliter leur traitement automatique et à améliorer la pertinence des résultats de recherche.
+Voir aussi : graphe de connaissances
+Voir aussi : toile
+Voir aussi : données liées
+
+*** ligne (en)
+Fiche : 
+
+Déconseillé : en ligne
+Définition : Se dit d'un service accessible par l'intermédiaire d'un réseau.
+
+*** page d'accueil
+Fiche : 
+
+Définition : Page de tête affichée par un logiciel de navigation.
+Voir aussi : logiciel de navigation
+Voir aussi : page d'accueil
+Voir aussi : défiguration
+
+*** pas
+Fiche : 
+
+Définition : Distance entre deux broches de raccordement contiguës sur un boîtier.
+Voir aussi : broche de raccordement
+Voir aussi : pas
+
+*** valider
+Fiche : 
+
+Définition : Rendre effective une modification dans un référentiel de données géré par plusieurs personnes.
+
+*** reste à faire
+Fiche : 
+
+Définition : Ensemble des tâches qu’il reste à accomplir pour mener à bien un projet de développement informatique.
+
+*** logiciel passe-droit
+Fiche : 
+
+Définition : Logiciel malveillant furtif qui donne à un tiers non habilité les droits d’administrateur d’un ordinateur et lui permet ainsi d’en prendre le contrôle.
+Voir aussi : logiciel malveillant
+
+*** moissonnage de données
+Fiche : 
+
+Définition : Extraction automatisée de contenus de sites de la toile, pratiquée en vue d’un traitement spécifique.
+Voir aussi : mégadonnées
+
+*** circuit intégré précaractérisé
+Fiche : 
+
+Déconseillé : caractérisé
+Déconseillé : circuit précaractérisé
+Définition : Circuit intégré dont la conception est fondée sur l'utilisation d'une bibliothèque de cellules dont les éléments ont été préalablement caractérisés.
+Voir aussi : bibliothèque de cellules
+
+*** lac de données
+Fiche : 
+
+Définition : Dispositif de stockage, dans leur format d’origine, de mégadonnées collectées en continu, qui sont suffisamment annotées pour être exploitables.
+
+*** visualisation de données
+Fiche : 
+
+Déconseillé : data visualization
+Définition : Représentation d’ensembles de données à l’aide de techniques graphiques qui en facilitent la compréhension.
+Voir aussi : donnée
+
+*** défiguration
+Fiche : 
+
+Déconseillé : defacing
+Déconseillé : défacement
+Déconseillé : défaçage
+Définition : Piratage informatique qui consiste à modifier le code des pages d’un site, en particulier de la page d’accueil, pour en dénaturer l’apparence ou le contenu.
+Voir aussi : page d'accueil
+
+*** ontologie informatique
+Fiche : 
+
+Définition : Corpus structuré de concepts, qui est modélisé dans un langage permettant l’exploitation par un ordinateur des relations sémantiques ou taxonomiques établies entre ces concepts.
+Voir aussi : graphe de connaissances
+Voir aussi : données liées
+
+*** plateforme de données
+Fiche : 
+
+Définition : Regroupement de données, en général structurées, liées à un domaine d’activité, qui sont rendues disponibles pour l’exploitation par les parties prenantes de ce domaine.
+
+*** triturage de données
+Fiche : 
+
+Déconseillé : data crunch
+Définition : Traitement automatisé de mégadonnées brutes qui consiste à les mettre en forme pour permettre leur analyse grâce aux méthodes de la science des données.
+Voir aussi : mégadonnées
+Voir aussi : science des données
+
+*** application phare
+Fiche : 
+
+Déconseillé : appli tueuse
+Déconseillé : application tueuse
+Définition : Application informatique innovante dont la popularité est immédiate auprès des utilisateurs.
+
+*** circuit intégré prédiffusé
+Fiche : 
+
+Déconseillé : circuit prédiffusé
+Déconseillé : prédiffusé
+Définition : Circuit intégré dont la conception est fondée sur l'utilisation de réseaux de cellules dont les éléments ont été préalablement diffusés et dont seule l'interconnexion reste à réaliser.
+
+Voir aussi : cybercriminalité
+
+Voir aussi : message multimédia
+
+*** cybercriminalité
+Fiche : 
+
+Déconseillé : cyber-crime
+Définition : Ensemble des infractions pénales qui sont commises dans le cyberespace.
+Voir aussi : cyberattaque
+Voir aussi : cyberespace
+Voir aussi : cyberterrorisme
+Voir aussi : hameçonnage ciblé
+
+*** pornodivulgation
+Fiche : 
+
+Déconseillé : pornovengeance
+Déconseillé : vengeance porno
+Déconseillé : vengeance pornographique
+Définition : Action de divulguer, afin de nuire à un tiers et sans son consentement, un enregistrement ou tout autre document à caractère sexuel le concernant, que celui-ci ait été ou non réalisé avec son accord.
+
+*** cyberharcèlement
+Fiche : 
+
+Déconseillé : cyber-bullying
+Déconseillé : cyber-harassment
+Déconseillé : cyber-stalking
+Déconseillé : cyberharceleur
+Définition : Harcèlement moral ou sexuel commis au moyen d’un réseau de communication électronique.
+Voir aussi : haineur, -euse
+
+*** cyberterrorisme
+Fiche : 
+
+Déconseillé : cyber-terrorism
+Définition : Ensemble des cyberattaques à caractère terroriste qui visent principalement un État ou un groupe d’États, un opérateur d’importance vitale, une entreprise, une institution ou une collectivité publique.
+Voir aussi : cyberattaque
+Voir aussi : cybercriminalité
+
+*** confidentialité des données personnelles
+Fiche : 
+
+Définition : Principe selon lequel le caractère privé des données personnelles doit être préservé.
+Voir aussi : délégué, -e à la protection des données personnelles
+Voir aussi : protection des données personnelles
+
+*** confidentialité programmée
+Fiche : 
+
+Définition : Principe selon lequel la protection des données personnelles doit être intégrée dans un système d’information dès sa conception.
+Voir aussi : confidentialité par défaut
+Voir aussi : protection des données personnelles
+
+*** délégué, -e à la protection des données personnelles
+Fiche : 
+
+Définition :   Personne chargée de la protection des données personnelles collectées par une organisation.
+Voir aussi : confidentialité des données personnelles
+Voir aussi : protection des données personnelles
+
+*** bouclier de protection des données personnelles
+Fiche : 
+
+Déconseillé : bouclier de confidentialité
+Définition : Ensemble de dispositions de protection des données personnelles mises en œuvre pour contrôler l’exportation et l’exploitation de ces données à des fins commerciales.
+Voir aussi : accord parapluie de protection des données personnelles
+Voir aussi : protection des données personnelles
+
+*** cyberjustice
+Fiche : 
+
+Déconseillé : cyber justice
+Définition : Recours aux technologies et aux réseaux numériques pour faciliter l’accès au droit et améliorer l’administration de la justice.
+
+*** justice prévisionnelle
+Fiche : 
+
+Déconseillé : justice prédictive
+Déconseillé : predictable justice
+Définition : Recours, dans un processus juridictionnel, à l’analyse algorithmique de la jurisprudence pour évaluer l’issue probable d’un litige ou d’une procédure judiciaire.
+
+*** accord parapluie de protection des données personnelles
+Fiche : 
+
+Définition : Accord international de coopération pénale qui permet de protéger les données personnelles en encadrant leur exportation et leur exploitation.
+Voir aussi : bouclier de protection des données personnelles
+Voir aussi : protection des données personnelles
+
+Voir aussi : cybermonnaie
+Voir aussi : pirate
+Voir aussi : logiciel malveillant
+
+*** confidentialité par défaut
+Fiche : 
+
+Définition : Principe selon lequel la protection des données personnelles doit être appliquée à un système d’information pendant son exploitation, dans l’hypothèse où cette protection n’a pas été programmée.
+Voir aussi : confidentialité programmée
+Voir aussi : protection des données personnelles
+
+*** protection des données personnelles
+Fiche : 
+
+Définition : Ensemble des dispositifs juridiques et techniques qui encadre la collecte, l’usage, la conservation et la confidentialité des données personnelles.
+Voir aussi : confidentialité des données personnelles
+Voir aussi : confidentialité programmée
+Voir aussi : délégué, -e à la protection des données personnelles
+Voir aussi : bouclier de protection des données personnelles
+Voir aussi : accord parapluie de protection des données personnelles
+Voir aussi : confidentialité par défaut
+Voir aussi : RGPD
+
+*** cyberespionnage
+Fiche : 
+
+Déconseillé : cyber espionnage
+Déconseillé : cyberespionage
+Déconseillé : cyberintelligence
+Déconseillé : cyberspying
+Définition : Ensemble d’actions menées dans le cyberespace consistant à infiltrer, clandestinement ou sous de faux prétextes, les systèmes informatiques d’une organisation ou d’un individu, et à s’emparer de données pour les exploiter.
+Voir aussi : cyberattaque persistante
+Voir aussi : cyberrenseignement
+Voir aussi : logiciel malveillant
+Voir aussi : logiciel espion
+
+Voir aussi : cybermonnaie
+Voir aussi : logiciel malveillant
+
+*** détournement de formulaire
+Fiche : 
+
+Déconseillé : form jacking
+Déconseillé : vol de formulaire
+Définition : Technique frauduleuse qui consiste à dérober des données personnelles, notamment bancaires, au moyen d’un programme informatique inséré dans les formulaires de commande ou de paiement des sites de la toile.
+
+*** hameçonnage ciblé
+Fiche : 
+
+Déconseillé : spearphishing
+Définition : Hameçonnage par lequel un cybercriminel se fait passer pour une personne digne de confiance auprès d’un responsable d’une organisation, afin d’obtenir des informations confidentielles ou des fonds.
+Voir aussi : cybercriminalité
+Voir aussi : harponnage
+Voir aussi : hameçonnage
+
+*** harponnage
+Fiche : 
+
+Déconseillé : arnaque au président
+Déconseillé : chasse à la baleine
+Déconseillé : fraude au président
+Déconseillé : whale phishing
+Définition : Hameçonnage ciblé d’un dirigeant par un cybercriminel qui se fait passer pour une personne influente ou investie d’une autorité.
+Voir aussi : hameçonnage ciblé
+
+*** criminalistique numérique
+Fiche : 
+
+Déconseillé : computer forensics
+Déconseillé : criminalistique digitale
+Déconseillé : cybercriminalistique
+Déconseillé : forensique numérique
+Déconseillé : inforensique
+Déconseillé : informatique légale
+Définition : Technique d’enquête qui consiste à collecter et à exploiter des supports ou des données numériques pour établir des preuves pénales.
+
+*** piratage de distributeur automatique
+Fiche : 
+
+Définition : Attaque informatique visant à piller un distributeur automatique de billets au moyen d’un dispositif installé sur place ou à distance.
+
+Voir aussi : hameçonnage ciblé
+Voir aussi : harponnage
+Voir aussi : hameçonnage
+
+*** hameçonnage
+Fiche : 
+
+Déconseillé : phishing
+Définition : Technique de fraude visant à obtenir des informations confidentielles, telles que des mots de passe ou des numéros de cartes de crédit, au moyen de messages ou de sites usurpant l’identité d’institutions financières ou d’entreprises commerciales.
+Voir aussi : dévoiement
+Voir aussi : hameçonnage ciblé
+
+Voir aussi : première révolution quantique
+
+*** qubit logique
+Fiche : 
+
+Définition : Assemblage de qubits physiques qui permet la correction des erreurs dues notamment à la décohérence quantique, ce qui accroît ainsi le temps disponible pour un calcul quantique.
+Voir aussi : décohérence quantique
+Voir aussi : qubit
+Voir aussi : qubit physique
+
+*** parallélisme quantique
+Fiche : 
+
+Définition : Propriété selon laquelle des opérations effectuées au moyen de portes quantiques sur un registre de N qubits peuvent s’effectuer simultanément sur 2<sup>N</sup> valeurs, ce qui accroît considérablement la vitesse de calcul par rapport à des ordinateurs classiques.
+Voir aussi : porte quantique
+Voir aussi : algorithme quantique
+Voir aussi : registre quantique
+Voir aussi : superposition quantique
+Voir aussi : interférence quantique
+Voir aussi : intrication quantique
+Voir aussi : qubit
+
+*** porte quantique
+Fiche : 
+
+Définition : Dispositif qui transforme l’état quantique d’un ou de plusieurs qubits physiques pour permettre l’exécution d’un algorithme quantique.
+Voir aussi : parallélisme quantique
+Voir aussi : algorithme quantique
+Voir aussi : ordinateur quantique
+Voir aussi : émulateur quantique
+Voir aussi : intrication quantique
+Voir aussi : qubit
+Voir aussi : qubit physique
+
+*** algorithme quantique
+Fiche : 
+
+Définition : Algorithme qui est constitué d’une suite finie d’opérations exécutées par des portes quantiques et qui tire parti du parallélisme quantique.
+Voir aussi : parallélisme quantique
+Voir aussi : porte quantique
+Voir aussi : ordinateur quantique
+Voir aussi : émulateur quantique
+Voir aussi : accélérateur quantique
+Voir aussi : algorithme quantique hybride
+Voir aussi : processeur quantique
+Voir aussi : registre quantique
+Voir aussi : intrication quantique
+Voir aussi : qubit
+Voir aussi : élément binaire
+
+*** mémoire quantique
+Fiche : 
+
+Définition : Ensemble de qubits physiques qui enregistrent et restituent à la demande un état quantique d’un nombre significatif de qubits, notamment un état intriqué.
+Voir aussi : ordinateur quantique
+Voir aussi : cryptographie quantique
+Voir aussi : intrication quantique
+Voir aussi : décohérence quantique
+Voir aussi : qubit
+Voir aussi : qubit physique
+
+*** ordinateur quantique
+Fiche : 
+
+Définition : Dispositif de calcul qui exploite des qubits, des portes quantiques et des algorithmes quantiques.
+Voir aussi : porte quantique
+Voir aussi : algorithme quantique
+Voir aussi : mémoire quantique
+Voir aussi : émulateur quantique
+Voir aussi : simulateur quantique
+Voir aussi : accélérateur quantique
+Voir aussi : avantage quantique
+Voir aussi : téléportation quantique
+Voir aussi : cryptographie quantique
+Voir aussi : cryptographie postquantique
+Voir aussi : algorithme quantique hybride
+Voir aussi : processeur quantique
+Voir aussi : décohérence quantique
+Voir aussi : qubit
+
+*** émulateur quantique
+Fiche : 
+
+Définition : Dispositif qui utilise un ordinateur classique et des logiciels pour exécuter un algorithme quantique conçu pour un ordinateur quantique.
+Voir aussi : porte quantique
+Voir aussi : algorithme quantique
+Voir aussi : ordinateur quantique
+Voir aussi : simulateur quantique
+Voir aussi : qubit
+
+*** simulateur quantique
+Fiche : 
+
+Déconseillé : ordinateur quantique analogique
+Définition : Dispositif matériel constitué d’objets quantiques paramétrés pour qu’il se comporte de façon analogue à d’autres systèmes quantiques, tels des molécules ou des matériaux complexes.
+Voir aussi : ordinateur quantique
+Voir aussi : émulateur quantique
+Voir aussi : accélérateur quantique
+
+*** accélérateur quantique
+Fiche : 
+
+Définition : Ordinateur quantique ou simulateur quantique utilisé en complément d’un superordinateur classique pour en accélérer les calculs.
+Voir aussi : calcul intensif
+Voir aussi : algorithme quantique
+Voir aussi : ordinateur quantique
+Voir aussi : simulateur quantique
+Voir aussi : algorithme quantique hybride
+
+*** avantage quantique
+Fiche : 
+
+Déconseillé : suprématie quantique
+Définition : Niveau de performance reconnu à un ordinateur quantique lorsque celui-ci exécute un calcul plus rapidement que les meilleurs superordinateurs classiques.
+Voir aussi : calculateur
+Voir aussi : calcul intensif
+Voir aussi : ordinateur quantique
+
+Voir aussi : porte quantique
+Voir aussi : mémoire quantique
+Voir aussi : téléportation quantique
+Voir aussi : cryptographie quantique
+Voir aussi : non-clonage quantique
+Voir aussi : superposition quantique
+
+*** téléportation quantique
+Fiche : 
+
+Définition : Transport de l’état quantique d’un premier qubit à un deuxième qubit, en recourant à des qubits distants intriqués et à un canal de communication classique.
+Voir aussi : ordinateur quantique
+Voir aussi : cryptographie quantique
+Voir aussi : distribution quantique de clés
+Voir aussi : non-clonage quantique
+Voir aussi : intrication quantique
+Voir aussi : qubit
+
+*** cryptographie quantique
+Fiche : 
+
+Définition : Ensemble de méthodes de cryptographie qui utilisent des protocoles dont la sécurité repose sur les principes de base de la physique quantique, tels que le caractère aléatoire de la mesure quantique, la superposition, l’intrication et le non-clonage quantiques.
+Voir aussi : mémoire quantique
+Voir aussi : ordinateur quantique
+Voir aussi : téléportation quantique
+Voir aussi : distribution quantique de clés
+Voir aussi : cryptographie postquantique
+Voir aussi : non-clonage quantique
+Voir aussi : superposition quantique
+Voir aussi : intrication quantique
+
+*** distribution quantique de clés
+Fiche : 
+
+Définition : Protocole de création simultanée de clés symétriques de chiffrement et de déchiffrement aléatoires chez un émetteur et un récepteur, qui permet d’échanger un message et repose en général sur le principe de l’intrication quantique.
+Voir aussi : téléportation quantique
+Voir aussi : cryptographie quantique
+Voir aussi : intrication quantique
+
+*** cryptographie postquantique
+Fiche : 
+
+Déconseillé : cryptographie post-quantique
+Déconseillé : post-quantique
+Déconseillé : post-quantum
+Déconseillé : postquantique
+Déconseillé : postquantum
+Déconseillé : postquantum cryptography
+Définition : Champ de la cryptographie qui vise à garantir la sécurité des communications par l’utilisation, sur des ordinateurs classiques, de dispositifs de chiffrement de l’information résistant à un attaquant qui disposerait d’un ordinateur quantique capable de déjouer les méthodes de chiffrement classiques.
+Voir aussi : ordinateur quantique
+Voir aussi : cryptographie quantique
+
+*** première révolution quantique
+Fiche : 
+
+Définition : Phase de description du monde microscopique basée sur la description quantique d’un grand nombre de particules, qui permet de comprendre la structure de la matière et les caractéristiques de l’interaction entre la matière et le rayonnement, impossibles à expliquer dans le cadre de la mécanique et de l’électromagnétisme classiques.
+Voir aussi : seconde révolution quantique
+
+*** seconde révolution quantique
+Fiche : 
+
+Définition : Phase de mise en œuvre expérimentale et technologique de la physique quantique, basée sur la capacité à exploiter l’intrication quantique mettant en jeu des objets quantiques individuels et à l’appliquer à divers domaines, notamment le transfert d’information, le calcul, la simulation ou la métrologie.
+Voir aussi : première révolution quantique
+Voir aussi : intrication quantique
+
+*** algorithme quantique hybride
+Fiche : 
+
+Définition : Algorithme qui comporte une composante s’exécutant sur un ordinateur classique et une autre sur un processeur quantique, les deux étant coordonnées pour obtenir un résultat qui tire parti au mieux des possibilités des deux types de machines.
+Voir aussi : algorithme quantique
+Voir aussi : ordinateur quantique
+Voir aussi : accélérateur quantique
+Voir aussi : processeur quantique
+
+*** non-clonage quantique
+Fiche : 
+
+Déconseillé : non cloning theorem
+Définition : Impossibilité démontrée de copier sans erreur un qubit dans un état quantique inconnu en conservant l’état quantique initial.
+Voir aussi : téléportation quantique
+Voir aussi : cryptographie quantique
+Voir aussi : qubit
+
+*** processeur quantique
+Fiche : 
+
+Définition : Composant matériel d’un ordinateur quantique qui exploite les qubits physiques.
+Voir aussi : algorithme quantique
+Voir aussi : ordinateur quantique
+Voir aussi : algorithme quantique hybride
+Voir aussi : qubit physique
+
+Voir aussi : cryptographie quantique
+Voir aussi : interférence quantique
+
+*** registre quantique
+Fiche : 
+
+Définition : Ensemble de qubits qui permet l’exécution d’un algorithme quantique.
+Voir aussi : parallélisme quantique
+Voir aussi : algorithme quantique
+Voir aussi : intrication quantique
+Voir aussi : qubit
+
+Voir aussi : simulateur quantique
+Voir aussi : superposition quantique
+Voir aussi : interférence quantique
+Voir aussi : intrication quantique
+Voir aussi : décohérence quantique
+Voir aussi : qubit
+Voir aussi : qubit physique
+
+*** superposition quantique
+Fiche : 
+
+Définition : Représentation de l’état quantique d’un système quantique sous la forme d’une combinaison d’états quantiques de ce système.
+Voir aussi : parallélisme quantique
+Voir aussi : cryptographie quantique
+Voir aussi : interférence quantique
+Voir aussi : intrication quantique
+Voir aussi : décohérence quantique
+Voir aussi : qubit
+Voir aussi : qubit physique
+
+*** interférence quantique
+Fiche : 
+
+Définition : Phénomène physique selon lequel la probabilité du résultat d’une mesure effectuée sur une superposition quantique n’est pas égale à la somme des probabilités des résultats de mesures effectuées sur chacun des états de cette superposition.
+Voir aussi : parallélisme quantique
+Voir aussi : superposition quantique
+Voir aussi : intrication quantique
+
+*** intrication quantique
+Fiche : 
+
+Définition : Phénomène selon lequel l’état d’un système quantique ne peut être décrit que globalement car il implique une superposition quantique et met en jeu des effets d’interférence quantique.
+Voir aussi : parallélisme quantique
+Voir aussi : porte quantique
+Voir aussi : algorithme quantique
+Voir aussi : mémoire quantique
+Voir aussi : téléportation quantique
+Voir aussi : cryptographie quantique
+Voir aussi : distribution quantique de clés
+Voir aussi : seconde révolution quantique
+Voir aussi : registre quantique
+Voir aussi : superposition quantique
+Voir aussi : interférence quantique
+Voir aussi : décohérence quantique
+Voir aussi : qubit
+Voir aussi : qubit physique
+
+*** décohérence quantique
+Fiche : 
+
+Définition : Dégradation progressive d’une superposition quantique d’un système quantique sous l’effet des interactions avec son environnement, qui aboutit à une situation où le système obéit aux lois de la physique classique.
+Voir aussi : qubit logique
+Voir aussi : mémoire quantique
+Voir aussi : ordinateur quantique
+Voir aussi : superposition quantique
+Voir aussi : intrication quantique
+Voir aussi : qubit
+Voir aussi : qubit physique
+
+*** qubit
+Fiche : 
+
+Déconseillé : sphère de Bloch
+Définition : Unité d’information dont le support physique est un système quantique à deux états superposables.
+Voir aussi : qubit logique
+Voir aussi : parallélisme quantique
+Voir aussi : porte quantique
+Voir aussi : algorithme quantique
+Voir aussi : mémoire quantique
+Voir aussi : ordinateur quantique
+Voir aussi : émulateur quantique
+Voir aussi : téléportation quantique
+Voir aussi : non-clonage quantique
+Voir aussi : registre quantique
+Voir aussi : superposition quantique
+Voir aussi : intrication quantique
+Voir aussi : décohérence quantique
+Voir aussi : qubit physique
+Voir aussi : élément binaire
+
+*** qubit physique
+Fiche : 
+
+Définition : Support matériel d’un qubit, constitué par un système quantique à deux états superposables.
+Voir aussi : qubit logique
+Voir aussi : porte quantique
+Voir aussi : mémoire quantique
+Voir aussi : processeur quantique
+Voir aussi : superposition quantique
+Voir aussi : intrication quantique
+Voir aussi : décohérence quantique
+Voir aussi : qubit
+
+*** RGPD
+Fiche : 
+
+Définition : Règlement de l'Union européenne adopté le 14 avril 2016 qui constitue le texte de référence en matière de protection des données à caractère personnel, il renforce la protection des données pour les individus au sein de l'Union européenne en leur conférant un contrôle accru sur leurs données personnelles, il simplifie également les relations commerciales internationales en unifiant l'environnement réglementaire européen. 
+Voir aussi : protection des données personnelles
+
+*** Infographie
+Fiche : 
+
+Définition : Application de l'informatique à la représentation graphique et au traitement de l'image.
+
+*** Bioinformatique
+Fiche : 
+
+Définition : Domaine de recherche qui analyse et interprète des données biologiques, au moyen de méthodes informatiques, afin de créer de nouvelles connaissancesen biologie.
+
+*** Composants
+Fiche : 
+
+Définition : Un composant est un élément de base d'un ensemble plus complexe (structuré ou composite) , lequel est un assemblage de composants souvent différents.
+
+*** Composants électroniques
+Fiche : 
+
+Définition : Un composant électronique est un élément destiné à être assemblé avec d'autres afin de réaliser une ou plusieurs fonctions électroniques. Les composants forment de très nombreux types et catégories, ils répondent à divers standards de l'industrie aussi bien pour leurs caractéristiques électriques que pour leurs caractéristiques géométriques. Leur assemblage est préalablement défini par un schéma d'implantation.
+
+*** Radiocommunications
+Fiche : 
+
+Définition : Utilisation d'ondes radio afin de transporter une information en modulant systématiquement certaines propriétés des ondes électromagnétiques transmises à travers l'espace, telles que leur amplitude, fréquence, phase, ou largeur d'impulsion.
+
+*** Techniques
+Fiche : 
+
+Définition : La technique couvre l'ensemble des procédés de fabrication, de maintenance et de gestion, qui utilisent des méthodes issues de connaissances scientifiques ou simplement des méthodes issues du savoir-faire artisanal et industriel.
+
+*** Architecture
+Fiche : 
+
+*** Composants électroniques
+Fiche : 
+
+*** Droit international
+Fiche : 
+
+*** Informatique quantique
+Fiche : 
+
+*** Internet
+Fiche : 
+
+Définition : Réseau mondial associant des ressources de télécommunication et des ordinateurs serveurs et clients, destiné à l'échange de messages électroniques, d'informations multimédias et de fichiers.
+
+*** Opérations
+Fiche : 
+
+Définition : Processus d'identification d'informations critiques et d'analyse des actions alliées en rapport avec des opérations militaires et autres activités, dans le but d'identifier les actions qui peuvent être observées par les systèmes d'information ennemis et de sélectionner et exécuter des mesures éliminant ou réduisant les vulnérabilités d'actions alliées.
+
+*** Physique quantique
+Fiche : 
+
+*** Presse
+Fiche : 
+
+*** Publicité
+Fiche : 
+
+*** Radiocommunications
+Fiche : 
+
+Définition : Utilisation d'ondes radio afin de transporter une information en modulant systématiquement certaines propriétés des ondes électromagnétiques transmises à travers l'espace, telles que leur amplitude, fréquence, phase, ou largeur d'impulsion.
+
+*** Réseaux
+Fiche : 
+
+Définition : Moyens de communication permettant à des individus ou des groupes (entreprises) de partager de l'information et des services.
+
+*** Sociologie
+Fiche : 
+
+*** Techniques
+Fiche : 
+
+Définition : Une technique est une ou un ensemble de méthode (s) ; dans les métiers manuels (menuiserie,forgerie), elle est souvent associée à un savoir-faire professionnel. La technique couvre l'ensemble des procédés de fabrication, de maintenance et de gestion, qui utilisent des méthodes issues de connaissances scientifiques ou simplement des méthodes dictées par la pratique de certains métiers.
+
+*** INFORMATIQUE
+Fiche : 
+
+*** dommage par une particule isolée
+Fiche : 
+
+Définition : Altération, temporaire ou permanente, ou destruction d'un composant électronique sous l'effet d'une particule de haute énergie.
+Voir aussi : effet d'une particule isolée
+Voir aussi : perturbation par une particule isolée
+
+*** effet d'une particule isolée
+Fiche : 
+
+Définition : Modification du fonctionnement de composants électroniques, causée de façon aléatoire par une particule de haute énergie.
+Voir aussi : dommage par une particule isolée
+Voir aussi : perturbation par une particule isolée
+
+*** perturbation par une particule isolée
+Fiche : 
+
+Définition : Modification indésirable de l'information fournie par un composant électronique, sans altération de ce dernier, sous l'effet d'une particule de haute énergie.
+Voir aussi : dommage par une particule isolée
+Voir aussi : effet d'une particule isolée
+
+Voir aussi : appariement de formes
+
+Voir aussi : dispositif à transfert de charges
+
+*** classe de propreté
+Fiche : 
+
+Définition : Niveau d’empoussiérage dans une salle blanche, défini par le nombre volumique maximal de particules de divers diamètres, supérieurs ou égaux à des valeurs spécifiées.
+Voir aussi : salle blanche
+
+*** lancer de rayons
+Fiche : 
+
+Définition : Technique qui permet d’établir la correspondance entre les pixels de l’image d’un objet et les points de cet objet éclairé par des sources lumineuses en reconstituant le trajet des rayons lumineux en sens inverse, des pixels vers l’objet puis vers les sources lumineuses.
+
+Voir aussi : charge utile
+
+Voir aussi : iconomatique
+Voir aussi : iconométrie
+
+*** iconomatique
+Fiche : 
+
+Définition : Ensemble des techniques de traitement d'image par l'informatique.
+Voir aussi : iconomatique
+Voir aussi : iconométrie
+
+*** iconomatique
+Fiche : 
+
+Définition : Qualifie une image issue de l'iconomatique.
+Voir aussi : iconomatique
+
+*** iconométrie
+Fiche : 
+
+Déconseillé : photogrammétrie
+Définition : Ensemble des techniques de mesurage sur des images.
+Voir aussi : iconomatique
+
+Voir aussi : seuillage
+
+Voir aussi : pixel
+
+Voir aussi : pixel
+
+*** pixel mixte
+Fiche : 
+
+Définition : Pixel résultant de l'intégration radiométrique de plusieurs objets présents dans la tache élémentaire correspondante.
+
+Voir aussi : seuillage
+
+*** seuillage
+Fiche : 
+
+Définition : Mise en œuvre des traitements destinés à seuiller.
+Voir aussi : seuiller
+
+*** seuiller
+Fiche : 
+
+Déconseillé : to threshold
+Définition : Déterminer ou situer les valeurs limites destinées à séparer des classes.
+Voir aussi : seuillage
+
+Voir aussi : pixel mixte
+
+Voir aussi : iconomatique
+Voir aussi : iconométrie
+
+*** pixel
+Fiche : 
+
+Déconseillé : pic
+Déconseillé : pix
+Définition : Le plus petit élément d'une surface de détection, d'une image échantillonnée ou d'une surface de visualisation, auquel on puisse affecter individuellement des caractéristiques visuelles.
+Voir aussi : microdiode électroluminescente
+
+Voir aussi : pixel
+
+Voir aussi : pixel mixte
+
+*** affichage
+Fiche : 
+
+Définition : Représentation d'un ensemble de données sur un écran.
+
+Voir aussi : pixel mixte
+
+*** afficher
+Fiche : 
+
+Déconseillé : to display
+Définition : Représenter des données sur un écran.
+
+Voir aussi : réseau privé virtuel
+
+Voir aussi : réseau privé virtuel
+
+Voir aussi : trame
+
+Voir aussi : passerelle
+
+Voir aussi : microblogue
+Voir aussi : microblogage
+Voir aussi : message multimédia
+
+Voir aussi : boîtier multiservice
+
+*** chiffre binaire
+Fiche : 
+
+Définition : Chacun des deux chiffres, 0 et 1, en numération binaire.
+Voir aussi : élément binaire
+
+*** élément binaire
+Fiche : 
+
+Déconseillé : shannon
+Définition : Chacun des deux caractères d'un alphabet de deux caractères, destiné à représenter des informations.
+Voir aussi : octet
+Voir aussi : cellule binaire
+Voir aussi : cellule de mémoire
+Voir aussi : cellule multiniveau
+Voir aussi : algorithme quantique
+Voir aussi : qubit
+Voir aussi : chiffre binaire
+Voir aussi : shannon
+
+Voir aussi : extensibilité
+
+Voir aussi : boîtier multiservice
+
+Voir aussi : réseau local
+Voir aussi : passerelle
+
+Voir aussi : centre d'assistance
+
+*** accès sans fil à l'internet
+Fiche : 
+
+Déconseillé : Wi-Fi
+Déconseillé : WiMax
+Déconseillé : wireless fidelity
+Déconseillé : worldwide interoperability for microwave access
+Définition : Accès à l'internet par des moyens de radiocommunication.
+Voir aussi : zone d'accès sans fil
+
+*** message multimédia
+Fiche : 
+
+Définition : Message émis dans un réseau de radiocommunication avec les mobiles, pouvant contenir des images, des sons ou des textes.
+Voir aussi : service de messages multimédias
+
+*** service de messages multimédias
+Fiche : 
+
+Voir aussi : message multimédia
+
+*** arroseur, -euse
+Fiche : 
+
+Voir aussi : arrosage
+
+*** zone d'accès sans fil
+Fiche : 
+
+Déconseillé : Wi-Fi
+Déconseillé : WiMax
+Déconseillé : hotspot
+Déconseillé : wifi
+Déconseillé : wireless fidelity
+Déconseillé : worldwide interoperability for microwave access
+Définition : Espace où le public bénéficie de services radioélectriques temporaires ou permanents à haut débit, notamment d'un accès sans fil à l'internet.
+Voir aussi : accès sans fil à l'internet
+
+*** quantité d'information
+Fiche : 
+
+Définition : Grandeur exprimant numériquement l'information associée à la réalisation d'un évènement.
+Voir aussi : shannon
+
+Voir aussi : trame
+
+*** shannon
+Fiche : 
+
+Déconseillé : bit
+Déconseillé : logon
+Définition : Unité de mesure de l'information, égale à la quantité d'information associée à la réalisation de l'un de deux évènements équiprobables qui s'excluent mutuellement.
+Voir aussi : élément binaire
+Voir aussi : quantité d'information
+
+*** descendant, -e
+Fiche : 
+
+Définition : Se dit de la voie de transmission et des informations transmises, d'une station spatiale vers une station terrienne, d'un ordinateur central vers une station de données, d'un serveur vers un utilisateur, ou encore d'une station de base vers une station mobile.
+Voir aussi : montant, -e
+
+Voir aussi : descendant, -e
+
+Voir aussi : montant, -e
+
+*** montant, -e
+Fiche : 
+
+Définition : Se dit de la voie de transmission et des informations transmises, d'une station terrienne vers une station spatiale, d'une station de données vers un ordinateur central, d'un utilisateur vers un serveur, ou encore d'une station mobile vers une station de base.
+Voir aussi : descendant, -e
+
+*** réseau privé virtuel
+Fiche : 
+
+Définition : Réseau de télécommunication constitué à partir des ressources d'un ou plusieurs réseaux publics pour les besoins internes d'un groupe fermé d'usagers ; le complément de service offrant cette possibilité.
+Voir aussi : internet clandestin
+
+*** trame
+Fiche : 
+
+Définition : Ensemble structuré d'éléments numériques consécutifs, spécifié par un protocole de communication.
+
+Voir aussi : pair à pair
+
+Voir aussi : triple service
+
+*** domaine de premier niveau
+Fiche : 
+
+Définition : Domaine correspondant au niveau le plus élevé dans la structure d'adressage de l'internet, et dont la représentation codée est située à la fin de tout nom de domaine.
+Voir aussi : domaine
+Voir aussi : système d'adressage par domaines
+Voir aussi : office d'enregistrement
+Voir aussi : registraire
+
+*** office d'enregistrement
+Fiche : 
+
+Définition : Organisme gestionnaire d'un ou plusieurs domaines de premier niveau.
+Voir aussi : système d'adressage par domaines
+Voir aussi : domaine de premier niveau
+Voir aussi : registraire
+
+*** registraire
+Fiche : 
+
+Définition : Organisme intermédiaire autorisé entre un office d'enregistrement et les demandeurs ou titulaires d'un nom de domaine, qui effectue l'enregistrement et la modification des noms de domaine.
+Voir aussi : système d'adressage par domaines
+Voir aussi : domaine de premier niveau
+Voir aussi : office d'enregistrement
+
+Voir aussi : internet
+
+Voir aussi : scrutation
+
+Voir aussi : débrider
+
+*** tête radio distante
+Fiche : 
+
+Définition : Partie d'une station de base comprenant les circuits à radiofréquence et des convertisseurs de signaux, située à proximité de l'antenne mais séparée du reste de la station, auquel elle est connectée par une liaison filaire.
+
+Voir aussi : réseautique
+
+Voir aussi : débrider
+
+Voir aussi : mobile multifonction
+
+*** fibronique
+Fiche : 
+
+Déconseillé : fiber optics
+Déconseillé : fibre optique
+Définition : Discipline regroupant les techniques de télécommunication par fibre optique ; par extension, ensemble des composants mis en œuvre dans ces techniques.
+
+*** mobile multifonction
+Fiche : 
+
+Déconseillé : blackberry
+Déconseillé : iphone
+Déconseillé : ordiphone
+Déconseillé : terminal de poche
+Déconseillé : téléphone mobile
+Définition : Terminal mobile qui assure la téléphonie et l’accès à l’internet par voie radioélectrique, ainsi que d’autres fonctions informatiques ou multimédias.
+Voir aussi : tablette
+Voir aussi : microdiode électroluminescente
+
+Voir aussi : informatique en périphérie
+Voir aussi : intelligence artificielle embarquée
+Voir aussi : microdiode électroluminescente
+
+Voir aussi : industrie 4.0
+Voir aussi : maintenance prédictive
+
+*** diode électroluminescente modulable
+Fiche : 
+
+Déconseillé : LED dimmable
+Déconseillé : LED modulable
+Définition : Diode électroluminescente dont l’intensité lumineuse peut être modifiée au moyen d’un variateur.
+Voir aussi : diode électroluminescente
+
+Voir aussi : diode électroluminescente
+Voir aussi : accès sans fil à l'internet
+
+*** neuromorphique
+Fiche : 
+
+Déconseillé : composant neuromorphique
+Déconseillé : informatique neuromorphique
+Déconseillé : neuromorphe
+Déconseillé : puce neuromorphique
+Définition : Qui imite le fonctionnement des neurones et des synapses biologiques.
+Voir aussi : réseau de neurones artificiels
+Voir aussi : neurone artificiel
+Voir aussi : neurotransistor
+
+*** résistance-mémoire
+Fiche : 
+
+Déconseillé : mem-ristance
+Déconseillé : mem-ristor
+Déconseillé : memory resistor
+Déconseillé : memristance
+Déconseillé : mém-ristance
+Déconseillé : mémristance
+Définition : Composant électronique passif dont la résistance varie selon le courant électrique appliqué et conserve sa valeur hors tension, et qui a par conséquent une fonction de mémoire non volatile.
+Voir aussi : mémoire non volatile
+Voir aussi : neurotransistor
+
+*** informatique en périphérie
+Fiche : 
+
+Déconseillé : informatique péripérique
+Déconseillé : mobile edge computing
+Définition : Traitement des données qui s’effectue en périphérie d’un réseau de télécommunication, au moyen d’un dispositif proche de la source de ces données ou intégré à celle-ci.
+Voir aussi : informatique en nuage
+Voir aussi : intelligence artificielle embarquée
+
+*** intelligence artificielle embarquée
+Fiche : 
+
+Définition : Dispositif d’intelligence artificielle intégré dans un objet connecté, qui lui permet de traiter en temps réel les données qu’il collecte pour déclencher la prise automatique de décisions.
+Voir aussi : temps réel
+Voir aussi : intelligence artificielle
+Voir aussi : informatique en périphérie
+Voir aussi : industrie 4.0
+
+Voir aussi : actionneur
+Voir aussi : informatique en périphérie
+Voir aussi : intelligence artificielle embarquée
+
+Voir aussi : télémaintenance
+
+*** microdiode électroluminescente
+Fiche : 
+
+Déconseillé : µ-LED
+Déconseillé : écran microdel
+Déconseillé : écran microled
+Déconseillé : écran à microdels
+Déconseillé : écran à microleds
+Définition : Diode électroluminescente de dimension microscopique associée à un seul pixel dans un écran plat.
+Voir aussi : diode électroluminescente
+Voir aussi : pixel
+Voir aussi : mobile multifonction
+
+*** neurotransistor
+Fiche : 
+
+Déconseillé : mem-transistor
+Déconseillé : memory transistor
+Déconseillé : neuro-transistor
+Définition : Composant électronique neuromorphique constitué de résistances-mémoires et de transistors, qui associe le stockage de données et le traitement de l’information.
+Voir aussi : réseau de neurones artificiels
+Voir aussi : neuromorphique
+Voir aussi : résistance-mémoire
+
+Voir aussi : mobile multifonction
+
+Voir aussi : mobile multifonction
+
+*** attaque par interruption de service
+Fiche : 
+
+Déconseillé : attaque DoS
+Déconseillé : attaque par déni de service
+Déconseillé : déni de service
+Définition : Action malveillante qui vise à rendre indisponibles pendant un temps indéterminé un ou plusieurs services informatiques ou de télécommunication d’une organisation.
+Voir aussi : attaque collective par saturation de service
+
+*** attaque collective par saturation de service
+Fiche : 
+
+Déconseillé : attaque DDoS
+Déconseillé : attaque en déni de service distribué
+Déconseillé : attaque par saturation de service
+Déconseillé : déni de service distribué
+Définition : Attaque par interruption de service qui consiste à envoyer simultanément des requêtes depuis un grand nombre d’ordinateurs afin de saturer l’accès au service visé.
+Voir aussi : attaque par interruption de service
+
+Voir aussi : attaque par interruption de service
+
+Voir aussi : numérique
+
+Voir aussi : tête radio distante
+
+Voir aussi : cyberconférence
+
+*** algorithme
+Fiche : 
+
+Définition : Un algorithme est une suite finie et non ambiguë d’opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
+Voir aussi : algorithmique
+
+*** anonymisation des données
+Fiche : 
+
+Définition : Données à caractère personnel rendues anonymes de telle manière que la personne concernée ne soit pas ou plus identifiable,  ce qui permet à une organisation exploitant ces données de ne pas être tenue d’appliquer la totalité des principes relatifs à la protection des données.
+Voir aussi : hachage
+
+*** automatique
+Fiche : 
+
+Définition : L’automatique est une science qui traite de la modélisation, de l’analyse, de l’identification et de la commande des systèmes dynamiques.
+
+*** biométrie
+Fiche : 
+
+Définition : Analyse mathématique des caractéristiques biologiques d'une personne, destinée à déterminer son identité de manière irréfutable.
+
+*** composants
+Fiche : 
+
+Définition : Un composant est un élément de base d'un ensemble plus complexe (structuré ou composite) , lequel est un assemblage de composants souvent différents.
+Voir aussi : électronique
+
+Voir aussi : magazine en ligne
+Voir aussi : internet
+Voir aussi : technologies de l'information et de la communication
+
+*** électronique
+Fiche : 
+
+Définition : L’électronique est une science technique, ou science de l’ingénieur, constituant l'une des branches les plus importantes de la physique appliquée, qui étudie et conçoit les structures effectuant des traitements de signaux électriques, c'est-à-dire de courants ou de tensions électriques, porteurs d’informations.
+Voir aussi : optoélectronique
+Voir aussi : composants
+
+*** industrie 4.0
+Fiche : 
+
+Définition : Se dit de l'optimisation d'un processus de production par l'exploitation des données  d'activité issues du système logiciel et matériel mis en oeuvre sur site où à distance. 
+Voir aussi : intelligence artificielle embarquée
+
+*** informatique
+Fiche : 
+
+Définition : L'informatique est un domaine d'activité scientifique, technique et industriel concernant le traitement automatique de l'information par l'exécution de programmes informatiques par des machines : des systèmes embarqués, des ordinateurs, des robots, des automates, etc.
+
+*** intelligence artificielle faible
+Fiche : 
+
+Définition : Se dit d’une application de l’intelligence artificielle dans un domaine spécifique et limité.
+
+*** intelligence artificielle forte
+Fiche : 
+
+Définition : Se dit de la perspective d’une capacité de généralisation de l’apprentissage par la machine, comparable aux processus cognitifs de l’intelligence humaine.
+
+*** interface homme-machine
+Fiche : 
+
+Définition : Ensemble des moyens matériels ou logiciels qui sont utilisés ou conçus pour permettre aux personnes d'interagir avec des appareils ou des systèmes informatisés.
+Voir aussi : écran tactile
+Voir aussi : ordinateur
+Voir aussi : souris
+
+*** interface utilisateur
+Fiche : 
+
+Définition : Ensemble des outils logiciels ou matériels développés et mis à la disposition d'une personne pour dialoguer avec l'ordinateur qu'elle utilise.
+Voir aussi : écran tactile
+Voir aussi : ordinateur
+Voir aussi : souris
+Voir aussi : visionneur
+
+*** maintenance prédictive
+Fiche : 
+
+Définition : La maintenance prédictive détermine l'état d'un bien donné en réalisant une surveillance périodique (hors-ligne) ou continue (en ligne) de son état afin de réaliser les opérations de maintenance au moment déterminé comme étant le plus rentable et avant qu'il n'atteigne un seuil au delà duquel son fonctionnement normal sera affecté.
+
+*** métadonnée
+Fiche : 
+
+Définition : Caractéristique formelle normalisée et structurée utilisée pour la description et le traitement des contenus des ressources numériques.
+
+*** preuve de concept
+Fiche : 
+
+Définition : Réalisation expérimentale concrète et préliminaire, courte ou incomplète, illustrant une certaine méthode ou idée afin d'en démontrer la faisabilité.
+
+*** réalité augmentée
+Fiche : 
+
+Définition : Se dit de la superposition d'éléments calculés par un système informatique en temps réel à un environnement réel et avec lesquels l'utilisateur peut interagir.
+
+*** robotique
+Fiche : 
+
+Définition : La robotique est l'ensemble des techniques permettant la conception et la réalisation de machines automatiques ou de robots.
+
+*** technologies de l'information et de la communication
+Fiche : 
+
+Définition : Ensemble d’outils et de ressources technologiques permettant de transmettre, enregistrer, créer, partager ou échanger des informations, notamment les ordinateurs, l’internet (sites web, blogs et messagerie électronique), les technologies et appareils de diffusion en direct (radio, télévision et diffusion sur l’internet) et en différé (podcast, lecteurs audio et vidéo et supports d’enregistrement) et la téléphonie (fixe ou mobile, satellite, visioconférence, etc.)
+
+*** transformation numérique
+Fiche : 
+
+Déconseillé : transformation digitale
+Définition : Se dit de l'adaptation des organisations et des personnes physiques à l'impact du numérique sur leur environnement et leurs pratiques.
+Voir aussi : numérique
+
+Voir aussi : technologies de l'information et de la communication
+

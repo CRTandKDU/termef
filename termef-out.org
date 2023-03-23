@@ -1,0 +1,63 @@
+* INFORMATIQUE
+*** informatique
+Définition : Discipline qui concerne le traitement rationnel, par machines automatiques, de l'information considérée comme le support des connaissances humaines et des communications dans les domaines techniques, économiques et sociaux.
+
+
+*** informatique
+Définition : L'informatique est un domaine d'activité scientifique, technique et industriel concernant le traitement automatique de l'information par l'exécution de programmes informatiques par des machines : des systèmes embarqués, des ordinateurs, des robots, des automates, etc.
+Graphique : #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name europa.eu value http://ec.europa.eu/eurostat/statistics-explained/index.php/Information_society_statistics_-_enterprises/fr))
+Équivalent Étranger : computer science (en)
+Url Source : #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Wikipédia value https://fr.wikipedia.org/wiki/Informatique))
+
+
+*** algorithme
+Définition : Un algorithme est une suite finie et non ambiguë d’opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
+Note : Un algorithme est en général codé dans un langage de programmation et est exécutable par un ordinateur.
+Url Source : #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Wikipedia value https://fr.wikipedia.org/wiki/Algorithme))
+
+
+*** intelligence artificielle faible
+Définition : Se dit d’une application de l’intelligence artificielle dans un domaine spécifique et limité.
+
+
+*** intelligence artificielle forte
+Définition : Se dit de la perspective d’une capacité de généralisation de l’apprentissage par la machine, comparable aux processus cognitifs de l’intelligence humaine.
+
+
+*** logiciel de dessin
+Équivalent Étranger : drawing software (en)
+Date De Parution Au Jo : 10/10/1998
+Source : Commission d'enrichissement de la langue française, FranceTerme
+
+
+*** microprocesseur
+Catégorie Grammaticale : nom masculin
+Équivalent Étranger : microprocessor (en)
+Date De Parution Au Jo : 22/09/2000
+Source : Commission d'enrichissement de la langue française, FranceTerme
+Référence : révision de l'arrêté du 22 décembre 1981
+
+
+*** microprogramme
+Catégorie Grammaticale : nom masculin
+Équivalent Étranger : firmware (en)
+Date De Parution Au Jo : 22/09/2000
+Source : Commission d'enrichissement de la langue française, FranceTerme
+Référence : révision de l'arrêté du 30 décembre 1983
+
+
+*** version
+Catégorie Grammaticale : nom féminin
+Équivalent Étranger : release (en)
+Date De Parution Au Jo : 22/09/2000
+Source : Commission d'enrichissement de la langue française, FranceTerme
+Référence : révision de l'arrêté du 30 mars 1987
+
+
+*** mot clé
+Équivalent Étranger : key word (en)
+Date De Parution Au Jo : 22/09/2000
+Source : Commission d'enrichissement de la langue française, FranceTerme
+Référence : révision de l'arrêté du 30 décembre 1983
+
+

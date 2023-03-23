@@ -22,7 +22,8 @@ adopté
 
 *** bloc de code embarqué 
 Domaine :  INFORMATIQUE -TELECOMMUNICATIONSDéfinition : Code informatique d’un encart textuel, graphique ou vidéo, qui est destiné à être intégré dans une page de site tiers, à titre de complément de contenu ou à des fins publicitaires.  
-Note : Un bloc de code embarqué peut déclencher des actions invisibles pour l’internaute, par exemple lorsqu’il s’agit de suivre et de mesurer son comportement sur le site.Voir aussi : bloc 
+Note : Un bloc de code embarqué peut déclencher des actions invisibles pour l’internaute, par exemple lorsqu’il s’agit de suivre et de mesurer son comportement sur le site.
+Voir aussi : bloc 
 
 adopté
 
@@ -30,7 +31,7 @@ adopté
 Domaine :  INFORMATIQUE 
 Définition : Informatique qui exploite en temps réel les éléments de langage non verbal de l’utilisateur au moyen de capteurs et d’algorithmes, et qui permet à une interface d’interagir avec celui-ci pour créer un ancrage  affectif.
 Note : L’ informatique affective peut être employée dans un cadre thérapeutique ou dans un but commercial.
-Voir aussi : interface de reconnaissance et de simulation des émotions, 
+Voir aussi : interface de reconnaissance et de simulation des émotions
 Equivalent étranger : affective computing (en)
 adopté
 
@@ -45,7 +46,7 @@ Définition : Données servant de support aux décisions de la puissance publiqu
 Note : 
 1.Les donnés souveraines collectées sont soumises à des lois d’un ou de plusieurs pays.
 2. Certaines données peuvent devenir souveraines lorsqu’elles sont prises dans leur ensemble.
-Voir aussi : données d’intérêt général, données stratégiques.
+Voir aussi : données d’intérêt général, données stratégiques.
 Équivalent étranger : sovereign data.
 
 rapporteur :  Bertrand Cassar
@@ -354,7 +355,7 @@ rapporteur :
 Domaine : INFORMATIQUE 
 Définition : Processus informatique qui a pour but de rendre les robots plus autonomes en analysant un spectre élargi d’actions auparavant humaines en combinant une intelligence artificielle, l'apprentissage automatique et l'automatisation robotisée de processus.
 Note : .
-Voir aussi :  intelligence artificielle, apprentissage machine, robotisation des processus
+Voir aussi : Intelligence artificielle, apprentissage machine, robotisation des processus
 Equivalent étranger : hyperautomation (en)
 
 Rapporteur : 
