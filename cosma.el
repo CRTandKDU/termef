@@ -37,7 +37,7 @@ global counter."
 	)
     (format "%04d%02d%02d%6s" (nth 5 now) (nth 4 now) (nth 3 now) end)))
 
-(defun cosma--toc (toc-title)
+(defun cosma--toc (toc-title &optional save-as-file)
   "Generates a table of content `(term . uuid)` as an association
 list and a root .md file from a properly formatted org buffer."
   ;; Init TOC buffer
@@ -73,8 +73,9 @@ list and a root .md file from a properly formatted org buffer."
 	)
       )
     ;; Save TOC
-    (with-current-buffer (get-buffer-create "*COSMA-TOC*")
-      (append-to-file (point-min) (point-max) (format "%s\\%s.md" dir toc-title)))
+    (if save-as-file
+	(with-current-buffer (get-buffer-create "*COSMA-TOC*")
+	  (append-to-file (point-min) (point-max) (format "%s\\%s.md" dir toc-title))))
     toc
     )
   )
