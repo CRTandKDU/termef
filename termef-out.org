@@ -1,63 +1,151 @@
-* INFORMATIQUE
-*** informatique
-Définition : Discipline qui concerne le traitement rationnel, par machines automatiques, de l'information considérée comme le support des connaissances humaines et des communications dans les domaines techniques, économiques et sociaux.
+* quantique
+[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [intrication quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale féminine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute employé pour values [enchevêtrement quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name CHIMIE ET MATÉRIAUX value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-chimie-et-materiaux;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-physique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-physique-physique-quantique;))] [#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-physique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Phénomène selon lequel l’état d’un système quantique ne peut être décrit que globalement car il implique une superposition quantique et met en jeu des effets d’interférence quantique.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [1. Lorsque l’intrication quantique concerne des objets quantiques séparés spatialement, elle induit des corrélations entre les résultats de mesures effectuées sur ces objets, qui ne peuvent pas être décrites par un modèle classique local. 2. La richesse combinatoire de l’intrication quantique est à la base de la plupart des algorithmes utilisés en informatique quantique et de leurs performances par rapport à leurs équivalents exécutés par des ordinateurs classiques.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum entanglement (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN6;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [avantage quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale masculine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-informatique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Niveau de performance reconnu à un ordinateur quantique lorsque celui-ci exécute un calcul plus rapidement que les meilleurs superordinateurs classiques.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [1. L’avantage quantique peut aussi être apprécié en fonction d’autres facteurs tels que la faible consommation d’énergie. 2. L’avantage quantique est lié au caractère exponentiel du temps de calcul des ordinateurs classiques en fonction de la taille du problème à résoudre. 3. On trouve aussi, dans l’usage, le terme « suprématie quantique », qui est déconseillé.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum advantage (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN19;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [feuillet quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name CHIMIE ET MATÉRIAUX value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-chimie-et-materiaux;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-physique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Mécanique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-physique-mecanique-quantique;))] [#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name CHIMIE ET MATÉRIAUX value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-chimie-et-materiaux;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Chimie value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-chimie;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Mécanique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-chimie-mecanique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Région de l’espace dans laquelle une particule est en confinement quantique dans une des dimensions de l’espace.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [La couche centrale de certains semiconducteurs multicouches, par exemple une couche de silicium entre deux couches d’un alliage silicium-germanium, peut être un feuillet quantique pour les électrons.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum sheet (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [31/03/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-CHIM643;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [porte quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale féminine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-informatique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Dispositif qui transforme l’état quantique d’un ou de plusieurs qubits physiques pour permettre l’exécution d’un algorithme quantique.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [Une porte quantique à plusieurs qubits entraîne en général leur intrication quantique.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum gate (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN12;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [émulateur quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale masculine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-informatique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Dispositif qui utilise un ordinateur classique et des logiciels pour exécuter un algorithme quantique conçu pour un ordinateur quantique.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [La durée d’exécution ainsi que la taille de mémoire nécessaires à une émulation quantique croissent exponentiellement avec le nombre de qubits en jeu et peuvent donc impliquer le recours à des superordinateurs classiques.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum emulator (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN16;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [accélérateur quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale masculine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-informatique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Ordinateur quantique ou simulateur quantique utilisé en complément d’un superordinateur classique pour en accélérer les calculs.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [Les accélérateurs quantiques exploitent des algorithmes quantiques hybrides.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum accelerator (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN18;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [simulateur quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale masculine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute employé pour values [ordinateur quantique analogique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-informatique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Dispositif matériel constitué d’objets quantiques paramétrés pour qu’il se comporte de façon analogue à d’autres systèmes quantiques, tels des molécules ou des matériaux complexes.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [Le simulateur quantique ne doit pas être confondu avec l’émulateur quantique.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum simulator (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN17;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [ordinateur quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale masculine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute employé pour values [calculateur quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-informatique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Dispositif de calcul qui exploite des qubits, des portes quantiques et des algorithmes quantiques.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [1. L’ordinateur quantique comprend un environnement matériel et logiciel classique qui assure son contrôle. 2. La puissance de calcul d’un ordinateur quantique se mesure notamment par le nombre de qubits qu’il exploite et par le nombre d’opérations quantiques qu’il peut exécuter avant que la décohérence ne rende les résultats non significatifs.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum computer (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN15;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [boîte quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name CHIMIE ET MATÉRIAUX value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-chimie-et-materiaux;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-physique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Mécanique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-physique-mecanique-quantique;))] [#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name CHIMIE ET MATÉRIAUX value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-chimie-et-materiaux;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Chimie value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-chimie;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Mécanique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-chimie-mecanique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Région de l’espace dans laquelle une particule est en confinement quantique dans les trois dimensions de l’espace.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [1. Un cristal nanométrique de semiconducteur peut être une boîte quantique pour les électrons. 2. On trouve aussi l’expression « point quantique », qui est déconseillée.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [quantum dot (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [31/03/2022] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute source values [Commission d'enrichissement de la langue française, FranceTerme] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-CHIM640;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attributes [#s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute Nom values [non-clonage quantique] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute catégorie grammaticale values [locution nominale masculine] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute groupe values [[#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name CHIMIE ET MATÉRIAUX value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-chimie-et-materiaux;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-physique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-physique-physique-quantique;))] [#s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name INFORMATIQUE value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SG-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Informatique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-D-informatique;)) #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Physique quantique value https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-SD-informatique-physique-quantique;))]] type ancestors)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute définition values [Impossibilité démontrée de copier sans erreur un qubit dans un état quantique inconnu en conservant l’état quantique initial.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute note values [Le non-clonage quantique n’interdit pas de faire une copie sans erreur d’un qubit dans un état quantique connu ni de faire une copie imparfaite d’un qubit dans un état quantique inconnu.] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute équivalent étranger values [no-cloning theorem (en)] type text)) #s(hash-table size 3 test equal rehash-size 1.5 rehash-threshold 0.8125 data (attribute date de parution au JO values [20/12/2022] type text))] url https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN28;))]
+*** intrication quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
 
-
-*** informatique
-Définition : L'informatique est un domaine d'activité scientifique, technique et industriel concernant le traitement automatique de l'information par l'exécution de programmes informatiques par des machines : des systèmes embarqués, des ordinateurs, des robots, des automates, etc.
-Graphique : #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name europa.eu value http://ec.europa.eu/eurostat/statistics-explained/index.php/Information_society_statistics_-_enterprises/fr))
-Équivalent Étranger : computer science (en)
-Url Source : #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Wikipédia value https://fr.wikipedia.org/wiki/Informatique))
-
-
-*** algorithme
-Définition : Un algorithme est une suite finie et non ambiguë d’opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
-Note : Un algorithme est en général codé dans un langage de programmation et est exécutable par un ordinateur.
-Url Source : #s(hash-table size 2 test equal rehash-size 1.5 rehash-threshold 0.8125 data (name Wikipedia value https://fr.wikipedia.org/wiki/Algorithme))
-
-
-*** intelligence artificielle faible
-Définition : Se dit d’une application de l’intelligence artificielle dans un domaine spécifique et limité.
-
-
-*** intelligence artificielle forte
-Définition : Se dit de la perspective d’une capacité de généralisation de l’apprentissage par la machine, comparable aux processus cognitifs de l’intelligence humaine.
-
-
-*** logiciel de dessin
-Équivalent Étranger : drawing software (en)
-Date De Parution Au Jo : 10/10/1998
+Nom : intrication quantique
+Catégorie Grammaticale : locution nominale féminine
+Employé Pour : enchevêtrement quantique
+Définition : Phénomène selon lequel l’état d’un système quantique ne peut être décrit que globalement car il implique une superposition quantique et met en jeu des effets d’interférence quantique.
+Note :
+1. Lorsque l’intrication quantique concerne des objets quantiques séparés spatialement, elle induit des corrélations entre les résultats de mesures effectuées sur ces objets, qui ne peuvent pas être décrites par un modèle classique local.
+2. La richesse combinatoire de l’intrication quantique est à la base de la plupart des algorithmes utilisés en informatique quantique et de leurs performances par rapport à leurs équivalents exécutés par des ordinateurs classiques.
+Équivalent Étranger : quantum entanglement (en)
+Date De Parution Au Jo : 20/12/2022
 Source : Commission d'enrichissement de la langue française, FranceTerme
 
 
-*** microprocesseur
-Catégorie Grammaticale : nom masculin
-Équivalent Étranger : microprocessor (en)
-Date De Parution Au Jo : 22/09/2000
+*** avantage quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : avantage quantique
+Catégorie Grammaticale : locution nominale masculine
+Définition : Niveau de performance reconnu à un ordinateur quantique lorsque celui-ci exécute un calcul plus rapidement que les meilleurs superordinateurs classiques.
+Note :
+1. L’avantage quantique peut aussi être apprécié en fonction d’autres facteurs tels que la faible consommation d’énergie.
+2. L’avantage quantique est lié au caractère exponentiel du temps de calcul des ordinateurs classiques en fonction de la taille du problème à résoudre.
+3. On trouve aussi, dans l’usage, le terme « suprématie quantique », qui est déconseillé.
+Équivalent Étranger : quantum advantage (en)
+Date De Parution Au Jo : 20/12/2022
 Source : Commission d'enrichissement de la langue française, FranceTerme
-Référence : révision de l'arrêté du 22 décembre 1981
 
 
-*** microprogramme
-Catégorie Grammaticale : nom masculin
-Équivalent Étranger : firmware (en)
-Date De Parution Au Jo : 22/09/2000
+*** feuillet quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : feuillet quantique
+Définition : Région de l’espace dans laquelle une particule est en confinement quantique dans une des dimensions de l’espace.
+Note : La couche centrale de certains semiconducteurs multicouches, par exemple une couche de silicium entre deux couches d’un alliage silicium-germanium, peut être un feuillet quantique pour les électrons.
+Équivalent Étranger : quantum sheet (en)
+Date De Parution Au Jo : 31/03/2022
 Source : Commission d'enrichissement de la langue française, FranceTerme
-Référence : révision de l'arrêté du 30 décembre 1983
 
 
-*** version
-Catégorie Grammaticale : nom féminin
-Équivalent Étranger : release (en)
-Date De Parution Au Jo : 22/09/2000
+*** porte quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : porte quantique
+Catégorie Grammaticale : locution nominale féminine
+Définition : Dispositif qui transforme l’état quantique d’un ou de plusieurs qubits physiques pour permettre l’exécution d’un algorithme quantique.
+Note : Une porte quantique à plusieurs qubits entraîne en général leur intrication quantique.
+Équivalent Étranger : quantum gate (en)
+Date De Parution Au Jo : 20/12/2022
 Source : Commission d'enrichissement de la langue française, FranceTerme
-Référence : révision de l'arrêté du 30 mars 1987
 
 
-*** mot clé
-Équivalent Étranger : key word (en)
-Date De Parution Au Jo : 22/09/2000
+*** émulateur quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : émulateur quantique
+Catégorie Grammaticale : locution nominale masculine
+Définition : Dispositif qui utilise un ordinateur classique et des logiciels pour exécuter un algorithme quantique conçu pour un ordinateur quantique.
+Note : La durée d’exécution ainsi que la taille de mémoire nécessaires à une émulation quantique croissent exponentiellement avec le nombre de qubits en jeu et peuvent donc impliquer le recours à des superordinateurs classiques.
+Équivalent Étranger : quantum emulator (en)
+Date De Parution Au Jo : 20/12/2022
 Source : Commission d'enrichissement de la langue française, FranceTerme
-Référence : révision de l'arrêté du 30 décembre 1983
+
+
+*** accélérateur quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : accélérateur quantique
+Catégorie Grammaticale : locution nominale masculine
+Définition : Ordinateur quantique ou simulateur quantique utilisé en complément d’un superordinateur classique pour en accélérer les calculs.
+Note : Les accélérateurs quantiques exploitent des algorithmes quantiques hybrides.
+Équivalent Étranger : quantum accelerator (en)
+Date De Parution Au Jo : 20/12/2022
+Source : Commission d'enrichissement de la langue française, FranceTerme
+
+
+*** simulateur quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : simulateur quantique
+Catégorie Grammaticale : locution nominale masculine
+Employé Pour : ordinateur quantique analogique
+Définition : Dispositif matériel constitué d’objets quantiques paramétrés pour qu’il se comporte de façon analogue à d’autres systèmes quantiques, tels des molécules ou des matériaux complexes.
+Note : Le simulateur quantique ne doit pas être confondu avec l’émulateur quantique.
+Équivalent Étranger : quantum simulator (en)
+Date De Parution Au Jo : 20/12/2022
+Source : Commission d'enrichissement de la langue française, FranceTerme
+
+
+*** ordinateur quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : ordinateur quantique
+Catégorie Grammaticale : locution nominale masculine
+Employé Pour : calculateur quantique
+Définition : Dispositif de calcul qui exploite des qubits, des portes quantiques et des algorithmes quantiques.
+Note :
+1. L’ordinateur quantique comprend un environnement matériel et logiciel classique qui assure son contrôle.
+2. La puissance de calcul d’un ordinateur quantique se mesure notamment par le nombre de qubits qu’il exploite et par le nombre d’opérations quantiques qu’il peut exécuter avant que la décohérence ne rende les résultats non significatifs.
+Équivalent Étranger : quantum computer (en)
+Date De Parution Au Jo : 20/12/2022
+Source : Commission d'enrichissement de la langue française, FranceTerme
+
+
+*** boîte quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : boîte quantique
+Définition : Région de l’espace dans laquelle une particule est en confinement quantique dans les trois dimensions de l’espace.
+Note :
+1. Un cristal nanométrique de semiconducteur peut être une boîte quantique pour les électrons.
+2. On trouve aussi l’expression « point quantique », qui est déconseillée.
+Équivalent Étranger : quantum dot (en)
+Date De Parution Au Jo : 31/03/2022
+Source : Commission d'enrichissement de la langue française, FranceTerme
+
+
+*** non-clonage quantique
+:PROPERTIES:
+:skostype:     terme
+:END:
+
+Nom : non-clonage quantique
+Catégorie Grammaticale : locution nominale masculine
+Définition : Impossibilité démontrée de copier sans erreur un qubit dans un état quantique inconnu en conservant l’état quantique initial.
+Note : Le non-clonage quantique n’interdit pas de faire une copie sans erreur d’un qubit dans un état quantique connu ni de faire une copie imparfaite d’un qubit dans un état quantique inconnu.
+Équivalent Étranger : no-cloning theorem (en)
+Date De Parution Au Jo : 20/12/2022
 
 

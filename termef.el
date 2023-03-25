@@ -33,7 +33,7 @@ attributes, excluding any attribute in the `exclusion-list'."
 	     (vals nil)
 	    )
 	(if (string= "Nom" att)
-	    (insert (format "*** %s\n" (elt att-val-array 0)))
+	    (insert (format "*** %s\n%s\n" (elt att-val-array 0) (format cosma--prop-drawer-template "terme"))))
 	  (unless (member att exclusion-list)
 	    (setq str (append str
 			      (list (if (= 1 (length att-val-array))
@@ -47,7 +47,7 @@ attributes, excluding any attribute in the `exclusion-list'."
 	)
       )
     )
-  )
+
 
 (defun termef-query (kw)
   "Async query to Termef returning matching terms for `kw' key
@@ -71,7 +71,7 @@ string. Returns a properly formatted org-file for Cosma (use the
                        (erase-buffer)
 		       (let ((jsonobj (json-parse-string data))
 			     )
-			 ;; (insert (format "%s\n" (gethash "available" jsonobj)))
+			 ;; (insert (format "%s\n" (gethash "items" jsonobj)))
 			 (dotimes (i (length (gethash "items" jsonobj)))
 			   (let ((item (termef--filter-attributes (elt (gethash "items" jsonobj) i) '("groupe")))
 				 )
@@ -90,9 +90,30 @@ string. Returns a properly formatted org-file for Cosma (use the
   )
 
 ;;; Next section: importing from complete RDF vocabularies.
+(defvar termef--ns-domaine '("http://voc.finances.gouv.fr/onto#DomaineConcept"
+			     "http://www.w3.org/2004/02/skos/core#ConceptScheme"))
+(defvar termef--ns-concept '("http://voc.finances.gouv.fr/onto#ConceptConcept",
+			     "http://www.w3.org/2004/02/skos/core#Concept"))
+(defvar cosma--prop-drawer-template ":PROPERTIES:
+:skostype:     %s
+:END:
+")
 
 (defun termef--crop (str)
   (if (> (length str) 2) (substring str 0 -2) str))
+
+(defun termef--update-plist (txt key ssbloc rdfbuf)
+    (let ((reference
+	   (termef--search-concept
+	    (format "%s" (cdr (assoc 'resource (cadr ssbloc))))
+	    rdfbuf))
+	  )
+      (if reference
+	  (plist-put txt key (append (plist-get txt key)
+				     (list (format "%s, " reference))))
+	txt)
+      )
+    )
 
 (defun termef--search-concept (url buf)
   "Minimalist search for cross-references in same vocabulary. Find
@@ -146,11 +167,15 @@ to current buffer. Result returned in `*RDF*' buffer."
 		(if (and (listp ssbloc) (atom (car ssbloc)))
 		    (cond
 		     ;; The preferred label, in french, is the
-		     ;; third-level heading. Immediate printing.
+		     ;; third-level heading. 
 		     ((and (equal 'prefLabel (car ssbloc))
 			   (string= "fr" (cdr (assoc 'lang (cadr ssbloc)))))
 		      (setq found-def t)
-		      (insert (format "*** %s\n---\n" (string-join (cddr ssbloc)))))
+		      (setq txt
+			    (plist-put txt 'heading
+				       (append (plist-get txt 'heading)
+					       (list (format "%s" (string-join (cddr ssbloc)))))))
+		      )
 
 		     ;; Delayed printing of body of text under this
 		     ;; heading, picked up from RDF description into a
@@ -162,41 +187,54 @@ to current buffer. Result returned in `*RDF*' buffer."
 			    (plist-put txt 'definition
 				       (append (plist-get txt 'definition)
 					       (list (format "%s" (string-join (cddr ssbloc))))))))
+		     ;; Other fields are not.
+		     ((and (equal 'type (car ssbloc))
+			   )
+		      (setq txt
+			    (plist-put txt 'type
+				       (append (plist-get txt 'type)
+					       (list (cdr (assoc 'resource (cadr ssbloc))))))))
+
 
 		     ((and (equal 'deconseilleOuFrequent (car ssbloc))
 			   (string= "fr" (cdr (assoc 'lang (cadr ssbloc)))))
 		      (setq txt
-			    (plist-put txt 'deconseille
-				       (append (plist-get txt 'deconseille)
+			    (plist-put txt 'deconseilleOuFrequent
+				       (append (plist-get txt 'deconseilleOuFrequent)
 					       (list (format "%s, " (string-join (cddr ssbloc))))))))
 
-		     ((and (equal 'related (car ssbloc))
-			   )
-		      (let ((reference
-			     (termef--search-concept
-			      (format "%s" (cdr (assoc 'resource (cadr ssbloc))))
-			      rdfbuf))
-			    )
-			(if reference
-			    (setq txt
-				  (plist-put txt 'voiraussi
-					     (append (plist-get txt 'voiraussi)
-						     (list (format "%s, " reference))))))
+		     ((and (equal 'related (car ssbloc)))
+		      (setq txt (termef--update-plist txt 'related ssbloc rdfbuf)))
 
-
-			)
-		      )
+		     ((and (equal 'inScheme (car ssbloc)))
+		      (setq txt (termef--update-plist txt 'inScheme ssbloc rdfbuf)))
+		     
+		     ((and (equal 'narrower (car ssbloc)))
+		      (setq txt (termef--update-plist txt 'narrower ssbloc rdfbuf)))
+		     
+		     ((and (equal 'broader (car ssbloc)))
+		      (setq txt (termef--update-plist txt 'broader ssbloc rdfbuf)))
 		     )
 		  )
 		)
 
 	      ;; Print collected information from the plist
 	      (if (and found-def txt)
-		  (insert (format "Définition : %s\nDéconseillé : %s\nVoir aussi : %s\n\n"
-				  (string-join (plist-get txt 'definition))
-				  (termef--crop (string-join (plist-get txt 'deconseille)))
-				  (termef--crop (string-join (plist-get txt 'voiraussi)))
-				  )))
+		  (insert (format "*** %s\n" (string-join (plist-get txt 'heading)))
+			  (if (plist-get txt 'type)
+			      ;; (format "%s\n" (plist-get txt 'type))
+			      (format cosma--prop-drawer-template
+				      (if (member (car termef--ns-domaine) (plist-get txt 'type))
+					  "domaine"
+					"terme"))
+			    "---\n")
+			  (format "Définition : %s\n" (string-join (plist-get txt 'definition)))
+			  (format "Déconseillé : %s\n" (termef--crop (string-join (plist-get txt 'deconseilleOuFrequent))))
+			  (format "Voir aussi : %s\n" (termef--crop (string-join (plist-get txt 'related))))
+			  (format "Spécialise : %s\n" (termef--crop (string-join (plist-get txt 'narrower))))
+			  (format "Généralise : %s\n" (termef--crop (string-join (plist-get txt 'broader))))
+			  (format "Schémas : %s\n" (termef--crop (string-join (plist-get txt 'inScheme))))
+			  ))
 	      )
 	  )
 	)

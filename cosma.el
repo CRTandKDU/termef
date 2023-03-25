@@ -80,23 +80,26 @@ list and a root .md file from a properly formatted org buffer."
     )
   )
 
-(defun cosma--links (txt toc)
-  "Replaces the line beginning with 'Voir aussi :' with annotated
-lists of pointers (when present in org buffer)."
+(defun cosma--links (txt toc config-alist)
+  "Replaces the line beginning with key `prefix' of `config-alist'
+with annotated lists of pointers (when present in org buffer).
+`config-alist' specifies a minima `prefix', `separator' and
+`link-type'."
   (with-current-buffer (get-buffer-create "*COSMA-TMP*")
     (erase-buffer)
     (insert (format "%s" txt))
     (goto-char (point-min))
-    (if (re-search-forward "Voir aussi :" nil t)
+    (if (re-search-forward (cdr (assoc 'prefix config-alist)) nil t)
 	(let* ((refs (delete-and-extract-region (point) (point-at-eol)))
-	       (terms (split-string refs "," t))
+	       (terms (split-string refs (cdr (assoc 'separator config-alist)) t))
 	       )
 	  (insert
 	   (format
 	    "%s\n"
 	    (string-join
-	     (mapcar #'(lambda (key) (let ((val (cdr (assoc (string-trim key) toc))))
-				       (if val (format "%s [[voir_aussi:%s]]" key val) key)))
+	     (mapcar #'(lambda (key)
+			 (let ((val (cdr (assoc (string-trim key) toc))))
+			   (if val (format "%s [[%s:%s]]" key (cdr (assoc 'link-type config-alist)) val) key)))
 		     terms)
 	     ", "
 	     ))
@@ -125,7 +128,7 @@ lists of pointers (when present in org buffer)."
 					    (org-element-property ':contents-end hl)))
 		     (key (substring (format "%s" (org-element-property ':title hl)) 1 -1))
 		     (newid (cdr (assoc key toc)))
-		     (fn "terme")
+		     (fn (format "%s" (org-element-property ':SKOSTYPE hl)))
 		     )
 
 		;; Create new record file
@@ -137,11 +140,22 @@ lists of pointers (when present in org buffer)."
 		    cosma-yaml-template
 		    (substring (format "%s" (org-element-property ':title hl)) 1 -1)
 		    newid
-		    "terme"
+		    fn
 		    (format "  - %s\n"
 			    (substring
 			     (format "%s" (org-element-property ':title (org-element-property ':parent hl))) 1 -1))))
-		  (insert (format "\n%s\n" (cosma--links txt toc)))
+		  (insert
+		   (format "%s\n"
+			   (let ((transtxt txt))
+			     (dolist (transform
+				      '(((prefix . "Généralise : ") (separator . ", ") (link-type . "generalise"))
+					((prefix . "Spécialise : ") (separator . ", ") (link-type . "specialise"))
+					((prefix . "Voir aussi : ") (separator . ", ") (link-type . "voir_aussi"))
+					;; ((prefix . "Schémas : ") (separator . ", ") (link-type . "schema"))
+					)
+				      transtxt)
+			       (setq transtxt (cosma--links transtxt toc transform))))))
+
 		  (append-to-file (point-min) (point-max) (format "%s\\%s_%s.md" dir fn newid))
 		  )
 		)
