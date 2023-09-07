@@ -28,8 +28,41 @@ const ancestors = ( arr ) => {
     return str.slice(0,-3);
 };
 
+// Finds related terms
+const related = (uri) => {
+    console.log( uri );
+    return new Promise( (resolve) => {
+	jQuery.ajax( "https://terminologie.finances.gouv.fr/topics?appLang=fr-FR&dataLang=FR&restrictToVocab=false&uri=" + uri,
+		     {
+			 success: (data, textStatus, jqXHR ) => {
+			     resolve( data );
+			 },
+			 error: ( jqXHR, textStatus, errorThrown ) => {
+			     console.log( errorThrown );
+			     resolve( "" );
+			 }
+		     });
+		     
+    });
+}
+
+const tree_related = (res) => {
+    let rels;
+    let i;
+    let tree_str = "";
+    let v = res['properties'].find( prop => prop['propName'].includes( 'Concept' ) );
+    if( undefined != v ){
+	rels = v[ 'propValues' ][0][ 'propValues' ];
+	// console.log( rels );
+	for( i in rels ){
+	    tree_str += "<li>" + rels[i]['display'] + "</li>";
+	}
+    }
+    return tree_str;
+}
+
 // Format the TerMef results as an HTML nested list for `jsTree'
-const infobox = ( data ) => {
+const infobox = async ( data ) => {
     let node;
     let resp = '<ul>';
     let groups = {};
@@ -69,6 +102,24 @@ const infobox = ( data ) => {
 			termresp += "<li>" + v['values'][subnode] + "</li>";
 		    }
 		    termresp += '</ul></li>';
+		}
+
+		// Subitem 'Associé à', as a subtree after async request back to server
+		if( undefined != url ){
+		    // https://terminologie.finances.gouv.fr/index#Concept:tab=graph;uri=http://voc.finances.gouv.fr/individual/concept-QUAN6;
+		    let regex	= /[:;]([^=#]+)=([^&#;]*)/g;
+		    let match;
+		    let uri	= null;
+		    let related_str = "";
+		    while( match = regex.exec( url ) ){
+			if( 'uri' == match[1] ){ uri = match[2]; }
+		    }
+		    let res = await related( uri );
+		    console.log( res )
+		    related_str  += tree_related( res );
+		    termresp += "<li>Associ\xE9 \xE0 :<ul>";
+		    termresp += related_str;
+		    termresp += "</ul></li>";
 		}
 		
 		// Subitem `Publication date'
@@ -145,6 +196,7 @@ jQuery('#query').click( async () => {
     jQuery.ajax( "https://terminologie.finances.gouv.fr/search/infobox" + query,
 		 {
 		     success: (data, textStatus, jqXHR ) => {
+			 // console.log( data );
 			 let resp = infobox( data );
 			 jQuery('#infobox').val( resp );
 			 chrome.storage.sync.set({ 'color': resp });
