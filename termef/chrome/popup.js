@@ -10,7 +10,7 @@ const initfill = () => {
 	    let node = tree.get_node(evt.target);
  	    // var nodePath = tree.get_path(node).join("/");
 	    let href = node['li_attr']['href'];
-	    console.log(href);
+	    // console.log(href);
 	    // Do some action
 	    if( undefined != href ){
 		chrome.tabs.create({ url: href });
@@ -36,7 +36,7 @@ const infobox = ( data ) => {
     
     // First pass: map data to html unnumbered lists
     for( node in data['items'] ){
-	let vroot = data['items'][node]['attributes'].find( x => x['attribute'] == "groupe" );
+	let vroot = data['items'][node]['attributes'].find( x => x['attribute'] == "Groupe" );
 	let v     = vroot;
 	let url   = data['items'][node]['url'];
 	if( undefined != v){
@@ -56,13 +56,13 @@ const infobox = ( data ) => {
 		}
 
 		// Subitem `Definition'
-		v = data['items'][node]['attributes'].find( x => x['attribute'] == "d\xE9finition" );
+		v = data['items'][node]['attributes'].find( x => x['attribute'].includes("finition") );
 		if( undefined != v ){
 		    termresp += "<li>D\xE9finition : " + v['values'][0] +'</li>';
 		}
 		
 		// Subitem `Notes', as a subtree
-		v = data['items'][node]['attributes'].find( x => x['attribute'] == "note" );
+		v = data['items'][node]['attributes'].find( x => x['attribute'] == "Note" );
 		if( undefined != v ){
 		    termresp += "<li>Notes<ul>";
 		    for( subnode in v['values'] ){
@@ -72,7 +72,7 @@ const infobox = ( data ) => {
 		}
 		
 		// Subitem `Publication date'
-		v = data['items'][node]['attributes'].find( x => x['attribute'] == "date de parution au JO" );
+		v = data['items'][node]['attributes'].find( x => x['attribute'] == "Date de parution au JO" );
 		if( undefined != v ){
 		    termresp += "<li>JO du " + v['values'][0] + ".</li>";
 		}
@@ -150,6 +150,7 @@ jQuery('#query').click( async () => {
 			 chrome.storage.sync.set({ 'color': resp });
 		     },
 		     error: ( jqXHR, textStatus, errorThrown ) => {
+			 console.log( errorThrown );
 			 jQuery('#infobox').val( "TerMef inaccessible!" );
 		     }
 		 });
