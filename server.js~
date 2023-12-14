@@ -1,0 +1,73 @@
+const ws	= require( 'ws' );
+const epc	= require( 'elrpc' );
+var elparser    = require('elparser');
+const miserables={
+    nodes: [
+	{ id: "apprentissage antagoniste", group: 1},
+	{ id: "apprentissage autosupervisé", group: 1},
+	{ id: "apprentissage par transfert", group: 1},
+	{ id: "grand modèle de langage", group: 1},
+	{ id: "génération automatique d'image", group: 1},
+	{ id: "génération automatique de texte", group: 1},
+	{ id: "instruction générative", group: 1},
+	{ id: "intelligence artificielle générative", group: 1},
+	{ id: "jeton textuel", group: 1},
+	{ id: "mode loquace", group: 1},
+	{ id: "modèle d'apprentissage préentraîné", group: 1},
+	{ id: "modèle génératif", group: 1},
+	{ id: "modèle à diffusion de bruit statistique", group: 1},
+	{ id: "notice de modèle d'apprentissage", group: 1},
+	{ id: "transformeur", group: 1}
+    ]
+    ,
+    links: [
+	{source:"modèle à diffusion de bruit statistique", target:"modèle génératif", value:1},
+	{source:"modèle à diffusion de bruit statistique", target:"instruction générative", value:1},
+	{source:"modèle à diffusion de bruit statistique", target:"génération automatique d'image", value:1},
+	{source:"grand modèle de langage", target:"génération automatique de texte", value:1},
+	{source:"apprentissage antagoniste", target:"modèle d'apprentissage préentraîné", value:1},
+	{source:"transformeur", target:"apprentissage autosupervisé", value:1},
+	{source:"apprentissage par transfert", target:"modèle d'apprentissage préentraîné", value:1},
+	{source:"intelligence artificielle générative", target:"modèle génératif", value:1},
+	{source:"modèle d'apprentissage préentraîné", target:"apprentissage par transfert", value:1},
+	{source:"notice de modèle d'apprentissage", target:"modèle d'apprentissage préentraîné", value:1},
+	{source:"instruction générative", target:"grand modèle de langage", value:1},
+	{source:"modèle génératif", target:"modèle d'apprentissage préentraîné", value:1},
+	{source:"modèle génératif", target:"transformeur", value:1},
+	{source:"génération automatique d'image", target:"modèle à diffusion de bruit statistique", value:1},
+	{source:"génération automatique de texte", target:"grand modèle de langage", value:1},
+	{source:"génération automatique de texte", target:"instruction générative", value:1},
+	{source:"jeton textuel", target:"instruction générative", value:1},
+	{source:"jeton textuel", target:"grand modèle de langage", value:1}]
+};
+
+const socket = new ws.WebSocketServer({ host:'localhost', port:8080 });
+socket.on( 'error', (err) => {
+    console.log( err );
+});
+socket.on( 'message', (data) => {
+    console.log( "Received:", data );
+});
+
+epc.startServer().then( function(server) {
+    server.defineMethod( "echo", function(args) {
+	socket.on( 'connection', (wsclient) => {
+	    wsclient.on( 'error', (err) => {
+		console.log( err );
+	    });
+	    wsclient.on( 'message', (data) => {
+		console.log( "Received:", data );
+	    });
+	    let payload = elparser.parse1( args ).toObject();
+	    wsclient.send( JSON.stringify(payload) );
+	    // wsclient.send( JSON.stringify(miserables) );
+	});
+	
+
+	return args;
+    });
+    
+    server.wait();
+});
+
+

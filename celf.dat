@@ -1,0 +1,178 @@
+(require 'imenu-list)
+(require 'cl-lib)	
+(require 'company)
+(require 'epc)
+
+(defvar celf-form--terms nil)
+
+(defun celf-form--compact ()
+  (interactive)
+  ;; Nodes
+  (with-current-buffer (get-buffer-create "*TERMS*")
+    (erase-buffer)
+    (dolist (term celf-form--terms)
+      (insert (format "%s$" (car term)))
+      )
+    (delete-char -1)
+    (insert "/")
+    )
+  ;; Links
+  (let ((cur forms--current-record))
+    (save-excursion
+      (dotimes (n forms--total-records)
+	(forms-jump-record (1+ n))
+	(let* ((the-record (forms--parse-form))
+	       (source (car the-record))
+	       (targets (split-string (nth 6 the-record) "[,\\.]" t " " ))
+	       )
+	  (with-current-buffer (get-buffer-create "*TERMS*")
+	    (dolist (term targets)
+	      (if (assoc term celf-form--terms)
+		  (insert (format "%s$%s$" source term))))
+	    )
+	  )
+	)
+      (forms-jump-record cur)
+      ))
+  (with-current-buffer (get-buffer-create "*TERMS*")
+    (delete-char -1))
+  )
+  
+
+(defun celf-form--json-terms ()
+  (interactive)
+  ;; Nodes
+  (with-current-buffer (get-buffer-create "*TERMS*")
+    (erase-buffer)
+    (insert "{ nodes: [")
+    (dolist (term celf-form--terms)
+      (insert (format "\n{ id: \"%s\", group: %d}," (car term) 1))
+      )
+    (delete-char -1)
+    (insert "\n],\n")
+    )
+  ;; Links
+  (with-current-buffer (get-buffer-create "*TERMS*")
+    (insert "links: ["))
+  (let ((cur forms--current-record))
+    (save-excursion
+      (dotimes (n forms--total-records)
+	(forms-jump-record (1+ n))
+	(let* ((the-record (forms--parse-form))
+	       (source (car the-record))
+	       (targets (split-string (nth 6 the-record) "[,\\.]" t " " ))
+	       )
+	  (with-current-buffer (get-buffer-create "*TERMS*")
+	    (dolist (term targets)
+	      (if (assoc term celf-form--terms)
+		  (insert (format "\n{source:\"%s\", target:\"%s\", value:1},"
+				  source
+				  term))))
+	    )
+	  )
+	)
+      (forms-jump-record cur)
+      ))
+  (with-current-buffer (get-buffer-create "*TERMS*")
+    (delete-char -1)
+    (insert "]}\n"))
+
+  )
+ 
+
+;; Create a CAPF for company-mode
+(defun celf-form--backend (command &optional arg &rest ignored)
+  
+  (cl-case command
+    (interactive (company-begin-backend 'celf-form--backend))
+    (prefix (and (eq major-mode 'forms-mode)
+                 (company-grab-symbol)))
+    (candidates
+     (cl-remove-if-not
+      (lambda (c) (string-prefix-p arg c))
+      (mapcar #'car celf-form--terms)))
+    )
+  )
+
+(add-to-list 'company-backends 'celf-form--backend)
+
+;; Provide content to imenu-list
+(defun celf-form--index-special (index-name index-position)
+  (forms-jump-record index-position))
+
+(defun celf-form--update-index ()
+  (let ((alist '()))
+    (setq celf-form--terms
+	  (dotimes (n forms--total-records alist)
+	    (forms-jump-record (1+ n))
+	    (let ((the-record (forms--parse-form)))
+	      (push (list (car the-record) (1+ n) #'celf-form--index-special) alist)
+	      )
+	    )
+	  )
+    (setq celf-form--terms (cl-sort celf-form--terms 'string-lessp :key 'car))
+    )
+  )
+
+(defun celf-form--create-index ()
+  (let ((current-record forms--current-record))
+    (save-excursion
+      (celf-form--update-index))
+    (forms-jump-record current-record))
+  ;; Update
+  (celf-form--compact)
+  (with-current-buffer (get-buffer-create "*TERMS*")
+    (epc:call-sync epc 'echo (list (buffer-string))))
+  celf-form--terms
+  )
+
+;; Install hooks and globales
+
+(setq
+ imenu-create-index-function #'celf-form--create-index
+ forms-mode-hook #'imenu-list
+ forms-write-file-filter #'imenu-list-refresh
+ epc (epc:start-epc "node" '("server.js"))
+ )
+
+
+(defun epc-disconnect ()
+  (epc:stop-epc epc))
+(advice-add 'forms-exit :before #'epc-disconnect)
+
+;; Define form
+(setq 
+ documents-directory "C:\\Users\\chauv\\Documents\\CELF\\grapher\\"
+ forms-file (expand-file-name "celf-terms.dat" documents-directory))
+
+(setq forms-number-of-fields
+      (forms-enumerate
+       '(celf-term
+         celf-abbreviation
+         celf-domain
+         celf-synonym
+         celf-definition
+         celf-notes
+         celf-seealso
+         celf-foreign
+         celf-attention
+	 )))
+
+;; The format list.
+(setq forms-format-list
+      (list
+       "====== Termef ======\n\n"
+       "Terme : "			celf-term
+       "\nAbrev : "			celf-abbreviation      
+       "\nDomaine : "			celf-domain
+       "\n"
+       
+       "\nDéfinition : "		celf-definition
+       "\nNotes : "			celf-notes
+       "\nVoir aussi : "		celf-seealso
+       "\nÉquivalent étranger : "	celf-foreign
+       
+       "\n\n====== Attention ======\n\n"
+       celf-attention
+       ))
+

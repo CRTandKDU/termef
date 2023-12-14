@@ -1,0 +1,9 @@
+{
+  "name": "Emacs d3 Grapher Server",
+  "version": "0.0.1",
+  "description": "My first socket.io app!",
+  "dependencies": {
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  }
+}
